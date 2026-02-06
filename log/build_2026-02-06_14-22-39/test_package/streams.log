@@ -1,0 +1,20 @@
+[0.167s] Invoking command in '/home/harry/robot/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/test_package -- -j4 -l4
+[2.244s] Invoked command in '/home/harry/robot/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/test_package -- -j4 -l4
+[2.308s] Invoking command in '/home/harry/robot/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/test_package
+[2.392s] -- Install configuration: ""
+[2.397s] -- Up-to-date: /home/harry/robot/install/test_package/share/ament_index/resource_index/package_run_dependencies/test_package
+[2.410s] -- Up-to-date: /home/harry/robot/install/test_package/share/ament_index/resource_index/parent_prefix_path/test_package
+[2.413s] -- Up-to-date: /home/harry/robot/install/test_package/share/test_package/environment/ament_prefix_path.sh
+[2.414s] -- Up-to-date: /home/harry/robot/install/test_package/share/test_package/environment/ament_prefix_path.dsv
+[2.420s] -- Up-to-date: /home/harry/robot/install/test_package/share/test_package/environment/path.sh
+[2.421s] -- Up-to-date: /home/harry/robot/install/test_package/share/test_package/environment/path.dsv
+[2.423s] -- Up-to-date: /home/harry/robot/install/test_package/share/test_package/local_setup.bash
+[2.424s] -- Up-to-date: /home/harry/robot/install/test_package/share/test_package/local_setup.sh
+[2.431s] -- Up-to-date: /home/harry/robot/install/test_package/share/test_package/local_setup.zsh
+[2.431s] -- Up-to-date: /home/harry/robot/install/test_package/share/test_package/local_setup.dsv
+[2.434s] -- Installing: /home/harry/robot/install/test_package/share/test_package/package.dsv
+[2.446s] -- Up-to-date: /home/harry/robot/install/test_package/share/ament_index/resource_index/packages/test_package
+[2.462s] -- Up-to-date: /home/harry/robot/install/test_package/share/test_package/cmake/test_packageConfig.cmake
+[2.462s] -- Up-to-date: /home/harry/robot/install/test_package/share/test_package/cmake/test_packageConfig-version.cmake
+[2.463s] -- Up-to-date: /home/harry/robot/install/test_package/share/test_package/package.xml
+[2.493s] Invoked command in '/home/harry/robot/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/test_package

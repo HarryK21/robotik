@@ -1,0 +1,21 @@
+[0.891s] Invoking command in '/home/harry/robot/src/tag_detection': PYTHONPATH=/home/harry/robot/build/tag_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/tag_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tag_detection build --build-base /home/harry/robot/build/tag_detection/build install --record /home/harry/robot/build/tag_detection/install.log --single-version-externally-managed install_data
+[1.196s] running egg_info
+[1.197s] writing ../../build/tag_detection/tag_detection.egg-info/PKG-INFO
+[1.198s] writing dependency_links to ../../build/tag_detection/tag_detection.egg-info/dependency_links.txt
+[1.199s] writing entry points to ../../build/tag_detection/tag_detection.egg-info/entry_points.txt
+[1.199s] writing requirements to ../../build/tag_detection/tag_detection.egg-info/requires.txt
+[1.199s] writing top-level names to ../../build/tag_detection/tag_detection.egg-info/top_level.txt
+[1.201s] reading manifest file '../../build/tag_detection/tag_detection.egg-info/SOURCES.txt'
+[1.203s] writing manifest file '../../build/tag_detection/tag_detection.egg-info/SOURCES.txt'
+[1.203s] running build
+[1.203s] running build_py
+[1.206s] running install
+[1.206s] running install_lib
+[1.210s] running install_data
+[1.211s] copying launch/track.launch.yaml -> /home/harry/robot/install/tag_detection/share/tag_detection/launch
+[1.211s] running install_egg_info
+[1.214s] removing '/home/harry/robot/install/tag_detection/lib/python3.10/site-packages/tag_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[1.214s] Copying ../../build/tag_detection/tag_detection.egg-info to /home/harry/robot/install/tag_detection/lib/python3.10/site-packages/tag_detection-0.0.0-py3.10.egg-info
+[1.217s] running install_scripts
+[1.241s] writing list of installed files to '/home/harry/robot/build/tag_detection/install.log'
+[1.269s] Invoked command in '/home/harry/robot/src/tag_detection' returned '0': PYTHONPATH=/home/harry/robot/build/tag_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/tag_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tag_detection build --build-base /home/harry/robot/build/tag_detection/build install --record /home/harry/robot/build/tag_detection/install.log --single-version-externally-managed install_data

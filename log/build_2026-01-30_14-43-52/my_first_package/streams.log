@@ -1,0 +1,22 @@
+[1.639s] Invoking command in '/home/harry/robot/src/my_first_package': CMAKE_PREFIX_PATH=/home/harry/robot/install/test_package:/home/harry/robot/install/turtlesim:/home/harry/install/turtlesim:/home/harry/install/test_package PYTHONPATH=/home/harry/robot/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/harry/robot/build/my_first_package/build install --record /home/harry/robot/build/my_first_package/install.log --single-version-externally-managed install_data
+[2.248s] running egg_info
+[2.250s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[2.251s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[2.252s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[2.252s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[2.253s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[2.257s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[2.259s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[2.259s] running build
+[2.259s] running build_py
+[2.260s] running install
+[2.262s] running install_lib
+[2.267s] running install_data
+[2.267s] copying launch/multi_turtle.launch.yaml -> /home/harry/robot/install/my_first_package/share/my_first_package/launch
+[2.267s] running install_egg_info
+[2.271s] removing '/home/harry/robot/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info' (and everything under it)
+[2.275s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/harry/robot/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info
+[2.275s] running install_scripts
+[2.334s] Installing emptynode script to /home/harry/robot/install/my_first_package/lib/my_first_package
+[2.338s] writing list of installed files to '/home/harry/robot/build/my_first_package/install.log'
+[2.405s] Invoked command in '/home/harry/robot/src/my_first_package' returned '0': CMAKE_PREFIX_PATH=/home/harry/robot/install/test_package:/home/harry/robot/install/turtlesim:/home/harry/install/turtlesim:/home/harry/install/test_package PYTHONPATH=/home/harry/robot/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/harry/robot/build/my_first_package/build install --record /home/harry/robot/build/my_first_package/install.log --single-version-externally-managed install_data

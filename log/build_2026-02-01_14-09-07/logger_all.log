@@ -1,0 +1,815 @@
+[0.586s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.587s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7da256e55540>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7da256e54f40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7da256e54f40>>)
+[1.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.498s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/harry/robot'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.536s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(cd) by extensions ['ignore', 'ignore_ament_install']
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(cd) by extension 'ignore'
+[1.539s] Level 1:colcon.colcon_core.package_identification:_identify(cd) by extension 'ignore_ament_install'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(cd) by extensions ['colcon_pkg']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(cd) by extension 'colcon_pkg'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(cd) by extensions ['colcon_meta']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(cd) by extension 'colcon_meta'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(cd) by extensions ['ros']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(cd) by extension 'ros'
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(cd) by extensions ['cmake', 'python']
+[1.540s] Level 1:colcon.colcon_core.package_identification:_identify(cd) by extension 'cmake'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(cd) by extension 'python'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(cd) by extensions ['python_setup_py']
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(cd) by extension 'python_setup_py'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.541s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.542s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'ignore'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'ignore_ament_install'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['colcon_pkg']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'colcon_pkg'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['colcon_meta']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'colcon_meta'
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['ros']
+[1.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'ros'
+[1.555s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_msgs' with type 'ros.ament_cmake' and name 'apriltag_msgs'
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore'
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore_ament_install'
+[1.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_pkg']
+[1.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_pkg'
+[1.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_meta']
+[1.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_meta'
+[1.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ros']
+[1.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ros'
+[1.566s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_ros' with type 'ros.ament_cmake' and name 'apriltag_ros'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['ignore', 'ignore_ament_install']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'ignore'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'ignore_ament_install'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['colcon_pkg']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'colcon_pkg'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['colcon_meta']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'colcon_meta'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extensions ['ros']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_first_package) by extension 'ros'
+[1.570s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_first_package' with type 'ros.ament_python' and name 'my_first_package'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[1.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[1.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[1.582s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['ignore', 'ignore_ament_install']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'ignore'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'ignore_ament_install'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['colcon_pkg']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'colcon_pkg'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['colcon_meta']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'colcon_meta'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['ros']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'ros'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['cmake', 'python']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'cmake'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'python'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['python_setup_py']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'python_setup_py'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery) by extensions ['ignore', 'ignore_ament_install']
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery) by extension 'ignore'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery) by extension 'ignore_ament_install'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery) by extensions ['colcon_pkg']
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery) by extension 'colcon_pkg'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery) by extensions ['colcon_meta']
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery) by extension 'colcon_meta'
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery) by extensions ['ros']
+[1.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery) by extension 'ros'
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery) by extensions ['cmake', 'python']
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery) by extension 'cmake'
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery) by extension 'python'
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery) by extensions ['python_setup_py']
+[1.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery) by extension 'python_setup_py'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/art_maze) by extensions ['ignore', 'ignore_ament_install']
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/art_maze) by extension 'ignore'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/art_maze) by extension 'ignore_ament_install'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/art_maze) by extensions ['colcon_pkg']
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/art_maze) by extension 'colcon_pkg'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/art_maze) by extensions ['colcon_meta']
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/art_maze) by extension 'colcon_meta'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/art_maze) by extensions ['ros']
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/art_maze) by extension 'ros'
+[1.596s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulation/art_gallery/art_maze' with type 'ros.ament_cmake' and name 'art_maze'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/challenge_2025) by extensions ['ignore', 'ignore_ament_install']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/challenge_2025) by extension 'ignore'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/challenge_2025) by extension 'ignore_ament_install'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/challenge_2025) by extensions ['colcon_pkg']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/challenge_2025) by extension 'colcon_pkg'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/challenge_2025) by extensions ['colcon_meta']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/challenge_2025) by extension 'colcon_meta'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/challenge_2025) by extensions ['ros']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/challenge_2025) by extension 'ros'
+[1.602s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulation/art_gallery/challenge_2025' with type 'ros.ament_python' and name 'challenge_2025'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/curator) by extensions ['ignore', 'ignore_ament_install']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/curator) by extension 'ignore'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/curator) by extension 'ignore_ament_install'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/curator) by extensions ['colcon_pkg']
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/curator) by extension 'colcon_pkg'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/curator) by extensions ['colcon_meta']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/curator) by extension 'colcon_meta'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/curator) by extensions ['ros']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/curator) by extension 'ros'
+[1.607s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulation/art_gallery/curator' with type 'ros.ament_python' and name 'curator'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_description) by extensions ['ignore', 'ignore_ament_install']
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_description) by extension 'ignore'
+[1.609s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_description) by extension 'ignore_ament_install'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_description) by extensions ['colcon_pkg']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_description) by extension 'colcon_pkg'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_description) by extensions ['colcon_meta']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_description) by extension 'colcon_meta'
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_description) by extensions ['ros']
+[1.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_description) by extension 'ros'
+[1.613s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulation/art_gallery/tb3_description' with type 'ros.ament_python' and name 'tb3_description'
+[1.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_gazebo) by extension 'ignore'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_gazebo) by extension 'ignore_ament_install'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_gazebo) by extensions ['colcon_pkg']
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_gazebo) by extension 'colcon_pkg'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_gazebo) by extensions ['colcon_meta']
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_gazebo) by extension 'colcon_meta'
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_gazebo) by extensions ['ros']
+[1.615s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/art_gallery/tb3_gazebo) by extension 'ros'
+[1.618s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulation/art_gallery/tb3_gazebo' with type 'ros.ament_cmake' and name 'tb3_gazebo'
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/build) by extensions ['ignore', 'ignore_ament_install']
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/build) by extension 'ignore'
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/build) ignored
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/install) by extensions ['ignore', 'ignore_ament_install']
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/install) by extension 'ignore'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/install) ignored
+[1.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/log) by extensions ['ignore', 'ignore_ament_install']
+[1.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/log) by extension 'ignore'
+[1.626s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/log) ignored
+[1.627s] Level 1:colcon.colcon_core.package_identification:_identify(src/tag_detection) by extensions ['ignore', 'ignore_ament_install']
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/tag_detection) by extension 'ignore'
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/tag_detection) by extension 'ignore_ament_install'
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/tag_detection) by extensions ['colcon_pkg']
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/tag_detection) by extension 'colcon_pkg'
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/tag_detection) by extensions ['colcon_meta']
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/tag_detection) by extension 'colcon_meta'
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/tag_detection) by extensions ['ros']
+[1.628s] Level 1:colcon.colcon_core.package_identification:_identify(src/tag_detection) by extension 'ros'
+[1.630s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tag_detection' with type 'ros.ament_python' and name 'tag_detection'
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extensions ['ignore', 'ignore_ament_install']
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extension 'ignore'
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extension 'ignore_ament_install'
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extensions ['colcon_pkg']
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extension 'colcon_pkg'
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extensions ['colcon_meta']
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extension 'colcon_meta'
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extensions ['ros']
+[1.632s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_package) by extension 'ros'
+[1.635s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_package' with type 'ros.ament_cmake' and name 'test_package'
+[1.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.635s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.745s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.758s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/harry/robot/install
+[1.760s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/harry/install
+[1.764s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 290 installed packages in /opt/ros/humble
+[1.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.957s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /home/harry/robot/install/turtlesim, /home/harry/install/turtlesim, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.959s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_args' from command line to 'None'
+[1.959s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_target' from command line to 'None'
+[1.959s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.959s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.959s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.959s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.959s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.959s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.959s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.960s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harry/robot/build/apriltag_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harry/robot/install/apriltag_msgs', 'merge_install': False, 'path': '/home/harry/robot/src/apriltag_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.960s] Level 5:colcon.colcon_core.verb:set package 'art_maze' build argument 'cmake_args' from command line to 'None'
+[1.960s] Level 5:colcon.colcon_core.verb:set package 'art_maze' build argument 'cmake_target' from command line to 'None'
+[1.960s] Level 5:colcon.colcon_core.verb:set package 'art_maze' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.960s] Level 5:colcon.colcon_core.verb:set package 'art_maze' build argument 'cmake_clean_cache' from command line to 'False'
+[1.960s] Level 5:colcon.colcon_core.verb:set package 'art_maze' build argument 'cmake_clean_first' from command line to 'False'
+[1.960s] Level 5:colcon.colcon_core.verb:set package 'art_maze' build argument 'cmake_force_configure' from command line to 'False'
+[1.960s] Level 5:colcon.colcon_core.verb:set package 'art_maze' build argument 'ament_cmake_args' from command line to 'None'
+[1.960s] Level 5:colcon.colcon_core.verb:set package 'art_maze' build argument 'catkin_cmake_args' from command line to 'None'
+[1.960s] Level 5:colcon.colcon_core.verb:set package 'art_maze' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.960s] DEBUG:colcon.colcon_core.verb:Building package 'art_maze' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harry/robot/build/art_maze', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harry/robot/install/art_maze', 'merge_install': False, 'path': '/home/harry/robot/src/simulation/art_gallery/art_maze', 'symlink_install': False, 'test_result_base': None}
+[1.961s] Level 5:colcon.colcon_core.verb:set package 'challenge_2025' build argument 'cmake_args' from command line to 'None'
+[1.961s] Level 5:colcon.colcon_core.verb:set package 'challenge_2025' build argument 'cmake_target' from command line to 'None'
+[1.961s] Level 5:colcon.colcon_core.verb:set package 'challenge_2025' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.961s] Level 5:colcon.colcon_core.verb:set package 'challenge_2025' build argument 'cmake_clean_cache' from command line to 'False'
+[1.961s] Level 5:colcon.colcon_core.verb:set package 'challenge_2025' build argument 'cmake_clean_first' from command line to 'False'
+[1.961s] Level 5:colcon.colcon_core.verb:set package 'challenge_2025' build argument 'cmake_force_configure' from command line to 'False'
+[1.961s] Level 5:colcon.colcon_core.verb:set package 'challenge_2025' build argument 'ament_cmake_args' from command line to 'None'
+[1.961s] Level 5:colcon.colcon_core.verb:set package 'challenge_2025' build argument 'catkin_cmake_args' from command line to 'None'
+[1.961s] Level 5:colcon.colcon_core.verb:set package 'challenge_2025' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.961s] DEBUG:colcon.colcon_core.verb:Building package 'challenge_2025' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harry/robot/build/challenge_2025', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harry/robot/install/challenge_2025', 'merge_install': False, 'path': '/home/harry/robot/src/simulation/art_gallery/challenge_2025', 'symlink_install': False, 'test_result_base': None}
+[1.962s] Level 5:colcon.colcon_core.verb:set package 'curator' build argument 'cmake_args' from command line to 'None'
+[1.962s] Level 5:colcon.colcon_core.verb:set package 'curator' build argument 'cmake_target' from command line to 'None'
+[1.962s] Level 5:colcon.colcon_core.verb:set package 'curator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.962s] Level 5:colcon.colcon_core.verb:set package 'curator' build argument 'cmake_clean_cache' from command line to 'False'
+[1.962s] Level 5:colcon.colcon_core.verb:set package 'curator' build argument 'cmake_clean_first' from command line to 'False'
+[1.962s] Level 5:colcon.colcon_core.verb:set package 'curator' build argument 'cmake_force_configure' from command line to 'False'
+[1.962s] Level 5:colcon.colcon_core.verb:set package 'curator' build argument 'ament_cmake_args' from command line to 'None'
+[1.962s] Level 5:colcon.colcon_core.verb:set package 'curator' build argument 'catkin_cmake_args' from command line to 'None'
+[1.962s] Level 5:colcon.colcon_core.verb:set package 'curator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.962s] DEBUG:colcon.colcon_core.verb:Building package 'curator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harry/robot/build/curator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harry/robot/install/curator', 'merge_install': False, 'path': '/home/harry/robot/src/simulation/art_gallery/curator', 'symlink_install': False, 'test_result_base': None}
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'tag_detection' build argument 'cmake_args' from command line to 'None'
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'tag_detection' build argument 'cmake_target' from command line to 'None'
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'tag_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'tag_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'tag_detection' build argument 'cmake_clean_first' from command line to 'False'
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'tag_detection' build argument 'cmake_force_configure' from command line to 'False'
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'tag_detection' build argument 'ament_cmake_args' from command line to 'None'
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'tag_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[1.964s] Level 5:colcon.colcon_core.verb:set package 'tag_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.964s] DEBUG:colcon.colcon_core.verb:Building package 'tag_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harry/robot/build/tag_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harry/robot/install/tag_detection', 'merge_install': False, 'path': '/home/harry/robot/src/tag_detection', 'symlink_install': False, 'test_result_base': None}
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_args' from command line to 'None'
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_target' from command line to 'None'
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'tb3_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.965s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harry/robot/build/tb3_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harry/robot/install/tb3_description', 'merge_install': False, 'path': '/home/harry/robot/src/simulation/art_gallery/tb3_description', 'symlink_install': False, 'test_result_base': None}
+[1.966s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.966s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.966s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.966s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.966s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.966s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.966s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.966s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.966s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.966s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harry/robot/build/tb3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harry/robot/install/tb3_gazebo', 'merge_install': False, 'path': '/home/harry/robot/src/simulation/art_gallery/tb3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.967s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_args' from command line to 'None'
+[1.967s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_target' from command line to 'None'
+[1.967s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.967s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_clean_cache' from command line to 'False'
+[1.967s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_clean_first' from command line to 'False'
+[1.967s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'cmake_force_configure' from command line to 'False'
+[1.969s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'ament_cmake_args' from command line to 'None'
+[1.970s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'catkin_cmake_args' from command line to 'None'
+[1.970s] Level 5:colcon.colcon_core.verb:set package 'test_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.970s] DEBUG:colcon.colcon_core.verb:Building package 'test_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harry/robot/build/test_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harry/robot/install/test_package', 'merge_install': False, 'path': '/home/harry/robot/src/test_package', 'symlink_install': False, 'test_result_base': None}
+[1.971s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[1.972s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.972s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harry/robot/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harry/robot/install/turtlesim', 'merge_install': False, 'path': '/home/harry/robot/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[1.973s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_args' from command line to 'None'
+[1.973s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target' from command line to 'None'
+[1.973s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.973s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[1.973s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_first' from command line to 'False'
+[1.973s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_force_configure' from command line to 'False'
+[1.973s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'ament_cmake_args' from command line to 'None'
+[1.973s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[1.973s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.973s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harry/robot/build/apriltag_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harry/robot/install/apriltag_ros', 'merge_install': False, 'path': '/home/harry/robot/src/apriltag_ros', 'symlink_install': False, 'test_result_base': None}
+[1.974s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_args' from command line to 'None'
+[1.974s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_target' from command line to 'None'
+[1.974s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.974s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_clean_cache' from command line to 'False'
+[1.974s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_clean_first' from command line to 'False'
+[1.974s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'cmake_force_configure' from command line to 'False'
+[1.974s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'ament_cmake_args' from command line to 'None'
+[1.974s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'catkin_cmake_args' from command line to 'None'
+[1.974s] Level 5:colcon.colcon_core.verb:set package 'my_first_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.974s] DEBUG:colcon.colcon_core.verb:Building package 'my_first_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harry/robot/build/my_first_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harry/robot/install/my_first_package', 'merge_install': False, 'path': '/home/harry/robot/src/my_first_package', 'symlink_install': False, 'test_result_base': None}
+[1.975s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.977s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.977s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harry/robot/src/apriltag_msgs' with build type 'ament_cmake'
+[1.977s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harry/robot/src/apriltag_msgs'
+[2.003s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.003s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.003s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.018s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harry/robot/src/test_package' with build type 'ament_cmake'
+[2.018s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harry/robot/src/test_package'
+[2.018s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.018s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/apriltag_msgs -- -j2 -l2
+[2.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/test_package -- -j2 -l2
+[2.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/test_package -- -j2 -l2
+[2.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/test_package
+[2.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_package)
+[2.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/test_package
+[2.642s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/test_package' for CMake module files
+[2.643s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/test_package' for CMake config files
+[2.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_package', 'cmake_prefix_path')
+[2.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/test_package/share/test_package/hook/cmake_prefix_path.ps1'
+[2.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/test_package/share/test_package/hook/cmake_prefix_path.dsv'
+[2.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/test_package/share/test_package/hook/cmake_prefix_path.sh'
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/test_package/bin'
+[2.664s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/test_package/lib/pkgconfig/test_package.pc'
+[2.664s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/test_package/lib/python3.10/site-packages'
+[2.665s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/test_package/bin'
+[2.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/test_package/share/test_package/package.ps1'
+[2.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/test_package/share/test_package/package.dsv'
+[2.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/test_package/share/test_package/package.sh'
+[2.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/test_package/share/test_package/package.bash'
+[2.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/test_package/share/test_package/package.zsh'
+[2.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/test_package/share/colcon-core/packages/test_package)
+[2.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_package)
+[2.700s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/test_package' for CMake module files
+[2.701s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/test_package' for CMake config files
+[2.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_package', 'cmake_prefix_path')
+[2.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/test_package/share/test_package/hook/cmake_prefix_path.ps1'
+[2.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/test_package/share/test_package/hook/cmake_prefix_path.dsv'
+[2.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/test_package/share/test_package/hook/cmake_prefix_path.sh'
+[2.710s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/test_package/bin'
+[2.710s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/test_package/lib/pkgconfig/test_package.pc'
+[2.712s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/test_package/lib/python3.10/site-packages'
+[2.713s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/test_package/bin'
+[2.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/test_package/share/test_package/package.ps1'
+[2.727s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/test_package/share/test_package/package.dsv'
+[2.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/test_package/share/test_package/package.sh'
+[2.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/test_package/share/test_package/package.bash'
+[2.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/test_package/share/test_package/package.zsh'
+[2.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/test_package/share/colcon-core/packages/test_package)
+[2.745s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harry/robot/src/simulation/art_gallery/art_maze' with build type 'ament_cmake'
+[2.746s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harry/robot/src/simulation/art_gallery/art_maze'
+[2.747s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.747s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/build/art_maze': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/art_maze -- -j2 -l2
+[3.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/build/art_maze' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/art_maze -- -j2 -l2
+[3.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/build/art_maze': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/art_maze
+[3.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(art_maze)
+[3.516s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/art_maze' for CMake module files
+[3.517s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/art_maze' for CMake config files
+[3.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/build/art_maze' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/art_maze
+[3.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('art_maze', 'cmake_prefix_path')
+[3.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/art_maze/share/art_maze/hook/cmake_prefix_path.ps1'
+[3.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/art_maze/share/art_maze/hook/cmake_prefix_path.dsv'
+[3.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/art_maze/share/art_maze/hook/cmake_prefix_path.sh'
+[3.532s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/art_maze/lib'
+[3.532s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/art_maze/bin'
+[3.533s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/art_maze/lib/pkgconfig/art_maze.pc'
+[3.533s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/art_maze/lib/python3.10/site-packages'
+[3.533s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/art_maze/bin'
+[3.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/art_maze/share/art_maze/package.ps1'
+[3.536s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/art_maze/share/art_maze/package.dsv'
+[3.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/art_maze/share/art_maze/package.sh'
+[3.538s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/art_maze/share/art_maze/package.bash'
+[3.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/art_maze/share/art_maze/package.zsh'
+[3.540s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/art_maze/share/colcon-core/packages/art_maze)
+[3.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(art_maze)
+[3.544s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/art_maze' for CMake module files
+[3.545s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/art_maze' for CMake config files
+[3.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('art_maze', 'cmake_prefix_path')
+[3.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/art_maze/share/art_maze/hook/cmake_prefix_path.ps1'
+[3.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/art_maze/share/art_maze/hook/cmake_prefix_path.dsv'
+[3.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/art_maze/share/art_maze/hook/cmake_prefix_path.sh'
+[3.552s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/art_maze/lib'
+[3.552s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/art_maze/bin'
+[3.552s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/art_maze/lib/pkgconfig/art_maze.pc'
+[3.552s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/art_maze/lib/python3.10/site-packages'
+[3.553s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/art_maze/bin'
+[3.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/art_maze/share/art_maze/package.ps1'
+[3.559s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/art_maze/share/art_maze/package.dsv'
+[3.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/art_maze/share/art_maze/package.sh'
+[3.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/art_maze/share/art_maze/package.bash'
+[3.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/art_maze/share/art_maze/package.zsh'
+[3.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/art_maze/share/colcon-core/packages/art_maze)
+[3.573s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/harry/robot/src/simulation/art_gallery/challenge_2025' with build type 'ament_python'
+[3.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('challenge_2025', 'ament_prefix_path')
+[3.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/challenge_2025/share/challenge_2025/hook/ament_prefix_path.ps1'
+[3.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/challenge_2025/share/challenge_2025/hook/ament_prefix_path.dsv'
+[3.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/challenge_2025/share/challenge_2025/hook/ament_prefix_path.sh'
+[3.585s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.585s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.702s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/harry/robot/src/simulation/art_gallery/challenge_2025'
+[4.702s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.702s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/apriltag_msgs -- -j2 -l2
+[6.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/apriltag_msgs
+[6.549s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_msgs)
+[6.550s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_msgs' for CMake module files
+[6.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/apriltag_msgs
+[6.554s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_msgs' for CMake config files
+[6.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'cmake_prefix_path')
+[6.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.ps1'
+[6.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.dsv'
+[6.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.sh'
+[6.560s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_msgs/lib'
+[6.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'ld_library_path_lib')
+[6.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.ps1'
+[6.561s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.dsv'
+[6.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.sh'
+[6.563s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_msgs/bin'
+[6.563s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_msgs/lib/pkgconfig/apriltag_msgs.pc'
+[6.563s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_msgs/lib/python3.10/site-packages'
+[6.564s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_msgs/bin'
+[6.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/package.ps1'
+[6.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/package.dsv'
+[6.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/package.sh'
+[6.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/package.bash'
+[6.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/package.zsh'
+[6.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/apriltag_msgs/share/colcon-core/packages/apriltag_msgs)
+[6.575s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_msgs)
+[6.575s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_msgs' for CMake module files
+[6.577s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_msgs' for CMake config files
+[6.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'cmake_prefix_path')
+[6.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.ps1'
+[6.580s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.dsv'
+[6.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.sh'
+[6.583s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_msgs/lib'
+[6.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'ld_library_path_lib')
+[6.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.ps1'
+[6.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.dsv'
+[6.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.sh'
+[6.589s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_msgs/bin'
+[6.589s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_msgs/lib/pkgconfig/apriltag_msgs.pc'
+[6.589s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_msgs/lib/python3.10/site-packages'
+[6.590s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_msgs/bin'
+[6.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/package.ps1'
+[6.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/package.dsv'
+[6.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/package.sh'
+[6.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/package.bash'
+[6.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/package.zsh'
+[6.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/apriltag_msgs/share/colcon-core/packages/apriltag_msgs)
+[6.597s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/harry/robot/src/simulation/art_gallery/curator' with build type 'ament_python'
+[6.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('curator', 'ament_prefix_path')
+[6.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/curator/share/curator/hook/ament_prefix_path.ps1'
+[6.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/curator/share/curator/hook/ament_prefix_path.dsv'
+[6.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/curator/share/curator/hook/ament_prefix_path.sh'
+[6.603s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.023s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/harry/robot/src/simulation/art_gallery/curator'
+[8.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/src/simulation/art_gallery/challenge_2025': PYTHONPATH=/home/harry/robot/build/challenge_2025/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/challenge_2025/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/challenge_2025 build --build-base /home/harry/robot/build/challenge_2025/build install --record /home/harry/robot/build/challenge_2025/install.log --single-version-externally-managed install_data
+[9.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/src/simulation/art_gallery/curator': PYTHONPATH=/home/harry/robot/build/curator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/curator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/curator build --build-base /home/harry/robot/build/curator/build install --record /home/harry/robot/build/curator/install.log --single-version-externally-managed install_data
+[9.484s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/challenge_2025' for CMake module files
+[9.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/src/simulation/art_gallery/challenge_2025' returned '0': PYTHONPATH=/home/harry/robot/build/challenge_2025/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/challenge_2025/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/challenge_2025 build --build-base /home/harry/robot/build/challenge_2025/build install --record /home/harry/robot/build/challenge_2025/install.log --single-version-externally-managed install_data
+[9.488s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/challenge_2025' for CMake config files
+[9.496s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/challenge_2025/lib'
+[9.496s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/challenge_2025/bin'
+[9.497s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/challenge_2025/lib/pkgconfig/challenge_2025.pc'
+[9.497s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/challenge_2025/lib/python3.10/site-packages'
+[9.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('challenge_2025', 'pythonpath')
+[9.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/challenge_2025/share/challenge_2025/hook/pythonpath.ps1'
+[9.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/challenge_2025/share/challenge_2025/hook/pythonpath.dsv'
+[9.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/challenge_2025/share/challenge_2025/hook/pythonpath.sh'
+[9.514s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/challenge_2025/bin'
+[9.514s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(challenge_2025)
+[9.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/challenge_2025/share/challenge_2025/package.ps1'
+[9.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/challenge_2025/share/challenge_2025/package.dsv'
+[9.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/challenge_2025/share/challenge_2025/package.sh'
+[9.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/challenge_2025/share/challenge_2025/package.bash'
+[9.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/challenge_2025/share/challenge_2025/package.zsh'
+[9.526s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/challenge_2025/share/colcon-core/packages/challenge_2025)
+[9.527s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/harry/robot/src/tag_detection' with build type 'ament_python'
+[9.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('tag_detection', 'ament_prefix_path')
+[9.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/tag_detection/share/tag_detection/hook/ament_prefix_path.ps1'
+[9.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/tag_detection/share/tag_detection/hook/ament_prefix_path.dsv'
+[9.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/tag_detection/share/tag_detection/hook/ament_prefix_path.sh'
+[9.539s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.539s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.647s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/harry/robot/src/tag_detection'
+[10.647s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.648s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.660s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/curator' for CMake module files
+[10.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/src/simulation/art_gallery/curator' returned '0': PYTHONPATH=/home/harry/robot/build/curator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/curator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/curator build --build-base /home/harry/robot/build/curator/build install --record /home/harry/robot/build/curator/install.log --single-version-externally-managed install_data
+[10.662s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/curator' for CMake config files
+[10.663s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/curator/lib'
+[10.664s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/curator/bin'
+[10.664s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/curator/lib/pkgconfig/curator.pc'
+[10.664s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/curator/lib/python3.10/site-packages'
+[10.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('curator', 'pythonpath')
+[10.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/curator/share/curator/hook/pythonpath.ps1'
+[10.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/curator/share/curator/hook/pythonpath.dsv'
+[10.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/curator/share/curator/hook/pythonpath.sh'
+[10.668s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/curator/bin'
+[10.668s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(curator)
+[10.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/curator/share/curator/package.ps1'
+[10.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/curator/share/curator/package.dsv'
+[10.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/curator/share/curator/package.sh'
+[10.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/curator/share/curator/package.bash'
+[10.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/curator/share/curator/package.zsh'
+[10.677s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/curator/share/colcon-core/packages/curator)
+[10.679s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/harry/robot/src/simulation/art_gallery/tb3_description' with build type 'ament_python'
+[10.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_description', 'ament_prefix_path')
+[10.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/tb3_description/share/tb3_description/hook/ament_prefix_path.ps1'
+[10.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/tb3_description/share/tb3_description/hook/ament_prefix_path.dsv'
+[10.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/tb3_description/share/tb3_description/hook/ament_prefix_path.sh'
+[10.687s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.687s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.810s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/harry/robot/src/simulation/art_gallery/tb3_description'
+[11.810s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.810s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/src/tag_detection': PYTHONPATH=/home/harry/robot/build/tag_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/tag_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tag_detection build --build-base /home/harry/robot/build/tag_detection/build install --record /home/harry/robot/build/tag_detection/install.log --single-version-externally-managed install_data
+[13.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/src/simulation/art_gallery/tb3_description': PYTHONPATH=/home/harry/robot/build/tb3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/tb3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/tb3_description build --build-base /home/harry/robot/build/tb3_description/build install --record /home/harry/robot/build/tb3_description/install.log --single-version-externally-managed install_data
+[14.148s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tag_detection' for CMake module files
+[14.157s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tag_detection' for CMake config files
+[14.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/src/tag_detection' returned '0': PYTHONPATH=/home/harry/robot/build/tag_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/tag_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tag_detection build --build-base /home/harry/robot/build/tag_detection/build install --record /home/harry/robot/build/tag_detection/install.log --single-version-externally-managed install_data
+[14.166s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tag_detection/lib'
+[14.174s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tag_detection/bin'
+[14.175s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tag_detection/lib/pkgconfig/tag_detection.pc'
+[14.182s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tag_detection/lib/python3.10/site-packages'
+[14.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('tag_detection', 'pythonpath')
+[14.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/tag_detection/share/tag_detection/hook/pythonpath.ps1'
+[14.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/tag_detection/share/tag_detection/hook/pythonpath.dsv'
+[14.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/tag_detection/share/tag_detection/hook/pythonpath.sh'
+[14.230s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tag_detection/bin'
+[14.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tag_detection)
+[14.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tag_detection/share/tag_detection/package.ps1'
+[14.249s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/tag_detection/share/tag_detection/package.dsv'
+[14.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tag_detection/share/tag_detection/package.sh'
+[14.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tag_detection/share/tag_detection/package.bash'
+[14.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tag_detection/share/tag_detection/package.zsh'
+[14.309s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/tag_detection/share/colcon-core/packages/tag_detection)
+[14.323s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harry/robot/src/simulation/art_gallery/tb3_gazebo' with build type 'ament_cmake'
+[14.328s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harry/robot/src/simulation/art_gallery/tb3_gazebo'
+[14.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/build/tb3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/tb3_gazebo -- -j2 -l2
+[14.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/build/tb3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/tb3_gazebo -- -j2 -l2
+[14.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/build/tb3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/tb3_gazebo
+[15.798s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_description' for CMake module files
+[15.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/src/simulation/art_gallery/tb3_description' returned '0': PYTHONPATH=/home/harry/robot/build/tb3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/tb3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/tb3_description build --build-base /home/harry/robot/build/tb3_description/build install --record /home/harry/robot/build/tb3_description/install.log --single-version-externally-managed install_data
+[15.808s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_description' for CMake config files
+[15.817s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_description/lib'
+[15.817s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_description/bin'
+[15.817s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_description/lib/pkgconfig/tb3_description.pc'
+[15.821s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_description/lib/python3.10/site-packages'
+[15.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_description', 'pythonpath')
+[15.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/tb3_description/share/tb3_description/hook/pythonpath.ps1'
+[15.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/tb3_description/share/tb3_description/hook/pythonpath.dsv'
+[15.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/tb3_description/share/tb3_description/hook/pythonpath.sh'
+[15.890s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_description/bin'
+[15.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_description)
+[15.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tb3_description/share/tb3_description/package.ps1'
+[15.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/tb3_description/share/tb3_description/package.dsv'
+[15.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tb3_description/share/tb3_description/package.sh'
+[16.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tb3_description/share/tb3_description/package.bash'
+[16.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tb3_description/share/tb3_description/package.zsh'
+[16.047s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/tb3_description/share/colcon-core/packages/tb3_description)
+[16.058s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harry/robot/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[16.064s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harry/robot/src/ros_tutorials/turtlesim'
+[16.066s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.067s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/turtlesim -- -j2 -l2
+[17.762s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_gazebo)
+[17.765s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_gazebo' for CMake module files
+[17.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/build/tb3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/tb3_gazebo
+[17.776s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_gazebo' for CMake config files
+[17.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_gazebo', 'cmake_prefix_path')
+[17.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/hook/cmake_prefix_path.ps1'
+[17.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/hook/cmake_prefix_path.dsv'
+[17.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/hook/cmake_prefix_path.sh'
+[17.825s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_gazebo/bin'
+[17.825s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_gazebo/lib/pkgconfig/tb3_gazebo.pc'
+[17.836s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_gazebo/lib/python3.10/site-packages'
+[17.837s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_gazebo/bin'
+[17.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/package.ps1'
+[17.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/package.dsv'
+[17.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/package.sh'
+[17.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/package.bash'
+[17.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/package.zsh'
+[17.875s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/tb3_gazebo/share/colcon-core/packages/tb3_gazebo)
+[17.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_gazebo)
+[17.877s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_gazebo' for CMake module files
+[17.879s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_gazebo' for CMake config files
+[17.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_gazebo', 'cmake_prefix_path')
+[17.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/hook/cmake_prefix_path.ps1'
+[17.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/hook/cmake_prefix_path.dsv'
+[17.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/hook/cmake_prefix_path.sh'
+[17.893s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_gazebo/bin'
+[17.893s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_gazebo/lib/pkgconfig/tb3_gazebo.pc'
+[17.893s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_gazebo/lib/python3.10/site-packages'
+[17.894s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/tb3_gazebo/bin'
+[17.895s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/package.ps1'
+[17.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/package.dsv'
+[17.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/package.sh'
+[17.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/package.bash'
+[17.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/tb3_gazebo/share/tb3_gazebo/package.zsh'
+[17.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/tb3_gazebo/share/colcon-core/packages/tb3_gazebo)
+[17.911s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harry/robot/src/apriltag_ros' with build type 'ament_cmake'
+[17.912s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harry/robot/src/apriltag_ros'
+[17.912s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.914s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/harry/robot/install/apriltag_msgs:/home/harry/robot/install/turtlesim:/home/harry/robot/install/test_package:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/install/turtlesim:/home/harry/install/test_package:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble LD_LIBRARY_PATH=/home/harry/robot/install/apriltag_msgs/lib:/home/harry/robot/install/turtlesim/lib:/home/harry/robot/install/apriltag_ros/lib:/home/harry/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/harry/robot/build/apriltag_ros -- -j2 -l2
+[20.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/harry/robot/install/apriltag_msgs:/home/harry/robot/install/turtlesim:/home/harry/robot/install/test_package:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/install/turtlesim:/home/harry/install/test_package:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble LD_LIBRARY_PATH=/home/harry/robot/install/apriltag_msgs/lib:/home/harry/robot/install/turtlesim/lib:/home/harry/robot/install/apriltag_ros/lib:/home/harry/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/harry/robot/build/apriltag_ros -- -j2 -l2
+[20.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/build/apriltag_ros': CMAKE_PREFIX_PATH=/home/harry/robot/install/apriltag_msgs:/home/harry/robot/install/turtlesim:/home/harry/robot/install/test_package:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/install/turtlesim:/home/harry/install/test_package:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble LD_LIBRARY_PATH=/home/harry/robot/install/apriltag_msgs/lib:/home/harry/robot/install/turtlesim/lib:/home/harry/robot/install/apriltag_ros/lib:/home/harry/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/harry/robot/build/apriltag_ros
+[20.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros)
+[20.246s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_ros' for CMake module files
+[20.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/build/apriltag_ros' returned '0': CMAKE_PREFIX_PATH=/home/harry/robot/install/apriltag_msgs:/home/harry/robot/install/turtlesim:/home/harry/robot/install/test_package:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/install/turtlesim:/home/harry/install/test_package:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble LD_LIBRARY_PATH=/home/harry/robot/install/apriltag_msgs/lib:/home/harry/robot/install/turtlesim/lib:/home/harry/robot/install/apriltag_ros/lib:/home/harry/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/harry/robot/build/apriltag_ros
+[20.250s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_ros' for CMake config files
+[20.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'cmake_prefix_path')
+[20.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.ps1'
+[20.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.dsv'
+[20.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.sh'
+[20.261s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_ros/lib'
+[20.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'ld_library_path_lib')
+[20.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.ps1'
+[20.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.dsv'
+[20.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.sh'
+[20.271s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_ros/bin'
+[20.271s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc'
+[20.274s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_ros/lib/python3.10/site-packages'
+[20.276s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_ros/bin'
+[20.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/package.ps1'
+[20.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/package.dsv'
+[20.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/package.sh'
+[20.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/package.bash'
+[20.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/package.zsh'
+[20.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/apriltag_ros/share/colcon-core/packages/apriltag_ros)
+[20.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros)
+[20.307s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_ros' for CMake module files
+[20.308s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_ros' for CMake config files
+[20.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'cmake_prefix_path')
+[20.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.ps1'
+[20.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.dsv'
+[20.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/hook/cmake_prefix_path.sh'
+[20.332s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_ros/lib'
+[20.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_ros', 'ld_library_path_lib')
+[20.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.ps1'
+[20.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.dsv'
+[20.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/hook/ld_library_path_lib.sh'
+[20.358s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_ros/bin'
+[20.358s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc'
+[20.359s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_ros/lib/python3.10/site-packages'
+[20.368s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/apriltag_ros/bin'
+[20.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/package.ps1'
+[20.376s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/package.dsv'
+[20.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/package.sh'
+[20.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/package.bash'
+[20.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/apriltag_ros/share/apriltag_ros/package.zsh'
+[20.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/apriltag_ros/share/colcon-core/packages/apriltag_ros)
+[20.410s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/harry/robot/src/my_first_package' with build type 'ament_python'
+[20.410s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_package', 'ament_prefix_path')
+[20.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/my_first_package/share/my_first_package/hook/ament_prefix_path.ps1'
+[20.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/my_first_package/share/my_first_package/hook/ament_prefix_path.dsv'
+[20.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/my_first_package/share/my_first_package/hook/ament_prefix_path.sh'
+[20.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[23.873s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/harry/robot/src/my_first_package'
+[23.878s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.878s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/turtlesim -- -j2 -l2
+[26.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/turtlesim
+[27.347s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[27.352s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/turtlesim' for CMake module files
+[27.366s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/turtlesim' for CMake config files
+[27.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/turtlesim
+[27.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[27.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[27.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[27.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[27.394s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/turtlesim/lib'
+[27.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[27.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[27.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[27.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[27.401s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/turtlesim/bin'
+[27.401s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[27.402s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/turtlesim/lib/python3.10/site-packages'
+[27.403s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/turtlesim/bin'
+[27.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/turtlesim/share/turtlesim/package.ps1'
+[27.406s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/turtlesim/share/turtlesim/package.dsv'
+[27.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/turtlesim/share/turtlesim/package.sh'
+[27.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/turtlesim/share/turtlesim/package.bash'
+[27.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/turtlesim/share/turtlesim/package.zsh'
+[27.412s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/turtlesim/share/colcon-core/packages/turtlesim)
+[27.415s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[27.415s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/turtlesim' for CMake module files
+[27.417s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/turtlesim' for CMake config files
+[27.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[27.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[27.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[27.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[27.427s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/turtlesim/lib'
+[27.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[27.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[27.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[27.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[27.432s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/turtlesim/bin'
+[27.433s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[27.433s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/turtlesim/lib/python3.10/site-packages'
+[27.435s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/turtlesim/bin'
+[27.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/turtlesim/share/turtlesim/package.ps1'
+[27.437s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/turtlesim/share/turtlesim/package.dsv'
+[27.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/turtlesim/share/turtlesim/package.sh'
+[27.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/turtlesim/share/turtlesim/package.bash'
+[27.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/turtlesim/share/turtlesim/package.zsh'
+[27.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/turtlesim/share/colcon-core/packages/turtlesim)
+[27.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harry/robot/src/my_first_package': CMAKE_PREFIX_PATH=/home/harry/robot/install/test_package:/home/harry/robot/install/turtlesim:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/robot/install/apriltag_msgs:/home/harry/install/turtlesim:/home/harry/install/test_package PYTHONPATH=/home/harry/robot/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/harry/robot/build/my_first_package/build install --record /home/harry/robot/build/my_first_package/install.log --single-version-externally-managed install_data
+[29.591s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/my_first_package' for CMake module files
+[29.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harry/robot/src/my_first_package' returned '0': CMAKE_PREFIX_PATH=/home/harry/robot/install/test_package:/home/harry/robot/install/turtlesim:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/robot/install/apriltag_msgs:/home/harry/install/turtlesim:/home/harry/install/test_package PYTHONPATH=/home/harry/robot/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/harry/robot/build/my_first_package/build install --record /home/harry/robot/build/my_first_package/install.log --single-version-externally-managed install_data
+[29.594s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/my_first_package' for CMake config files
+[29.598s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/my_first_package/lib'
+[29.598s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/my_first_package/bin'
+[29.598s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/my_first_package/lib/pkgconfig/my_first_package.pc'
+[29.599s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/my_first_package/lib/python3.10/site-packages'
+[29.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_first_package', 'pythonpath')
+[29.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/my_first_package/share/my_first_package/hook/pythonpath.ps1'
+[29.601s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harry/robot/install/my_first_package/share/my_first_package/hook/pythonpath.dsv'
+[29.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harry/robot/install/my_first_package/share/my_first_package/hook/pythonpath.sh'
+[29.604s] Level 1:colcon.colcon_core.environment:checking '/home/harry/robot/install/my_first_package/bin'
+[29.605s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_first_package)
+[29.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/my_first_package/share/my_first_package/package.ps1'
+[29.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harry/robot/install/my_first_package/share/my_first_package/package.dsv'
+[29.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/my_first_package/share/my_first_package/package.sh'
+[29.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/my_first_package/share/my_first_package/package.bash'
+[29.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/harry/robot/install/my_first_package/share/my_first_package/package.zsh'
+[29.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harry/robot/install/my_first_package/share/colcon-core/packages/my_first_package)
+[29.616s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[29.624s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[29.630s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[29.633s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[29.820s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[29.820s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[29.822s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[30.662s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[30.667s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harry/robot/install/local_setup.ps1'
+[30.676s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/harry/robot/install/_local_setup_util_ps1.py'
+[30.691s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harry/robot/install/setup.ps1'
+[30.717s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harry/robot/install/local_setup.sh'
+[30.720s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/harry/robot/install/_local_setup_util_sh.py'
+[30.725s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harry/robot/install/setup.sh'
+[30.736s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harry/robot/install/local_setup.bash'
+[30.750s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harry/robot/install/setup.bash'
+[30.759s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harry/robot/install/local_setup.zsh'
+[30.762s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harry/robot/install/setup.zsh'

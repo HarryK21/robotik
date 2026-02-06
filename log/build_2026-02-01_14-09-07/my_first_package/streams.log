@@ -1,0 +1,22 @@
+[7.468s] Invoking command in '/home/harry/robot/src/my_first_package': CMAKE_PREFIX_PATH=/home/harry/robot/install/test_package:/home/harry/robot/install/turtlesim:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/robot/install/apriltag_msgs:/home/harry/install/turtlesim:/home/harry/install/test_package PYTHONPATH=/home/harry/robot/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/harry/robot/build/my_first_package/build install --record /home/harry/robot/build/my_first_package/install.log --single-version-externally-managed install_data
+[8.786s] running egg_info
+[8.790s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[8.792s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[8.796s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[8.797s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[8.801s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[8.818s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[8.828s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[8.828s] running build
+[8.828s] running build_py
+[8.834s] running install
+[8.838s] running install_lib
+[8.846s] running install_data
+[8.848s] running install_egg_info
+[8.872s] removing '/home/harry/robot/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info' (and everything under it)
+[8.882s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/harry/robot/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info
+[8.888s] running install_scripts
+[9.016s] Installing emptynode script to /home/harry/robot/install/my_first_package/lib/my_first_package
+[9.021s] Installing parameternode script to /home/harry/robot/install/my_first_package/lib/my_first_package
+[9.022s] writing list of installed files to '/home/harry/robot/build/my_first_package/install.log'
+[9.175s] Invoked command in '/home/harry/robot/src/my_first_package' returned '0': CMAKE_PREFIX_PATH=/home/harry/robot/install/test_package:/home/harry/robot/install/turtlesim:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/robot/install/apriltag_msgs:/home/harry/install/turtlesim:/home/harry/install/test_package PYTHONPATH=/home/harry/robot/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/harry/robot/build/my_first_package/build install --record /home/harry/robot/build/my_first_package/install.log --single-version-externally-managed install_data

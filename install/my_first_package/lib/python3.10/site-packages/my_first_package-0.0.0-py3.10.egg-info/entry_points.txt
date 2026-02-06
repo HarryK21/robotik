@@ -1,0 +1,4 @@
+[console_scripts]
+emptynode = my_first_package.myfirstnode:main
+parameternode = my_first_package.param_node:main
+

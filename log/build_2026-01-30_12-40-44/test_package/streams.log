@@ -1,0 +1,43 @@
+[0.030s] Invoking command in '/home/harry/robot/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/harry/robot/src/test_package -DCMAKE_INSTALL_PREFIX=/home/harry/robot/install/test_package
+[0.394s] -- The C compiler identification is GNU 11.4.0
+[0.566s] -- The CXX compiler identification is GNU 11.4.0
+[0.587s] -- Detecting C compiler ABI info
+[0.704s] -- Detecting C compiler ABI info - done
+[0.714s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.715s] -- Detecting C compile features
+[0.717s] -- Detecting C compile features - done
+[0.724s] -- Detecting CXX compiler ABI info
+[0.847s] -- Detecting CXX compiler ABI info - done
+[0.857s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.858s] -- Detecting CXX compile features
+[0.859s] -- Detecting CXX compile features - done
+[0.883s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.129s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.329s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[1.333s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.501s] -- Added test 'lint_cmake' to check CMake code style
+[1.505s] -- Added test 'xmllint' to check XML markup files
+[1.508s] -- Configuring done
+[1.513s] -- Generating done
+[1.517s] -- Build files have been written to: /home/harry/robot/build/test_package
+[1.525s] Invoked command in '/home/harry/robot/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/harry/robot/src/test_package -DCMAKE_INSTALL_PREFIX=/home/harry/robot/install/test_package
+[1.530s] Invoking command in '/home/harry/robot/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/test_package -- -j2 -l2
+[1.595s] Invoked command in '/home/harry/robot/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/test_package -- -j2 -l2
+[1.612s] Invoking command in '/home/harry/robot/build/test_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/test_package
+[1.625s] -- Install configuration: ""
+[1.626s] -- Installing: /home/harry/robot/install/test_package/share/ament_index/resource_index/package_run_dependencies/test_package
+[1.626s] -- Installing: /home/harry/robot/install/test_package/share/ament_index/resource_index/parent_prefix_path/test_package
+[1.627s] -- Installing: /home/harry/robot/install/test_package/share/test_package/environment/ament_prefix_path.sh
+[1.627s] -- Installing: /home/harry/robot/install/test_package/share/test_package/environment/ament_prefix_path.dsv
+[1.627s] -- Installing: /home/harry/robot/install/test_package/share/test_package/environment/path.sh
+[1.627s] -- Installing: /home/harry/robot/install/test_package/share/test_package/environment/path.dsv
+[1.627s] -- Installing: /home/harry/robot/install/test_package/share/test_package/local_setup.bash
+[1.627s] -- Installing: /home/harry/robot/install/test_package/share/test_package/local_setup.sh
+[1.628s] -- Installing: /home/harry/robot/install/test_package/share/test_package/local_setup.zsh
+[1.628s] -- Installing: /home/harry/robot/install/test_package/share/test_package/local_setup.dsv
+[1.628s] -- Installing: /home/harry/robot/install/test_package/share/test_package/package.dsv
+[1.628s] -- Installing: /home/harry/robot/install/test_package/share/ament_index/resource_index/packages/test_package
+[1.629s] -- Installing: /home/harry/robot/install/test_package/share/test_package/cmake/test_packageConfig.cmake
+[1.629s] -- Installing: /home/harry/robot/install/test_package/share/test_package/cmake/test_packageConfig-version.cmake
+[1.629s] -- Installing: /home/harry/robot/install/test_package/share/test_package/package.xml
+[1.635s] Invoked command in '/home/harry/robot/build/test_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/test_package

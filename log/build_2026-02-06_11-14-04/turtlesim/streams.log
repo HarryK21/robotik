@@ -1,0 +1,346 @@
+[0.755s] Invoking command in '/home/harry/robot/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/turtlesim -- -j2 -l2
+[6.658s] [  1%] Built target turtlesim__cpp
+[8.217s] [ 11%] Built target turtlesim__rosidl_generator_c
+[10.512s] [ 11%] Built target ament_cmake_python_copy_turtlesim
+[11.761s] [ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[13.040s] [ 31%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[14.355s] [ 41%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[15.849s] [ 51%] Built target turtlesim__rosidl_typesupport_introspection_c
+[16.794s] [ 61%] Built target turtlesim__rosidl_typesupport_c
+[18.158s] [ 71%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[25.434s] running egg_info
+[25.448s] writing turtlesim.egg-info/PKG-INFO
+[25.467s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[25.500s] writing top-level names to turtlesim.egg-info/top_level.txt
+[25.585s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[25.614s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[26.511s] [ 71%] Built target ament_cmake_python_build_turtlesim_egg
+[28.003s] [ 77%] Built target turtlesim_node
+[29.653s] [ 79%] Built target turtle_teleop_key
+[30.620s] [ 81%] Built target draw_square
+[31.885s] [ 83%] Built target mimic
+[33.147s] [ 83%] Built target turtlesim
+[34.447s] [ 84%] Built target turtlesim__py
+[35.706s] [ 93%] Built target turtlesim__rosidl_generator_py
+[36.853s] [ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[38.487s] [ 97%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[39.956s] [100%] Built target turtlesim__rosidl_typesupport_c__pyext
+[43.115s] Invoked command in '/home/harry/robot/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/turtlesim -- -j2 -l2
+[43.287s] Invoking command in '/home/harry/robot/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/turtlesim
+[44.187s] -- Install configuration: ""
+[44.187s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[44.194s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim
+[44.215s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv
+[44.216s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+[44.219s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+[44.225s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+[44.228s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+[44.228s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+[44.260s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[44.260s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+[44.268s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+[44.286s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+[44.287s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+[44.287s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+[44.296s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+[44.301s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+[44.301s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+[44.311s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+[44.312s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+[44.312s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+[44.312s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+[44.330s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+[44.330s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+[44.330s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+[44.331s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+[44.331s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+[44.331s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+[44.331s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+[44.378s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+[44.384s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg
+[44.385s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+[44.385s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[44.385s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+[44.385s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[44.408s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+[44.408s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+[44.429s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+[44.439s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+[44.439s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+[44.439s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+[44.440s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+[44.440s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+[44.440s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action
+[44.477s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+[44.487s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[44.487s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+[44.508s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+[44.519s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+[44.561s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+[44.561s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/environment/library_path.sh
+[44.577s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[44.577s] -- Up-to-date: /home/harry/robot/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[44.615s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim
+[44.619s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv
+[44.619s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[44.642s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[44.642s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[44.676s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[44.676s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[44.677s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[44.677s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg
+[44.677s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[44.677s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[44.730s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[44.780s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[44.781s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action
+[44.781s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[44.804s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[44.804s] -- Up-to-date: /home/harry/robot/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[44.815s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim
+[44.815s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv
+[44.845s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+[44.848s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+[44.848s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+[44.851s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[44.852s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+[44.852s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[44.853s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp
+[44.853s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+[44.853s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+[44.854s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp
+[44.854s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[44.854s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+[44.855s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+[44.855s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[44.855s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+[44.855s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+[44.856s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp
+[44.856s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+[44.856s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+[44.859s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+[44.859s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp
+[44.859s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+[44.860s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp
+[44.862s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+[44.862s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+[44.863s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+[44.863s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg
+[44.864s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp
+[44.864s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+[44.864s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+[44.864s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[44.875s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+[44.875s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+[44.875s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+[44.936s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp
+[44.936s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+[44.936s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp
+[44.953s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+[45.012s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+[45.038s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action
+[45.038s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+[45.038s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[45.039s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+[45.039s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+[45.039s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+[45.112s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp
+[45.136s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim
+[45.136s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv
+[45.137s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[45.137s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[45.137s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+[45.137s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[45.175s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[45.180s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[45.189s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[45.199s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg
+[45.199s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[45.199s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[45.206s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+[45.209s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[45.217s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[45.222s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action
+[45.222s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[45.228s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+[45.241s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[45.269s] -- Up-to-date: /home/harry/robot/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[45.321s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim
+[45.322s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv
+[45.378s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[45.379s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[45.379s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[45.415s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[45.449s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[45.476s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[45.476s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[45.476s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[45.476s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[45.477s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[45.477s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[45.477s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg
+[45.497s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[45.497s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[45.497s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[45.498s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[45.498s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[45.542s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[45.542s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action
+[45.560s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[45.586s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[45.586s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[45.633s] -- Up-to-date: /home/harry/robot/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[45.717s] -- Up-to-date: /home/harry/robot/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[45.763s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim
+[45.780s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv
+[45.799s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[45.811s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[45.812s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+[45.812s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+[45.815s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[45.816s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[45.819s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[45.829s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+[45.831s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[45.832s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[45.842s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[45.842s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg
+[45.861s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[45.876s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+[45.877s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[45.890s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[45.894s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+[45.894s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action
+[45.900s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[45.916s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[45.916s] -- Up-to-date: /home/harry/robot/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[45.960s] -- Up-to-date: /home/harry/robot/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[46.029s] -- Up-to-date: /home/harry/robot/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[46.065s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[46.065s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[46.074s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info
+[46.125s] -- Installing: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/dependency_links.txt
+[46.125s] -- Installing: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/PKG-INFO
+[46.145s] -- Installing: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/top_level.txt
+[46.154s] -- Installing: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/SOURCES.txt
+[46.170s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim
+[46.171s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[46.183s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+[46.184s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv
+[46.210s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py
+[46.210s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c
+[46.240s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c
+[46.240s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py
+[46.240s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py
+[46.241s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py
+[46.241s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c
+[46.241s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py
+[46.241s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py
+[46.271s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c
+[46.282s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c
+[46.289s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py
+[46.289s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg
+[46.289s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c
+[46.327s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py
+[46.328s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py
+[46.328s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py
+[46.328s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c
+[46.348s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
+[46.348s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+[46.378s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[46.378s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action
+[46.379s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py
+[46.379s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c
+[46.379s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py
+[46.379s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so
+[46.403s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[47.569s] Listing '/home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...
+[47.569s] Listing '/home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...
+[47.569s] Listing '/home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...
+[47.570s] Listing '/home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...
+[47.673s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[47.752s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[47.850s] -- Up-to-date: /home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[47.924s] -- Up-to-date: /home/harry/robot/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so
+[48.004s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[48.016s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/msg/Color.idl
+[48.017s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/msg/Pose.idl
+[48.030s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/Kill.idl
+[48.037s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[48.037s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[48.050s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[48.051s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[48.088s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[48.088s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/msg/Color.msg
+[48.111s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/msg/Pose.msg
+[48.155s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/Kill.srv
+[48.155s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[48.156s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[48.156s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[48.169s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[48.187s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[48.187s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[48.188s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[48.204s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[48.204s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[48.205s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[48.225s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[48.226s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[48.226s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[48.237s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[48.314s] -- Up-to-date: /home/harry/robot/install/turtlesim/lib/turtlesim/turtlesim_node
+[48.372s] -- Up-to-date: /home/harry/robot/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[48.468s] -- Up-to-date: /home/harry/robot/install/turtlesim/lib/turtlesim/draw_square
+[48.492s] -- Up-to-date: /home/harry/robot/install/turtlesim/lib/turtlesim/mimic
+[48.503s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/images
+[48.539s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/images/rolling.png
+[48.540s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/images/crystal.png
+[48.540s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/images/bouncy.png
+[48.608s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/images/dashing.png
+[48.619s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/images/galactic.png
+[48.637s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/images/eloquent.png
+[48.637s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/images/foxy.png
+[48.645s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/images/ardent.png
+[48.645s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/images/humble.png
+[48.645s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/launch
+[48.645s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[48.672s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[48.673s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[48.673s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[48.673s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[48.673s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/environment/path.sh
+[48.714s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/environment/path.dsv
+[48.721s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/local_setup.bash
+[48.739s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/local_setup.sh
+[48.739s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/local_setup.zsh
+[48.740s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/local_setup.dsv
+[48.740s] -- Installing: /home/harry/robot/install/turtlesim/share/turtlesim/package.dsv
+[48.740s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[48.740s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+[48.741s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+[48.741s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+[48.742s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[48.742s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+[48.742s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+[48.743s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[48.743s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[48.743s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[48.772s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[48.785s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[48.813s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[48.814s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[48.844s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[48.844s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[48.865s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake
+[48.866s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake
+[48.866s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[48.874s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[48.889s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[48.889s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[48.896s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[48.896s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[48.896s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[48.917s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[48.918s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[48.918s] -- Up-to-date: /home/harry/robot/install/turtlesim/share/turtlesim/package.xml
+[49.142s] Invoked command in '/home/harry/robot/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/turtlesim

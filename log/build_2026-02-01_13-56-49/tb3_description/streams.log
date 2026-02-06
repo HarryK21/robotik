@@ -1,0 +1,50 @@
+[8.187s] Invoking command in '/home/harry/robot/src/simulation/art_gallery/tb3_description': PYTHONPATH=/home/harry/robot/build/tb3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/tb3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/tb3_description build --build-base /home/harry/robot/build/tb3_description/build install --record /home/harry/robot/build/tb3_description/install.log --single-version-externally-managed install_data
+[10.762s] running egg_info
+[10.766s] creating ../../../../build/tb3_description/tb3_description.egg-info
+[10.766s] writing ../../../../build/tb3_description/tb3_description.egg-info/PKG-INFO
+[10.766s] writing dependency_links to ../../../../build/tb3_description/tb3_description.egg-info/dependency_links.txt
+[10.768s] writing entry points to ../../../../build/tb3_description/tb3_description.egg-info/entry_points.txt
+[10.768s] writing requirements to ../../../../build/tb3_description/tb3_description.egg-info/requires.txt
+[10.768s] writing top-level names to ../../../../build/tb3_description/tb3_description.egg-info/top_level.txt
+[10.768s] writing manifest file '../../../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'
+[10.799s] reading manifest file '../../../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'
+[10.799s] writing manifest file '../../../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'
+[10.799s] running build
+[10.799s] running build_py
+[10.799s] creating /home/harry/robot/build/tb3_description/build
+[10.799s] creating /home/harry/robot/build/tb3_description/build/lib
+[10.799s] creating /home/harry/robot/build/tb3_description/build/lib/tb3_description
+[10.799s] copying tb3_description/__init__.py -> /home/harry/robot/build/tb3_description/build/lib/tb3_description
+[10.799s] running install
+[10.799s] running install_lib
+[10.810s] creating /home/harry/robot/install/tb3_description/lib/python3.10/site-packages/tb3_description
+[10.811s] copying /home/harry/robot/build/tb3_description/build/lib/tb3_description/__init__.py -> /home/harry/robot/install/tb3_description/lib/python3.10/site-packages/tb3_description
+[10.811s] byte-compiling /home/harry/robot/install/tb3_description/lib/python3.10/site-packages/tb3_description/__init__.py to __init__.cpython-310.pyc
+[10.811s] running install_data
+[10.811s] creating /home/harry/robot/install/tb3_description/share/ament_index
+[10.811s] creating /home/harry/robot/install/tb3_description/share/ament_index/resource_index
+[10.811s] creating /home/harry/robot/install/tb3_description/share/ament_index/resource_index/packages
+[10.811s] copying resource/tb3_description -> /home/harry/robot/install/tb3_description/share/ament_index/resource_index/packages
+[10.811s] copying package.xml -> /home/harry/robot/install/tb3_description/share/tb3_description
+[10.811s] creating /home/harry/robot/install/tb3_description/share/tb3_description/launch
+[10.811s] creating /home/harry/robot/install/tb3_description/share/tb3_description/config
+[10.811s] creating /home/harry/robot/install/tb3_description/share/tb3_description/urdf
+[10.811s] copying urdf/laser.urdf.xacro -> /home/harry/robot/install/tb3_description/share/tb3_description/urdf
+[10.811s] copying urdf/common_properties.xacro -> /home/harry/robot/install/tb3_description/share/tb3_description/urdf
+[10.811s] copying urdf/camera.urdf.xacro -> /home/harry/robot/install/tb3_description/share/tb3_description/urdf
+[10.811s] copying urdf/wheel.urdf.xacro -> /home/harry/robot/install/tb3_description/share/tb3_description/urdf
+[10.811s] copying urdf/caster.urdf.xacro -> /home/harry/robot/install/tb3_description/share/tb3_description/urdf
+[10.811s] copying urdf/imu.urdf.xacro -> /home/harry/robot/install/tb3_description/share/tb3_description/urdf
+[10.812s] copying urdf/turtlebot3_waffle_base.urdf.xacro -> /home/harry/robot/install/tb3_description/share/tb3_description/urdf
+[10.812s] creating /home/harry/robot/install/tb3_description/share/tb3_description/meshes
+[10.812s] copying meshes/RPLIDAR.stl -> /home/harry/robot/install/tb3_description/share/tb3_description/meshes
+[11.070s] copying meshes/left_tire.stl -> /home/harry/robot/install/tb3_description/share/tb3_description/meshes
+[11.124s] copying meshes/right_tire.stl -> /home/harry/robot/install/tb3_description/share/tb3_description/meshes
+[11.185s] copying meshes/webcam.stl -> /home/harry/robot/install/tb3_description/share/tb3_description/meshes
+[11.324s] copying meshes/waffle_custom_base_old.stl -> /home/harry/robot/install/tb3_description/share/tb3_description/meshes
+[12.107s] copying meshes/waffle_custom_base.stl -> /home/harry/robot/install/tb3_description/share/tb3_description/meshes
+[12.743s] running install_egg_info
+[12.774s] Copying ../../../../build/tb3_description/tb3_description.egg-info to /home/harry/robot/install/tb3_description/lib/python3.10/site-packages/tb3_description-0.0.0-py3.10.egg-info
+[12.792s] running install_scripts
+[13.241s] writing list of installed files to '/home/harry/robot/build/tb3_description/install.log'
+[13.547s] Invoked command in '/home/harry/robot/src/simulation/art_gallery/tb3_description' returned '0': PYTHONPATH=/home/harry/robot/build/tb3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/tb3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/tb3_description build --build-base /home/harry/robot/build/tb3_description/build install --record /home/harry/robot/build/tb3_description/install.log --single-version-externally-managed install_data

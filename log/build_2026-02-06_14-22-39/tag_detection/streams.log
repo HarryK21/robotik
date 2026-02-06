@@ -1,0 +1,25 @@
+[7.396s] Invoking command in '/home/harry/robot/src/tag_detection': PYTHONPATH=/home/harry/robot/build/tag_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/tag_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tag_detection build --build-base /home/harry/robot/build/tag_detection/build install --record /home/harry/robot/build/tag_detection/install.log --single-version-externally-managed install_data
+[8.897s] running egg_info
+[8.902s] writing ../../build/tag_detection/tag_detection.egg-info/PKG-INFO
+[8.907s] writing dependency_links to ../../build/tag_detection/tag_detection.egg-info/dependency_links.txt
+[8.908s] writing entry points to ../../build/tag_detection/tag_detection.egg-info/entry_points.txt
+[8.912s] writing requirements to ../../build/tag_detection/tag_detection.egg-info/requires.txt
+[8.916s] writing top-level names to ../../build/tag_detection/tag_detection.egg-info/top_level.txt
+[8.923s] reading manifest file '../../build/tag_detection/tag_detection.egg-info/SOURCES.txt'
+[8.934s] writing manifest file '../../build/tag_detection/tag_detection.egg-info/SOURCES.txt'
+[8.934s] running build
+[8.935s] running build_py
+[8.938s] copying tag_detection/distance_calculator.py -> /home/harry/robot/build/tag_detection/build/lib/tag_detection
+[8.938s] running install
+[8.939s] running install_lib
+[8.956s] copying /home/harry/robot/build/tag_detection/build/lib/tag_detection/distance_calculator.py -> /home/harry/robot/install/tag_detection/lib/python3.10/site-packages/tag_detection
+[8.957s] byte-compiling /home/harry/robot/install/tag_detection/lib/python3.10/site-packages/tag_detection/distance_calculator.py to distance_calculator.cpython-310.pyc
+[8.958s] running install_data
+[8.958s] running install_egg_info
+[8.970s] removing '/home/harry/robot/install/tag_detection/lib/python3.10/site-packages/tag_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[8.991s] Copying ../../build/tag_detection/tag_detection.egg-info to /home/harry/robot/install/tag_detection/lib/python3.10/site-packages/tag_detection-0.0.0-py3.10.egg-info
+[9.023s] running install_scripts
+[9.213s] Installing distance_calc script to /home/harry/robot/install/tag_detection/lib/tag_detection
+[9.214s] Installing listenernode script to /home/harry/robot/install/tag_detection/lib/tag_detection
+[9.228s] writing list of installed files to '/home/harry/robot/build/tag_detection/install.log'
+[9.915s] Invoked command in '/home/harry/robot/src/tag_detection' returned '0': PYTHONPATH=/home/harry/robot/build/tag_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/tag_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tag_detection build --build-base /home/harry/robot/build/tag_detection/build install --record /home/harry/robot/build/tag_detection/install.log --single-version-externally-managed install_data

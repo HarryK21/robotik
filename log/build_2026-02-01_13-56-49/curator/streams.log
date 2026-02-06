@@ -1,0 +1,43 @@
+[0.918s] Invoking command in '/home/harry/robot/src/simulation/art_gallery/curator': PYTHONPATH=/home/harry/robot/build/curator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/curator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/curator build --build-base /home/harry/robot/build/curator/build install --record /home/harry/robot/build/curator/install.log --single-version-externally-managed install_data
+[1.245s] running egg_info
+[1.246s] creating ../../../../build/curator/curator.egg-info
+[1.246s] writing ../../../../build/curator/curator.egg-info/PKG-INFO
+[1.246s] writing dependency_links to ../../../../build/curator/curator.egg-info/dependency_links.txt
+[1.246s] writing entry points to ../../../../build/curator/curator.egg-info/entry_points.txt
+[1.246s] writing requirements to ../../../../build/curator/curator.egg-info/requires.txt
+[1.247s] writing top-level names to ../../../../build/curator/curator.egg-info/top_level.txt
+[1.247s] writing manifest file '../../../../build/curator/curator.egg-info/SOURCES.txt'
+[1.249s] reading manifest file '../../../../build/curator/curator.egg-info/SOURCES.txt'
+[1.251s] writing manifest file '../../../../build/curator/curator.egg-info/SOURCES.txt'
+[1.251s] running build
+[1.251s] running build_py
+[1.251s] creating /home/harry/robot/build/curator/build
+[1.251s] creating /home/harry/robot/build/curator/build/lib
+[1.252s] creating /home/harry/robot/build/curator/build/lib/curator
+[1.252s] copying curator/__init__.py -> /home/harry/robot/build/curator/build/lib/curator
+[1.252s] copying curator/art.py -> /home/harry/robot/build/curator/build/lib/curator
+[1.252s] copying curator/locations.py -> /home/harry/robot/build/curator/build/lib/curator
+[1.254s] copying curator/curator.py -> /home/harry/robot/build/curator/build/lib/curator
+[1.254s] running install
+[1.255s] running install_lib
+[1.255s] creating /home/harry/robot/install/curator/lib/python3.10/site-packages/curator
+[1.256s] copying /home/harry/robot/build/curator/build/lib/curator/__init__.py -> /home/harry/robot/install/curator/lib/python3.10/site-packages/curator
+[1.256s] copying /home/harry/robot/build/curator/build/lib/curator/art.py -> /home/harry/robot/install/curator/lib/python3.10/site-packages/curator
+[1.256s] copying /home/harry/robot/build/curator/build/lib/curator/locations.py -> /home/harry/robot/install/curator/lib/python3.10/site-packages/curator
+[1.257s] copying /home/harry/robot/build/curator/build/lib/curator/curator.py -> /home/harry/robot/install/curator/lib/python3.10/site-packages/curator
+[1.257s] byte-compiling /home/harry/robot/install/curator/lib/python3.10/site-packages/curator/__init__.py to __init__.cpython-310.pyc
+[1.258s] byte-compiling /home/harry/robot/install/curator/lib/python3.10/site-packages/curator/art.py to art.cpython-310.pyc
+[1.258s] byte-compiling /home/harry/robot/install/curator/lib/python3.10/site-packages/curator/locations.py to locations.cpython-310.pyc
+[1.258s] byte-compiling /home/harry/robot/install/curator/lib/python3.10/site-packages/curator/curator.py to curator.cpython-310.pyc
+[1.259s] running install_data
+[1.260s] creating /home/harry/robot/install/curator/share/ament_index
+[1.260s] creating /home/harry/robot/install/curator/share/ament_index/resource_index
+[1.260s] creating /home/harry/robot/install/curator/share/ament_index/resource_index/packages
+[1.260s] copying resource/curator -> /home/harry/robot/install/curator/share/ament_index/resource_index/packages
+[1.260s] copying package.xml -> /home/harry/robot/install/curator/share/curator
+[1.260s] running install_egg_info
+[1.265s] Copying ../../../../build/curator/curator.egg-info to /home/harry/robot/install/curator/lib/python3.10/site-packages/curator-0.0.0-py3.10.egg-info
+[1.266s] running install_scripts
+[1.326s] Installing curator script to /home/harry/robot/install/curator/lib/curator
+[1.329s] writing list of installed files to '/home/harry/robot/build/curator/install.log'
+[1.369s] Invoked command in '/home/harry/robot/src/simulation/art_gallery/curator' returned '0': PYTHONPATH=/home/harry/robot/build/curator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/curator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/curator build --build-base /home/harry/robot/build/curator/build install --record /home/harry/robot/build/curator/install.log --single-version-externally-managed install_data

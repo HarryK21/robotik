@@ -1,0 +1,20 @@
+[6.142s] Invoking command in '/home/harry/robot/src/simulation/art_gallery/tb3_description': PYTHONPATH=/home/harry/robot/build/tb3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/tb3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/tb3_description build --build-base /home/harry/robot/build/tb3_description/build install --record /home/harry/robot/build/tb3_description/install.log --single-version-externally-managed install_data
+[8.664s] running egg_info
+[8.677s] writing ../../../../build/tb3_description/tb3_description.egg-info/PKG-INFO
+[8.686s] writing dependency_links to ../../../../build/tb3_description/tb3_description.egg-info/dependency_links.txt
+[8.686s] writing entry points to ../../../../build/tb3_description/tb3_description.egg-info/entry_points.txt
+[8.687s] writing requirements to ../../../../build/tb3_description/tb3_description.egg-info/requires.txt
+[8.698s] writing top-level names to ../../../../build/tb3_description/tb3_description.egg-info/top_level.txt
+[8.718s] reading manifest file '../../../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'
+[8.744s] writing manifest file '../../../../build/tb3_description/tb3_description.egg-info/SOURCES.txt'
+[8.745s] running build
+[8.747s] running build_py
+[8.751s] running install
+[8.766s] running install_lib
+[8.766s] running install_data
+[8.781s] running install_egg_info
+[8.811s] removing '/home/harry/robot/install/tb3_description/lib/python3.10/site-packages/tb3_description-0.0.0-py3.10.egg-info' (and everything under it)
+[8.814s] Copying ../../../../build/tb3_description/tb3_description.egg-info to /home/harry/robot/install/tb3_description/lib/python3.10/site-packages/tb3_description-0.0.0-py3.10.egg-info
+[8.818s] running install_scripts
+[9.105s] writing list of installed files to '/home/harry/robot/build/tb3_description/install.log'
+[9.558s] Invoked command in '/home/harry/robot/src/simulation/art_gallery/tb3_description' returned '0': PYTHONPATH=/home/harry/robot/build/tb3_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/tb3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/tb3_description build --build-base /home/harry/robot/build/tb3_description/build install --record /home/harry/robot/build/tb3_description/install.log --single-version-externally-managed install_data

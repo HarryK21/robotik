@@ -1,0 +1,21 @@
+[1.176s] Invoking command in '/home/harry/robot/src/simulation/art_gallery/curator': PYTHONPATH=/home/harry/robot/build/curator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/curator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/curator build --build-base /home/harry/robot/build/curator/build install --record /home/harry/robot/build/curator/install.log --single-version-externally-managed install_data
+[1.576s] running egg_info
+[1.576s] writing ../../../../build/curator/curator.egg-info/PKG-INFO
+[1.577s] writing dependency_links to ../../../../build/curator/curator.egg-info/dependency_links.txt
+[1.578s] writing entry points to ../../../../build/curator/curator.egg-info/entry_points.txt
+[1.578s] writing requirements to ../../../../build/curator/curator.egg-info/requires.txt
+[1.578s] writing top-level names to ../../../../build/curator/curator.egg-info/top_level.txt
+[1.584s] reading manifest file '../../../../build/curator/curator.egg-info/SOURCES.txt'
+[1.585s] writing manifest file '../../../../build/curator/curator.egg-info/SOURCES.txt'
+[1.585s] running build
+[1.585s] running build_py
+[1.588s] running install
+[1.589s] running install_lib
+[1.591s] running install_data
+[1.592s] running install_egg_info
+[1.595s] removing '/home/harry/robot/install/curator/lib/python3.10/site-packages/curator-0.0.0-py3.10.egg-info' (and everything under it)
+[1.597s] Copying ../../../../build/curator/curator.egg-info to /home/harry/robot/install/curator/lib/python3.10/site-packages/curator-0.0.0-py3.10.egg-info
+[1.600s] running install_scripts
+[1.628s] Installing curator script to /home/harry/robot/install/curator/lib/curator
+[1.628s] writing list of installed files to '/home/harry/robot/build/curator/install.log'
+[1.859s] Invoked command in '/home/harry/robot/src/simulation/art_gallery/curator' returned '0': PYTHONPATH=/home/harry/robot/build/curator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/curator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/curator build --build-base /home/harry/robot/build/curator/build install --record /home/harry/robot/build/curator/install.log --single-version-externally-managed install_data

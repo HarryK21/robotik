@@ -1,0 +1,8 @@
+{
+  "package_name": "apriltag_msgs",
+  "non_idl_tuples": [
+    "/home/harry/robot/src/apriltag_msgs:msg/Point.msg",
+    "/home/harry/robot/src/apriltag_msgs:msg/AprilTagDetection.msg",
+    "/home/harry/robot/src/apriltag_msgs:msg/AprilTagDetectionArray.msg"
+  ]
+}

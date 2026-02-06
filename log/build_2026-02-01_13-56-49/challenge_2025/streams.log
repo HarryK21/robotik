@@ -1,0 +1,45 @@
+[0.858s] Invoking command in '/home/harry/robot/src/simulation/art_gallery/challenge_2025': PYTHONPATH=/home/harry/robot/build/challenge_2025/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/challenge_2025/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/challenge_2025 build --build-base /home/harry/robot/build/challenge_2025/build install --record /home/harry/robot/build/challenge_2025/install.log --single-version-externally-managed install_data
+[1.145s] running egg_info
+[1.147s] creating ../../../../build/challenge_2025/challenge_2025.egg-info
+[1.147s] writing ../../../../build/challenge_2025/challenge_2025.egg-info/PKG-INFO
+[1.147s] writing dependency_links to ../../../../build/challenge_2025/challenge_2025.egg-info/dependency_links.txt
+[1.147s] writing entry points to ../../../../build/challenge_2025/challenge_2025.egg-info/entry_points.txt
+[1.148s] writing requirements to ../../../../build/challenge_2025/challenge_2025.egg-info/requires.txt
+[1.148s] writing top-level names to ../../../../build/challenge_2025/challenge_2025.egg-info/top_level.txt
+[1.148s] writing manifest file '../../../../build/challenge_2025/challenge_2025.egg-info/SOURCES.txt'
+[1.149s] reading manifest file '../../../../build/challenge_2025/challenge_2025.egg-info/SOURCES.txt'
+[1.149s] writing manifest file '../../../../build/challenge_2025/challenge_2025.egg-info/SOURCES.txt'
+[1.150s] running build
+[1.150s] running build_py
+[1.150s] creating /home/harry/robot/build/challenge_2025/build
+[1.150s] creating /home/harry/robot/build/challenge_2025/build/lib
+[1.150s] creating /home/harry/robot/build/challenge_2025/build/lib/challenge_2025
+[1.150s] copying challenge_2025/object_spawner_pallets.py -> /home/harry/robot/build/challenge_2025/build/lib/challenge_2025
+[1.152s] copying challenge_2025/__init__.py -> /home/harry/robot/build/challenge_2025/build/lib/challenge_2025
+[1.152s] copying challenge_2025/object_spawner_static.py -> /home/harry/robot/build/challenge_2025/build/lib/challenge_2025
+[1.153s] copying challenge_2025/tag_spawner_random.py -> /home/harry/robot/build/challenge_2025/build/lib/challenge_2025
+[1.154s] running install
+[1.154s] running install_lib
+[1.156s] creating /home/harry/robot/install/challenge_2025/lib/python3.10/site-packages/challenge_2025
+[1.156s] copying /home/harry/robot/build/challenge_2025/build/lib/challenge_2025/object_spawner_pallets.py -> /home/harry/robot/install/challenge_2025/lib/python3.10/site-packages/challenge_2025
+[1.156s] copying /home/harry/robot/build/challenge_2025/build/lib/challenge_2025/__init__.py -> /home/harry/robot/install/challenge_2025/lib/python3.10/site-packages/challenge_2025
+[1.157s] copying /home/harry/robot/build/challenge_2025/build/lib/challenge_2025/object_spawner_static.py -> /home/harry/robot/install/challenge_2025/lib/python3.10/site-packages/challenge_2025
+[1.159s] copying /home/harry/robot/build/challenge_2025/build/lib/challenge_2025/tag_spawner_random.py -> /home/harry/robot/install/challenge_2025/lib/python3.10/site-packages/challenge_2025
+[1.159s] byte-compiling /home/harry/robot/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/object_spawner_pallets.py to object_spawner_pallets.cpython-310.pyc
+[1.159s] byte-compiling /home/harry/robot/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/__init__.py to __init__.cpython-310.pyc
+[1.159s] byte-compiling /home/harry/robot/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/object_spawner_static.py to object_spawner_static.cpython-310.pyc
+[1.159s] byte-compiling /home/harry/robot/install/challenge_2025/lib/python3.10/site-packages/challenge_2025/tag_spawner_random.py to tag_spawner_random.cpython-310.pyc
+[1.160s] running install_data
+[1.160s] creating /home/harry/robot/install/challenge_2025/share/ament_index
+[1.160s] creating /home/harry/robot/install/challenge_2025/share/ament_index/resource_index
+[1.160s] creating /home/harry/robot/install/challenge_2025/share/ament_index/resource_index/packages
+[1.160s] copying resource/challenge_2025 -> /home/harry/robot/install/challenge_2025/share/ament_index/resource_index/packages
+[1.160s] copying package.xml -> /home/harry/robot/install/challenge_2025/share/challenge_2025
+[1.160s] running install_egg_info
+[1.163s] Copying ../../../../build/challenge_2025/challenge_2025.egg-info to /home/harry/robot/install/challenge_2025/lib/python3.10/site-packages/challenge_2025-0.0.0-py3.10.egg-info
+[1.164s] running install_scripts
+[1.187s] Installing object_spawner_pallets script to /home/harry/robot/install/challenge_2025/lib/challenge_2025
+[1.187s] Installing object_spawner_static script to /home/harry/robot/install/challenge_2025/lib/challenge_2025
+[1.188s] Installing tag_spawner_random script to /home/harry/robot/install/challenge_2025/lib/challenge_2025
+[1.190s] writing list of installed files to '/home/harry/robot/build/challenge_2025/install.log'
+[1.220s] Invoked command in '/home/harry/robot/src/simulation/art_gallery/challenge_2025' returned '0': PYTHONPATH=/home/harry/robot/build/challenge_2025/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/challenge_2025/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/challenge_2025 build --build-base /home/harry/robot/build/challenge_2025/build install --record /home/harry/robot/build/challenge_2025/install.log --single-version-externally-managed install_data

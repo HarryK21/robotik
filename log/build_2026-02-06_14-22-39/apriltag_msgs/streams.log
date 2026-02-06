@@ -1,0 +1,184 @@
+[0.240s] Invoking command in '/home/harry/robot/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/apriltag_msgs -- -j4 -l4
+[1.324s] [  2%] Built target apriltag_msgs__cpp
+[1.707s] [  2%] Built target ament_cmake_python_copy_apriltag_msgs
+[1.914s] [ 12%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[2.084s] [ 23%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[3.896s] running egg_info
+[3.906s] writing apriltag_msgs.egg-info/PKG-INFO
+[3.907s] writing dependency_links to apriltag_msgs.egg-info/dependency_links.txt
+[3.907s] writing top-level names to apriltag_msgs.egg-info/top_level.txt
+[3.920s] reading manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[3.921s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[4.085s] [ 23%] Built target ament_cmake_python_build_apriltag_msgs_egg
+[4.407s] [ 34%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[4.718s] [ 44%] Built target apriltag_msgs__rosidl_generator_c
+[4.968s] [ 55%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[5.219s] [ 65%] Built target apriltag_msgs__rosidl_typesupport_c
+[5.397s] [ 76%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[5.628s] [ 76%] Built target apriltag_msgs
+[5.832s] [ 78%] Built target apriltag_msgs__py
+[6.074s] [ 87%] Built target apriltag_msgs__rosidl_generator_py
+[6.363s] [ 91%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.543s] [ 95%] Built target apriltag_msgs__rosidl_typesupport_c__pyext
+[6.722s] [100%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext
+[6.822s] Invoked command in '/home/harry/robot/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/apriltag_msgs -- -j4 -l4
+[6.871s] Invoking command in '/home/harry/robot/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/apriltag_msgs
+[6.958s] -- Install configuration: ""
+[6.958s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs
+[6.963s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[6.963s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[6.964s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.h
+[6.971s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.h
+[6.971s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.971s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.h
+[6.972s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[6.972s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h
+[6.973s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.h
+[6.973s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.h
+[6.978s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h
+[6.979s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.h
+[6.979s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h
+[6.980s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.h
+[6.980s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.c
+[6.980s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c
+[6.980s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.c
+[6.987s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.h
+[6.987s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.h
+[6.987s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh
+[6.987s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv
+[6.988s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so
+[6.988s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[6.989s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[6.989s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.990s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[6.993s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h
+[6.993s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[6.994s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h
+[6.994s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so
+[6.994s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[6.995s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[6.995s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.998s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[6.999s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h
+[7.000s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.c
+[7.000s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h
+[7.003s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[7.003s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.c
+[7.004s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c
+[7.004s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so
+[7.008s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so
+[7.008s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[7.009s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[7.009s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.009s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.hpp
+[7.009s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp
+[7.012s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp
+[7.012s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[7.015s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__traits.hpp
+[7.016s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.hpp
+[7.017s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp
+[7.022s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp
+[7.023s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp
+[7.025s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.hpp
+[7.026s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.hpp
+[7.026s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp
+[7.027s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp
+[7.034s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp
+[7.034s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.hpp
+[7.037s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__builder.hpp
+[7.040s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[7.041s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[7.041s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.041s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[7.042s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/dds_fastrtps
+[7.044s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[7.045s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[7.045s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[7.045s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.045s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[7.045s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[7.045s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[7.046s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[7.046s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp
+[7.046s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp
+[7.046s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[7.046s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.cpp
+[7.046s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp
+[7.047s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so
+[7.047s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so
+[7.047s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh
+[7.052s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv
+[7.053s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info
+[7.053s] -- Installing: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/dependency_links.txt
+[7.054s] -- Installing: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/PKG-INFO
+[7.058s] -- Installing: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/top_level.txt
+[7.058s] -- Installing: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/SOURCES.txt
+[7.059s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs
+[7.059s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.059s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py
+[7.060s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.063s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg
+[7.070s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c
+[7.071s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_s.c
+[7.071s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py
+[7.071s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point.py
+[7.074s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point_s.c
+[7.074s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py
+[7.075s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py
+[7.075s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.075s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.075s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c
+[7.076s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so
+[7.076s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.540s] Listing '/home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs'...
+[7.541s] Listing '/home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg'...
+[7.617s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.633s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.634s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.648s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so
+[7.648s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/msg/Point.idl
+[7.649s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl
+[7.649s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl
+[7.649s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/msg/Point.msg
+[7.658s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg
+[7.662s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg
+[7.662s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs
+[7.674s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs
+[7.675s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh
+[7.676s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv
+[7.677s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh
+[7.685s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv
+[7.685s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash
+[7.685s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh
+[7.686s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh
+[7.686s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv
+[7.686s] -- Installing: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/package.dsv
+[7.686s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs
+[7.686s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport.cmake
+[7.686s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.686s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.687s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.691s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.692s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.693s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake
+[7.694s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.701s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cppExport.cmake
+[7.709s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.709s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.715s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.716s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.716s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake
+[7.719s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.721s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport.cmake
+[7.722s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.722s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake
+[7.722s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.723s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.723s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.724s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.724s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.725s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.725s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake
+[7.726s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake
+[7.735s] -- Up-to-date: /home/harry/robot/install/apriltag_msgs/share/apriltag_msgs/package.xml
+[7.750s] Invoked command in '/home/harry/robot/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/apriltag_msgs
