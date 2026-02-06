@@ -1,0 +1,261 @@
+[0.000000] (-) TimerEvent: {}
+[0.000302] (-) JobUnselected: {'identifier': 'apriltag_msgs'}
+[0.000407] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.000499] (-) JobUnselected: {'identifier': 'art_maze'}
+[0.000601] (-) JobUnselected: {'identifier': 'challenge_2025'}
+[0.000693] (-) JobUnselected: {'identifier': 'curator'}
+[0.000724] (-) JobUnselected: {'identifier': 'my_first_package'}
+[0.000810] (-) JobUnselected: {'identifier': 'tag_detection'}
+[0.000841] (-) JobUnselected: {'identifier': 'tb3_description'}
+[0.000926] (-) JobUnselected: {'identifier': 'tb3_gazebo'}
+[0.001014] (-) JobUnselected: {'identifier': 'test_package'}
+[0.001661] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001772] (my_robot_slam) JobQueued: {'identifier': 'my_robot_slam', 'dependencies': OrderedDict()}
+[0.001868] (my_robot_slam) JobStarted: {'identifier': 'my_robot_slam'}
+[0.025402] (my_robot_slam) JobProgress: {'identifier': 'my_robot_slam', 'progress': 'cmake'}
+[0.027829] (my_robot_slam) Command: {'cmd': ['/usr/bin/cmake', '/home/harry/robot/src/my_robot_slam', '-DCMAKE_INSTALL_PREFIX=/home/harry/robot/install/my_robot_slam'], 'cwd': '/home/harry/robot/build/my_robot_slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'harry'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/harry/robot/install/turtlesim/lib:/home/harry/robot/install/apriltag_ros/lib:/home/harry/robot/install/apriltag_msgs/lib:/home/harry/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/harry'), ('OLDPWD', '/home/harry/robot/src/my_robot_slam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '1926'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/harry/robot/install:/home/harry/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'harry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'harry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/harry/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/harry-virtual-machine:@/tmp/.ICE-unix/1727,unix/harry-virtual-machine:/tmp/.ICE-unix/1727'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/21db07c0_5620_45a7_9a07_5dac63bd6444'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KM87J3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.231'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/harry/robot/install/my_robot_slam:/home/harry/robot/install/turtlesim:/home/harry/robot/install/my_first_package:/home/harry/robot/install/test_package:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/robot/install/apriltag_msgs:/home/harry/install/turtlesim:/home/harry/install/my_first_package:/home/harry/install/test_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/harry/robot/build/my_robot_slam'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages:/home/harry/robot/install/my_first_package/lib/python3.10/site-packages:/home/harry/robot/install/tb3_description/lib/python3.10/site-packages:/home/harry/robot/install/tag_detection/lib/python3.10/site-packages:/home/harry/robot/install/curator/lib/python3.10/site-packages:/home/harry/robot/install/challenge_2025/lib/python3.10/site-packages:/home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/harry/install/turtlesim/local/lib/python3.10/dist-packages:/home/harry/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/harry/robot/install/my_robot_slam:/home/harry/robot/install/turtlesim:/home/harry/robot/install/test_package:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/robot/install/apriltag_msgs:/home/harry/install/turtlesim:/home/harry/install/test_package')]), 'shell': False}
+[0.097800] (-) TimerEvent: {}
+[0.198293] (-) TimerEvent: {}
+[0.254387] (my_robot_slam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.298962] (-) TimerEvent: {}
+[0.400055] (-) TimerEvent: {}
+[0.429184] (my_robot_slam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.450445] (my_robot_slam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500217] (-) TimerEvent: {}
+[0.602120] (-) TimerEvent: {}
+[0.694997] (my_robot_slam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.702420] (-) TimerEvent: {}
+[0.716580] (my_robot_slam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.717142] (my_robot_slam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.719006] (my_robot_slam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.727246] (my_robot_slam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.803102] (-) TimerEvent: {}
+[0.904695] (-) TimerEvent: {}
+[1.005401] (-) TimerEvent: {}
+[1.062968] (my_robot_slam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.087522] (my_robot_slam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.088293] (my_robot_slam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.105917] (-) TimerEvent: {}
+[1.123030] (my_robot_slam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.153708] (my_robot_slam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.210213] (-) TimerEvent: {}
+[1.320200] (-) TimerEvent: {}
+[1.421192] (-) TimerEvent: {}
+[1.522873] (-) TimerEvent: {}
+[1.623516] (-) TimerEvent: {}
+[1.724732] (-) TimerEvent: {}
+[1.827130] (-) TimerEvent: {}
+[1.928342] (-) TimerEvent: {}
+[1.943113] (my_robot_slam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.028721] (-) TimerEvent: {}
+[2.130529] (-) TimerEvent: {}
+[2.231534] (-) TimerEvent: {}
+[2.332685] (-) TimerEvent: {}
+[2.434136] (-) TimerEvent: {}
+[2.470711] (my_robot_slam) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.534812] (-) TimerEvent: {}
+[2.636804] (-) TimerEvent: {}
+[2.739313] (-) TimerEvent: {}
+[2.842490] (-) TimerEvent: {}
+[2.944747] (-) TimerEvent: {}
+[3.046838] (-) TimerEvent: {}
+[3.074376] (my_robot_slam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.114656] (my_robot_slam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.146857] (-) TimerEvent: {}
+[3.186430] (my_robot_slam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.247214] (-) TimerEvent: {}
+[3.278587] (my_robot_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.347705] (-) TimerEvent: {}
+[3.426075] (my_robot_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.447832] (-) TimerEvent: {}
+[3.549412] (-) TimerEvent: {}
+[3.650305] (-) TimerEvent: {}
+[3.751994] (-) TimerEvent: {}
+[3.849434] (my_robot_slam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.852258] (-) TimerEvent: {}
+[3.896535] (my_robot_slam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.952853] (-) TimerEvent: {}
+[4.054408] (-) TimerEvent: {}
+[4.155792] (-) TimerEvent: {}
+[4.257453] (-) TimerEvent: {}
+[4.359095] (-) TimerEvent: {}
+[4.460338] (-) TimerEvent: {}
+[4.561797] (-) TimerEvent: {}
+[4.663344] (-) TimerEvent: {}
+[4.765822] (-) TimerEvent: {}
+[4.793059] (my_robot_slam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.866419] (-) TimerEvent: {}
+[4.961142] (my_robot_slam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.966763] (-) TimerEvent: {}
+[5.067829] (-) TimerEvent: {}
+[5.169053] (-) TimerEvent: {}
+[5.202618] (my_robot_slam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.269542] (-) TimerEvent: {}
+[5.370962] (-) TimerEvent: {}
+[5.378043] (my_robot_slam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.472151] (-) TimerEvent: {}
+[5.573974] (-) TimerEvent: {}
+[5.675857] (-) TimerEvent: {}
+[5.777382] (-) TimerEvent: {}
+[5.878874] (-) TimerEvent: {}
+[5.980393] (-) TimerEvent: {}
+[6.082047] (-) TimerEvent: {}
+[6.183684] (-) TimerEvent: {}
+[6.237804] (my_robot_slam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.242330] (my_robot_slam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.284081] (-) TimerEvent: {}
+[6.385376] (-) TimerEvent: {}
+[6.486939] (-) TimerEvent: {}
+[6.588350] (-) TimerEvent: {}
+[6.689762] (-) TimerEvent: {}
+[6.791860] (-) TimerEvent: {}
+[6.876346] (my_robot_slam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.886417] (my_robot_slam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.892301] (-) TimerEvent: {}
+[6.993876] (-) TimerEvent: {}
+[7.096335] (-) TimerEvent: {}
+[7.197881] (-) TimerEvent: {}
+[7.299359] (-) TimerEvent: {}
+[7.400835] (-) TimerEvent: {}
+[7.502406] (-) TimerEvent: {}
+[7.503416] (my_robot_slam) StdoutLine: {'line': b'-- Found slam_toolbox: 2.6.10 (/opt/ros/humble/share/slam_toolbox/cmake)\n'}
+[7.602716] (-) TimerEvent: {}
+[7.703432] (-) TimerEvent: {}
+[7.804256] (-) TimerEvent: {}
+[7.905317] (-) TimerEvent: {}
+[8.006291] (-) TimerEvent: {}
+[8.107187] (-) TimerEvent: {}
+[8.207973] (-) TimerEvent: {}
+[8.308709] (-) TimerEvent: {}
+[8.409712] (-) TimerEvent: {}
+[8.510698] (-) TimerEvent: {}
+[8.611467] (-) TimerEvent: {}
+[8.712363] (-) TimerEvent: {}
+[8.747937] (my_robot_slam) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[8.757377] (my_robot_slam) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[8.757874] (my_robot_slam) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[8.812711] (-) TimerEvent: {}
+[8.913435] (-) TimerEvent: {}
+[9.014213] (-) TimerEvent: {}
+[9.075205] (my_robot_slam) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[9.114513] (-) TimerEvent: {}
+[9.123875] (my_robot_slam) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[9.135745] (my_robot_slam) StdoutLine: {'line': b'-- Found OGRE\n'}
+[9.136204] (my_robot_slam) StdoutLine: {'line': b'--   static     : OFF\n'}
+[9.136391] (my_robot_slam) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[9.136590] (my_robot_slam) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[9.136780] (my_robot_slam) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[9.137468] (my_robot_slam) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[9.137724] (my_robot_slam) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[9.137899] (my_robot_slam) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[9.138060] (my_robot_slam) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[9.138212] (my_robot_slam) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[9.138361] (my_robot_slam) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[9.138510] (my_robot_slam) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[9.138692] (my_robot_slam) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[9.203734] (my_robot_slam) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[9.214874] (-) TimerEvent: {}
+[9.224566] (my_robot_slam) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[9.315328] (-) TimerEvent: {}
+[9.416951] (-) TimerEvent: {}
+[9.518363] (-) TimerEvent: {}
+[9.619997] (-) TimerEvent: {}
+[9.721332] (-) TimerEvent: {}
+[9.823280] (-) TimerEvent: {}
+[9.925844] (-) TimerEvent: {}
+[10.027836] (-) TimerEvent: {}
+[10.129934] (-) TimerEvent: {}
+[10.131671] (my_robot_slam) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[10.134464] (my_robot_slam) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[10.230444] (-) TimerEvent: {}
+[10.331967] (-) TimerEvent: {}
+[10.433796] (-) TimerEvent: {}
+[10.535813] (-) TimerEvent: {}
+[10.637694] (-) TimerEvent: {}
+[10.739154] (-) TimerEvent: {}
+[10.840988] (-) TimerEvent: {}
+[10.842454] (my_robot_slam) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[10.844355] (my_robot_slam) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[10.941534] (-) TimerEvent: {}
+[11.043051] (-) TimerEvent: {}
+[11.144483] (-) TimerEvent: {}
+[11.246373] (-) TimerEvent: {}
+[11.347781] (-) TimerEvent: {}
+[11.364327] (my_robot_slam) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[11.367342] (my_robot_slam) StdoutLine: {'line': b'-- Looking for connect\n'}
+[11.448056] (-) TimerEvent: {}
+[11.549751] (-) TimerEvent: {}
+[11.650990] (-) TimerEvent: {}
+[11.752251] (-) TimerEvent: {}
+[11.853852] (-) TimerEvent: {}
+[11.897795] (my_robot_slam) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[11.898357] (my_robot_slam) StdoutLine: {'line': b'-- Looking for remove\n'}
+[11.954985] (-) TimerEvent: {}
+[12.055845] (-) TimerEvent: {}
+[12.141909] (my_robot_slam) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[12.142435] (my_robot_slam) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[12.156158] (-) TimerEvent: {}
+[12.256792] (-) TimerEvent: {}
+[12.357772] (-) TimerEvent: {}
+[12.407006] (my_robot_slam) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[12.407504] (my_robot_slam) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[12.457996] (-) TimerEvent: {}
+[12.558859] (-) TimerEvent: {}
+[12.659899] (my_robot_slam) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[12.660323] (-) TimerEvent: {}
+[12.761083] (-) TimerEvent: {}
+[12.862688] (-) TimerEvent: {}
+[12.963983] (-) TimerEvent: {}
+[13.065388] (-) TimerEvent: {}
+[13.166936] (-) TimerEvent: {}
+[13.268471] (-) TimerEvent: {}
+[13.369864] (-) TimerEvent: {}
+[13.415387] (my_robot_slam) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[13.470436] (-) TimerEvent: {}
+[13.572540] (-) TimerEvent: {}
+[13.675075] (-) TimerEvent: {}
+[13.777055] (-) TimerEvent: {}
+[13.878731] (-) TimerEvent: {}
+[13.979946] (-) TimerEvent: {}
+[14.081495] (-) TimerEvent: {}
+[14.182930] (-) TimerEvent: {}
+[14.284369] (-) TimerEvent: {}
+[14.385774] (-) TimerEvent: {}
+[14.455737] (my_robot_slam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[14.486328] (-) TimerEvent: {}
+[14.587884] (-) TimerEvent: {}
+[14.688756] (-) TimerEvent: {}
+[14.690943] (my_robot_slam) StderrLine: {'line': b"Error parsing '/home/harry/robot/src/my_robot_slam/package.xml':\n"}
+[14.789245] (-) TimerEvent: {}
+[14.890056] (-) TimerEvent: {}
+[14.891199] (my_robot_slam) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[14.891854] (my_robot_slam) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[14.892099] (my_robot_slam) StderrLine: {'line': b'    main()\n'}
+[14.892294] (my_robot_slam) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[14.892511] (my_robot_slam) StderrLine: {'line': b'    raise e\n'}
+[14.892898] (my_robot_slam) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[14.893105] (my_robot_slam) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[14.945944] (my_robot_slam) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string\n'}
+[14.946934] (my_robot_slam) StderrLine: {'line': b'    pkg.validate(warnings=warnings)\n'}
+[14.947230] (my_robot_slam) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate\n'}
+[14.947563] (my_robot_slam) StderrLine: {'line': b"    raise InvalidPackage('\\n'.join(errors), self.filename)\n"}
+[14.948479] (my_robot_slam) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/harry/robot/src/my_robot_slam/package.xml':\n"}
+[14.949316] (my_robot_slam) StderrLine: {'line': b'Invalid email "harry.kengne\xc3\xa6alumni.fh-aachen.de" for person "harry"\n'}
+[14.949811] (my_robot_slam) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[14.950212] (my_robot_slam) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[14.950426] (my_robot_slam) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[14.950935] (my_robot_slam) StderrLine: {'line': b'  /home/harry/robot/src/my_robot_slam/package.xml\n'}
+[14.951225] (my_robot_slam) StderrLine: {'line': b'  /home/harry/robot/build/my_robot_slam/ament_cmake_core/package.cmake)\n'}
+[14.951409] (my_robot_slam) StderrLine: {'line': b'  returned error code 1\n'}
+[14.951625] (my_robot_slam) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.951830] (my_robot_slam) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[14.952004] (my_robot_slam) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[14.952210] (my_robot_slam) StderrLine: {'line': b'  CMakeLists.txt:22 (ament_lint_auto_find_test_dependencies)\n'}
+[14.952380] (my_robot_slam) StderrLine: {'line': b'\n'}
+[14.952581] (my_robot_slam) StderrLine: {'line': b'\x1b[0m\n'}
+[14.952781] (my_robot_slam) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[14.953115] (my_robot_slam) StdoutLine: {'line': b'See also "/home/harry/robot/build/my_robot_slam/CMakeFiles/CMakeOutput.log".\n'}
+[14.992364] (my_robot_slam) CommandEnded: {'returncode': 1}
+[14.993626] (-) TimerEvent: {}
+[14.994017] (my_robot_slam) JobEnded: {'identifier': 'my_robot_slam', 'rc': 1}
+[15.004273] (-) EventReactorShutdown: {}

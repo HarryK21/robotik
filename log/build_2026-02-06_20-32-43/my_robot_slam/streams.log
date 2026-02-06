@@ -1,0 +1,24 @@
+[0.035s] Invoking command in '/home/harry/robot/build/my_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/my_robot_slam -- -j8 -l8
+[0.170s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.586s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.801s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.801s] -- Configured cppcheck include dirs: 
+[0.801s] -- Configured cppcheck exclude dirs and/or files: 
+[0.804s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.809s] -- Added test 'lint_cmake' to check CMake code style
+[0.866s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.899s] -- Added test 'uncrustify' to check C / C++ code style
+[0.900s] -- Configured uncrustify additional arguments: 
+[0.907s] -- Added test 'xmllint' to check XML markup files
+[0.911s] -- Configuring done
+[0.924s] -- Generating done
+[0.936s] -- Build files have been written to: /home/harry/robot/build/my_robot_slam
+[1.043s] Invoked command in '/home/harry/robot/build/my_robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/my_robot_slam -- -j8 -l8
+[1.100s] Invoking command in '/home/harry/robot/build/my_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/my_robot_slam
+[1.135s] -- Install configuration: ""
+[1.135s] [31mCMake Error at cmake_install.cmake:46 (file):
+[1.136s]   file INSTALL cannot find "/home/harry/robot/src/my_robot_slam/launch": No
+[1.136s]   such file or directory.
+[1.136s] 
+[1.137s] [0m
+[1.144s] Invoked command in '/home/harry/robot/build/my_robot_slam' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/my_robot_slam

@@ -1,0 +1,49 @@
+[0.026s] Invoking command in '/home/harry/robot/build/my_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/harry/robot/src/my_robot_slam -DCMAKE_INSTALL_PREFIX=/home/harry/robot/install/my_robot_slam
+[0.191s] -- The C compiler identification is GNU 11.4.0
+[0.378s] -- The CXX compiler identification is GNU 11.4.0
+[0.403s] -- Detecting C compiler ABI info
+[0.665s] -- Detecting C compiler ABI info - done
+[0.689s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.689s] -- Detecting C compile features
+[0.691s] -- Detecting C compile features - done
+[0.699s] -- Detecting CXX compiler ABI info
+[0.990s] -- Detecting CXX compiler ABI info - done
+[1.023s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.024s] -- Detecting CXX compile features
+[1.025s] -- Detecting CXX compile features - done
+[1.037s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.522s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.766s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.060s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.061s] -- Configured cppcheck include dirs: 
+[2.061s] -- Configured cppcheck exclude dirs and/or files: 
+[2.066s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.074s] -- Added test 'lint_cmake' to check CMake code style
+[2.078s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.096s] -- Added test 'uncrustify' to check C / C++ code style
+[2.096s] -- Configured uncrustify additional arguments: 
+[2.100s] -- Added test 'xmllint' to check XML markup files
+[2.103s] -- Configuring done
+[2.109s] -- Generating done
+[2.114s] -- Build files have been written to: /home/harry/robot/build/my_robot_slam
+[2.123s] Invoked command in '/home/harry/robot/build/my_robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/harry/robot/src/my_robot_slam -DCMAKE_INSTALL_PREFIX=/home/harry/robot/install/my_robot_slam
+[2.128s] Invoking command in '/home/harry/robot/build/my_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/my_robot_slam -- -j8 -l8
+[2.225s] Invoked command in '/home/harry/robot/build/my_robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/my_robot_slam -- -j8 -l8
+[2.252s] Invoking command in '/home/harry/robot/build/my_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/my_robot_slam
+[2.328s] -- Install configuration: ""
+[2.329s] -- Installing: /home/harry/robot/install/my_robot_slam/share/ament_index/resource_index/package_run_dependencies/my_robot_slam
+[2.332s] -- Installing: /home/harry/robot/install/my_robot_slam/share/ament_index/resource_index/parent_prefix_path/my_robot_slam
+[2.336s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/environment/ament_prefix_path.sh
+[2.337s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/environment/ament_prefix_path.dsv
+[2.339s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/environment/path.sh
+[2.340s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/environment/path.dsv
+[2.341s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/local_setup.bash
+[2.343s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/local_setup.sh
+[2.343s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/local_setup.zsh
+[2.345s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/local_setup.dsv
+[2.346s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/package.dsv
+[2.347s] -- Installing: /home/harry/robot/install/my_robot_slam/share/ament_index/resource_index/packages/my_robot_slam
+[2.351s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/cmake/my_robot_slamConfig.cmake
+[2.352s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/cmake/my_robot_slamConfig-version.cmake
+[2.353s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/package.xml
+[2.369s] Invoked command in '/home/harry/robot/build/my_robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/my_robot_slam
