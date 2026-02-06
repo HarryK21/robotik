@@ -1,0 +1,96 @@
+[0.038s] Invoking command in '/home/harry/robot/build/my_robot_slam': /usr/bin/cmake /home/harry/robot/src/my_robot_slam -DCMAKE_INSTALL_PREFIX=/home/harry/robot/install/my_robot_slam
+[0.253s] -- The C compiler identification is GNU 11.4.0
+[0.428s] -- The CXX compiler identification is GNU 11.4.0
+[0.449s] -- Detecting C compiler ABI info
+[0.693s] -- Detecting C compiler ABI info - done
+[0.715s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.715s] -- Detecting C compile features
+[0.717s] -- Detecting C compile features - done
+[0.726s] -- Detecting CXX compiler ABI info
+[1.062s] -- Detecting CXX compiler ABI info - done
+[1.086s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.087s] -- Detecting CXX compile features
+[1.121s] -- Detecting CXX compile features - done
+[1.154s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.942s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.470s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[3.073s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.113s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.185s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.848s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.896s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.792s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.960s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.203s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.377s] -- Looking for pthread.h
+[6.237s] -- Looking for pthread.h - found
+[6.241s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.876s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.886s] -- Found Threads: TRUE  
+[7.502s] -- Found slam_toolbox: 2.6.10 (/opt/ros/humble/share/slam_toolbox/cmake)
+[8.747s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.756s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.756s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.074s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[9.122s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[9.134s] -- Found OGRE
+[9.134s] --   static     : OFF
+[9.135s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[9.135s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[9.135s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[9.136s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[9.136s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[9.136s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[9.136s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[9.136s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[9.137s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[9.137s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[9.137s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[9.202s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[9.223s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[10.130s] -- Found X11: /usr/include   
+[10.133s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[10.842s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[10.843s] -- Looking for gethostbyname
+[11.364s] -- Looking for gethostbyname - found
+[11.367s] -- Looking for connect
+[11.896s] -- Looking for connect - found
+[11.897s] -- Looking for remove
+[12.140s] -- Looking for remove - found
+[12.141s] -- Looking for shmat
+[12.405s] -- Looking for shmat - found
+[12.406s] -- Looking for IceConnectionNumber in ICE
+[12.658s] -- Looking for IceConnectionNumber in ICE - found
+[13.415s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[14.454s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.690s] Error parsing '/home/harry/robot/src/my_robot_slam/package.xml':
+[14.890s] Traceback (most recent call last):
+[14.890s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[14.890s]     main()
+[14.891s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[14.891s]     raise e
+[14.891s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[14.891s]     package = parse_package_string(
+[14.945s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[14.945s]     pkg.validate(warnings=warnings)
+[14.946s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[14.946s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[14.947s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/harry/robot/src/my_robot_slam/package.xml':
+[14.948s] Invalid email "harry.kengneæalumni.fh-aachen.de" for person "harry"
+[14.948s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[14.948s]   execute_process(/usr/bin/python3
+[14.949s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[14.949s]   /home/harry/robot/src/my_robot_slam/package.xml
+[14.949s]   /home/harry/robot/build/my_robot_slam/ament_cmake_core/package.cmake)
+[14.950s]   returned error code 1
+[14.950s] Call Stack (most recent call first):
+[14.950s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[14.950s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[14.950s]   CMakeLists.txt:22 (ament_lint_auto_find_test_dependencies)
+[14.951s] 
+[14.951s] [0m
+[14.951s] -- Configuring incomplete, errors occurred!
+[14.951s] See also "/home/harry/robot/build/my_robot_slam/CMakeFiles/CMakeOutput.log".
+[14.991s] Invoked command in '/home/harry/robot/build/my_robot_slam' returned '1': /usr/bin/cmake /home/harry/robot/src/my_robot_slam -DCMAKE_INSTALL_PREFIX=/home/harry/robot/install/my_robot_slam
