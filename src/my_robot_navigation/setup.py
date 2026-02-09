@@ -1,5 +1,6 @@
-from setuptools import find_packages, setup
-
+from setuptools import find_packages , setup 
+import os
+from glob import glob
 package_name = 'my_robot_navigation'
 
 setup(
@@ -10,11 +11,13 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.*')), 
+        (os.path.join('share', package_name, 'config'), glob('config/*.yaml')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='harry',
-    maintainer_email='harry.kengneæalumni.fh-aachen.de',
+    maintainer_email='harry.kengne@alumni.fh-aachen.de',
     description='TODO: Package description',
     license='TODO: License declaration',
     extras_require={
@@ -24,6 +27,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'navigator_node = my_robot_navigation.navigator:main',
+            'map_loader_node = my_robot_navigation.map_loader:main',
         ],
     },
 )

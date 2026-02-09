@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/harry/robot/src/tag_detection/setup.py", line 1, in <module>
+    from setuptools import find_packages, setup
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 30, in <module>
+    import platform
+  File "/usr/lib/python3.10/platform.py", line 768, in <module>
+    collections.namedtuple(
+  File "/usr/lib/python3.10/collections/__init__.py", line 479, in namedtuple
+    class_namespace[name] = _tuplegetter(index, doc)
+KeyboardInterrupt

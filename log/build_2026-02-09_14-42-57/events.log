@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000461] (-) JobUnselected: {'identifier': 'apriltag_msgs'}
+[0.001378] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.002056] (-) JobUnselected: {'identifier': 'art_maze'}
+[0.002162] (-) JobUnselected: {'identifier': 'challenge_2025'}
+[0.002241] (-) JobUnselected: {'identifier': 'curator'}
+[0.002299] (-) JobUnselected: {'identifier': 'my_first_package'}
+[0.002353] (-) JobUnselected: {'identifier': 'my_robot_slam'}
+[0.002424] (-) JobUnselected: {'identifier': 'tag_detection'}
+[0.002532] (-) JobUnselected: {'identifier': 'tb3_description'}
+[0.002621] (-) JobUnselected: {'identifier': 'tb3_gazebo'}
+[0.002668] (-) JobUnselected: {'identifier': 'test_package'}
+[0.002709] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002761] (my_robot_navigation) JobQueued: {'identifier': 'my_robot_navigation', 'dependencies': OrderedDict()}
+[0.002822] (my_robot_navigation) JobStarted: {'identifier': 'my_robot_navigation'}
+[0.099237] (-) TimerEvent: {}
+[0.199993] (-) TimerEvent: {}
+[0.303004] (-) TimerEvent: {}
+[0.403957] (-) TimerEvent: {}
+[0.504847] (-) TimerEvent: {}
+[0.605398] (-) TimerEvent: {}
+[0.706106] (-) TimerEvent: {}
+[0.806884] (-) TimerEvent: {}
+[0.907507] (-) TimerEvent: {}
+[1.010026] (-) TimerEvent: {}
+[1.111212] (-) TimerEvent: {}
+[1.211906] (-) TimerEvent: {}
+[1.312442] (-) TimerEvent: {}
+[1.413838] (-) TimerEvent: {}
+[1.514351] (-) TimerEvent: {}
+[1.614967] (-) TimerEvent: {}
+[1.715477] (-) TimerEvent: {}
+[1.816015] (-) TimerEvent: {}
+[1.916648] (-) TimerEvent: {}
+[2.017410] (-) TimerEvent: {}
+[2.117983] (-) TimerEvent: {}
+[2.147254] (my_robot_navigation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_navigation', 'build', '--build-base', '/home/harry/robot/build/my_robot_navigation/build', 'install', '--record', '/home/harry/robot/build/my_robot_navigation/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/harry/robot/src/my_robot_navigation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'SVGA_VGPU10': '0', 'USER': 'harry', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/harry/robot/install/turtlesim/lib:/home/harry/robot/install/apriltag_ros/lib:/home/harry/robot/install/apriltag_msgs/lib:/home/harry/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/harry', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '3478', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/harry/robot/install:/home/harry/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'harry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'harry', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/opt/ros/humble/share/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/harry/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/harry-virtual-machine:@/tmp/.ICE-unix/1735,unix/harry-virtual-machine:/tmp/.ICE-unix/1735', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/20971678_6cea_4e7a_807b_66b6b0ea32fa', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z9TLK3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/harry/robot/install/turtlesim:/home/harry/robot/install/my_first_package:/home/harry/robot/install/test_package:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/my_robot_slam:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/robot/install/apriltag_msgs:/home/harry/install/turtlesim:/home/harry/install/my_first_package:/home/harry/install/test_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/harry/robot/build/my_robot_navigation', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/harry/robot/build/my_robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/my_robot_navigation/lib/python3.10/site-packages:/home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages:/home/harry/robot/install/my_first_package/lib/python3.10/site-packages:/home/harry/robot/install/tb3_description/lib/python3.10/site-packages:/home/harry/robot/install/tag_detection/lib/python3.10/site-packages:/home/harry/robot/install/curator/lib/python3.10/site-packages:/home/harry/robot/install/challenge_2025/lib/python3.10/site-packages:/home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/harry/install/turtlesim/local/lib/python3.10/dist-packages:/home/harry/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/harry/robot/install/turtlesim:/home/harry/robot/install/test_package:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/my_robot_slam:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/robot/install/apriltag_msgs:/home/harry/install/turtlesim:/home/harry/install/test_package'}, 'shell': False}
+[2.218212] (-) TimerEvent: {}
+[2.319205] (-) TimerEvent: {}
+[2.419838] (-) TimerEvent: {}
+[2.520453] (-) TimerEvent: {}
+[2.621325] (-) TimerEvent: {}
+[2.722025] (-) TimerEvent: {}
+[2.822646] (-) TimerEvent: {}
+[2.923183] (-) TimerEvent: {}
+[2.947158] (my_robot_navigation) StdoutLine: {'line': b'running egg_info\n'}
+[2.949475] (my_robot_navigation) StdoutLine: {'line': b'writing ../../build/my_robot_navigation/my_robot_navigation.egg-info/PKG-INFO\n'}
+[2.951220] (my_robot_navigation) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_navigation/my_robot_navigation.egg-info/dependency_links.txt\n'}
+[2.954370] (my_robot_navigation) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_navigation/my_robot_navigation.egg-info/entry_points.txt\n'}
+[2.955935] (my_robot_navigation) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_navigation/my_robot_navigation.egg-info/requires.txt\n'}
+[2.956057] (my_robot_navigation) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_navigation/my_robot_navigation.egg-info/top_level.txt\n'}
+[2.960383] (my_robot_navigation) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_navigation/my_robot_navigation.egg-info/SOURCES.txt'\n"}
+[2.962436] (my_robot_navigation) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_navigation/my_robot_navigation.egg-info/SOURCES.txt'\n"}
+[2.963542] (my_robot_navigation) StdoutLine: {'line': b'running build\n'}
+[2.964341] (my_robot_navigation) StdoutLine: {'line': b'running build_py\n'}
+[2.966423] (my_robot_navigation) StdoutLine: {'line': b'running install\n'}
+[2.967547] (my_robot_navigation) StdoutLine: {'line': b'running install_lib\n'}
+[2.970927] (my_robot_navigation) StdoutLine: {'line': b'running install_data\n'}
+[2.972451] (my_robot_navigation) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.977765] (my_robot_navigation) StdoutLine: {'line': b"removing '/home/harry/robot/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.979410] (my_robot_navigation) StdoutLine: {'line': b'Copying ../../build/my_robot_navigation/my_robot_navigation.egg-info to /home/harry/robot/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation-0.0.0-py3.10.egg-info\n'}
+[2.981525] (my_robot_navigation) StdoutLine: {'line': b'running install_scripts\n'}
+[3.023396] (-) TimerEvent: {}
+[3.047586] (my_robot_navigation) StdoutLine: {'line': b'Installing map_loader_node script to /home/harry/robot/install/my_robot_navigation/lib/my_robot_navigation\n'}
+[3.048551] (my_robot_navigation) StdoutLine: {'line': b'Installing navigator_node script to /home/harry/robot/install/my_robot_navigation/lib/my_robot_navigation\n'}
+[3.051345] (my_robot_navigation) StdoutLine: {'line': b"writing list of installed files to '/home/harry/robot/build/my_robot_navigation/install.log'\n"}
+[3.123657] (-) TimerEvent: {}
+[3.132694] (my_robot_navigation) CommandEnded: {'returncode': 0}
+[3.168798] (my_robot_navigation) JobEnded: {'identifier': 'my_robot_navigation', 'rc': 0}
+[3.175130] (-) EventReactorShutdown: {}

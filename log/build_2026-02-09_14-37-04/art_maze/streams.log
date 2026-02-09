@@ -1,0 +1,26 @@
+[0.262s] Invoking command in '/home/harry/robot/build/art_maze': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/art_maze -- -j8 -l8
+[4.043s] [100%] Built target curator
+[4.103s] Invoked command in '/home/harry/robot/build/art_maze' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/art_maze -- -j8 -l8
+[4.115s] Invoking command in '/home/harry/robot/build/art_maze': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/art_maze
+[5.778s] -- Install configuration: ""
+[5.779s] -- Up-to-date: /home/harry/robot/install/art_maze/lib/art_maze/curator
+[5.780s] -- Up-to-date: /home/harry/robot/install/art_maze/share/art_maze/cfg
+[5.781s] -- Up-to-date: /home/harry/robot/install/art_maze/share/art_maze/cfg/setup.yaml
+[5.781s] -- Up-to-date: /home/harry/robot/install/art_maze/share/art_maze/launch
+[5.781s] -- Up-to-date: /home/harry/robot/install/art_maze/share/art_maze/launch/curator.launch.yaml
+[5.782s] -- Up-to-date: /home/harry/robot/install/art_maze/share/ament_index/resource_index/package_run_dependencies/art_maze
+[5.782s] -- Up-to-date: /home/harry/robot/install/art_maze/share/ament_index/resource_index/parent_prefix_path/art_maze
+[5.782s] -- Up-to-date: /home/harry/robot/install/art_maze/share/art_maze/environment/ament_prefix_path.sh
+[5.783s] -- Up-to-date: /home/harry/robot/install/art_maze/share/art_maze/environment/ament_prefix_path.dsv
+[5.783s] -- Up-to-date: /home/harry/robot/install/art_maze/share/art_maze/environment/path.sh
+[5.783s] -- Up-to-date: /home/harry/robot/install/art_maze/share/art_maze/environment/path.dsv
+[5.783s] -- Up-to-date: /home/harry/robot/install/art_maze/share/art_maze/local_setup.bash
+[5.784s] -- Up-to-date: /home/harry/robot/install/art_maze/share/art_maze/local_setup.sh
+[5.788s] -- Up-to-date: /home/harry/robot/install/art_maze/share/art_maze/local_setup.zsh
+[5.791s] -- Up-to-date: /home/harry/robot/install/art_maze/share/art_maze/local_setup.dsv
+[5.791s] -- Installing: /home/harry/robot/install/art_maze/share/art_maze/package.dsv
+[5.792s] -- Up-to-date: /home/harry/robot/install/art_maze/share/ament_index/resource_index/packages/art_maze
+[5.792s] -- Up-to-date: /home/harry/robot/install/art_maze/share/art_maze/cmake/art_mazeConfig.cmake
+[5.793s] -- Up-to-date: /home/harry/robot/install/art_maze/share/art_maze/cmake/art_mazeConfig-version.cmake
+[5.793s] -- Up-to-date: /home/harry/robot/install/art_maze/share/art_maze/package.xml
+[5.861s] Invoked command in '/home/harry/robot/build/art_maze' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/art_maze

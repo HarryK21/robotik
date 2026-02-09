@@ -1,0 +1,29 @@
+[0.328s] Invoking command in '/home/harry/robot/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/turtlesim -- -j8 -l8
+[0.786s] [  1%] Built target turtlesim__cpp
+[0.908s] [ 11%] Built target turtlesim__rosidl_generator_c
+[1.123s] [ 21%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[1.126s] [ 31%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[1.234s] [ 31%] Built target ament_cmake_python_copy_turtlesim
+[1.304s] [ 41%] Built target turtlesim__rosidl_typesupport_c
+[1.306s] [ 51%] Built target turtlesim__rosidl_typesupport_introspection_c
+[1.355s] [ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[1.516s] [ 71%] Built target turtlesim__rosidl_typesupport_cpp
+[1.879s] [ 71%] Built target turtlesim
+[1.924s] [ 73%] Built target turtle_teleop_key
+[1.998s] [ 75%] Built target mimic
+[2.027s] [ 77%] Built target draw_square
+[2.051s] [ 83%] Built target turtlesim_node
+[2.059s] [ 84%] Built target turtlesim__py
+[2.554s] [ 93%] Built target turtlesim__rosidl_generator_py
+[2.870s] [ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[2.890s] [ 97%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[2.907s] [100%] Built target turtlesim__rosidl_typesupport_c__pyext
+[3.243s] running egg_info
+[3.243s] writing turtlesim.egg-info/PKG-INFO
+[3.244s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[3.251s] writing top-level names to turtlesim.egg-info/top_level.txt
+[3.254s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[3.256s] interrupted
+[3.293s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_turtlesim_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_turtlesim_egg] Interrupt
+[3.294s] gmake[1]: *** [CMakeFiles/Makefile2:455: CMakeFiles/ament_cmake_python_build_turtlesim_egg.dir/all] Interrupt
+[3.294s] gmake: *** [Makefile:146: all] Interrupt
