@@ -11,6 +11,7 @@ setup.py
 config/nav2_params.yaml
 launch/robot_nav.launch.py
 my_robot_navigation/__init__.py
+my_robot_navigation/auto_explorer.py
 resource/my_robot_navigation
 test/test_copyright.py
 test/test_flake8.py

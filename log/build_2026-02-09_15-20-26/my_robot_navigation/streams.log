@@ -1,0 +1,23 @@
+[1.315s] Invoking command in '/home/harry/robot/src/my_robot_navigation': PYTHONPATH=/home/harry/robot/build/my_robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/my_robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_navigation build --build-base /home/harry/robot/build/my_robot_navigation/build install --record /home/harry/robot/build/my_robot_navigation/install.log --single-version-externally-managed install_data
+[1.655s] running egg_info
+[1.655s] writing ../../build/my_robot_navigation/my_robot_navigation.egg-info/PKG-INFO
+[1.657s] writing dependency_links to ../../build/my_robot_navigation/my_robot_navigation.egg-info/dependency_links.txt
+[1.657s] writing entry points to ../../build/my_robot_navigation/my_robot_navigation.egg-info/entry_points.txt
+[1.657s] writing requirements to ../../build/my_robot_navigation/my_robot_navigation.egg-info/requires.txt
+[1.657s] writing top-level names to ../../build/my_robot_navigation/my_robot_navigation.egg-info/top_level.txt
+[1.659s] reading manifest file '../../build/my_robot_navigation/my_robot_navigation.egg-info/SOURCES.txt'
+[1.661s] writing manifest file '../../build/my_robot_navigation/my_robot_navigation.egg-info/SOURCES.txt'
+[1.661s] running build
+[1.662s] running build_py
+[1.664s] running install
+[1.664s] running install_lib
+[1.669s] running install_data
+[1.669s] copying launch/robot_nav.launch.py -> /home/harry/robot/install/my_robot_navigation/share/my_robot_navigation/launch
+[1.669s] running install_egg_info
+[1.673s] removing '/home/harry/robot/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[1.673s] Copying ../../build/my_robot_navigation/my_robot_navigation.egg-info to /home/harry/robot/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation-0.0.0-py3.10.egg-info
+[1.676s] running install_scripts
+[1.703s] Installing map_loader_node script to /home/harry/robot/install/my_robot_navigation/lib/my_robot_navigation
+[1.703s] Installing navigator_node script to /home/harry/robot/install/my_robot_navigation/lib/my_robot_navigation
+[1.703s] writing list of installed files to '/home/harry/robot/build/my_robot_navigation/install.log'
+[1.786s] Invoked command in '/home/harry/robot/src/my_robot_navigation' returned '0': PYTHONPATH=/home/harry/robot/build/my_robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/my_robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_navigation build --build-base /home/harry/robot/build/my_robot_navigation/build install --record /home/harry/robot/build/my_robot_navigation/install.log --single-version-externally-managed install_data

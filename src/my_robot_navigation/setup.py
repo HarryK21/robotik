@@ -27,8 +27,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'navigator_node = my_robot_navigation.navigator:main',
-            'map_loader_node = my_robot_navigation.map_loader:main',
+            'auto_explorer_node = my_robot_navigation.auto_explorer:main',
         ],
     },
 )

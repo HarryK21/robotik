@@ -1,4 +1,6 @@
+/home/harry/robot/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation/auto_explorer.py
 /home/harry/robot/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation/__init__.py
+/home/harry/robot/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation/__pycache__/auto_explorer.cpython-310.pyc
 /home/harry/robot/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation/__pycache__/__init__.cpython-310.pyc
 /home/harry/robot/install/my_robot_navigation/share/ament_index/resource_index/packages/my_robot_navigation
 /home/harry/robot/install/my_robot_navigation/share/my_robot_navigation/package.xml
@@ -11,5 +13,4 @@
 /home/harry/robot/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/harry/robot/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation-0.0.0-py3.10.egg-info/requires.txt
 /home/harry/robot/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation-0.0.0-py3.10.egg-info/zip-safe
-/home/harry/robot/install/my_robot_navigation/lib/my_robot_navigation/map_loader_node
-/home/harry/robot/install/my_robot_navigation/lib/my_robot_navigation/navigator_node
+/home/harry/robot/install/my_robot_navigation/lib/my_robot_navigation/auto_explorer_node

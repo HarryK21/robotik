@@ -1,4 +1,3 @@
 [console_scripts]
-map_loader_node = my_robot_navigation.map_loader:main
-navigator_node = my_robot_navigation.navigator:main
+auto_explorer_node = my_robot_navigation.auto_explorer:main
 
