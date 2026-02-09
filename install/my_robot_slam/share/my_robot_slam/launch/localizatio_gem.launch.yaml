@@ -1,0 +1,31 @@
+launch:
+  # 1. Map Server Node
+  - node:
+      pkg: "nav2_map_server"
+      exec: "map_server"
+      name: "map_server"
+      param:
+        - name: "yaml_filename"
+          value: "$(find-pkg-share my_robot_slam)/maps/map.yaml"
+
+  # 2. AMCL Node
+  - node:
+      pkg: "nav2_amcl"
+      exec: "amcl"
+      name: "amcl"
+      param:
+        - name: "use_sim_time"
+          value: true
+
+  # 3. Lifecycle Manager (Zwingend erforderlich für Nav2 Knoten!)
+  - node:
+      pkg: "nav2_lifecycle_manager"
+      exec: "lifecycle_manager"
+      name: "lifecycle_manager_localization"
+      param:
+        - name: "use_sim_time"
+          value: true
+        - name: "autostart"
+          value: true
+        - name: "node_names"
+          value: ["map_server", "amcl"]

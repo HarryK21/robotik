@@ -1,0 +1,170 @@
+[0.000000] (-) TimerEvent: {}
+[0.003656] (-) JobUnselected: {'identifier': 'apriltag_msgs'}
+[0.003986] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.004209] (-) JobUnselected: {'identifier': 'art_maze'}
+[0.004361] (-) JobUnselected: {'identifier': 'challenge_2025'}
+[0.004558] (-) JobUnselected: {'identifier': 'curator'}
+[0.004721] (-) JobUnselected: {'identifier': 'my_first_package'}
+[0.004856] (-) JobUnselected: {'identifier': 'tag_detection'}
+[0.004991] (-) JobUnselected: {'identifier': 'tb3_description'}
+[0.005258] (-) JobUnselected: {'identifier': 'tb3_gazebo'}
+[0.005473] (-) JobUnselected: {'identifier': 'test_package'}
+[0.005773] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.005924] (my_robot_slam) JobQueued: {'identifier': 'my_robot_slam', 'dependencies': OrderedDict()}
+[0.006218] (my_robot_slam) JobStarted: {'identifier': 'my_robot_slam'}
+[0.098378] (-) TimerEvent: {}
+[0.178378] (my_robot_slam) JobProgress: {'identifier': 'my_robot_slam', 'progress': 'cmake'}
+[0.189192] (my_robot_slam) JobProgress: {'identifier': 'my_robot_slam', 'progress': 'build'}
+[0.189631] (my_robot_slam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/harry/robot/build/my_robot_slam', '--', '-j8', '-l8'], 'cwd': '/home/harry/robot/build/my_robot_slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'harry'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/harry/robot/install/turtlesim/lib:/home/harry/robot/install/apriltag_ros/lib:/home/harry/robot/install/apriltag_msgs/lib:/home/harry/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/harry'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '3478'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/harry/robot/install:/home/harry/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'harry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'harry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/harry/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/harry-virtual-machine:@/tmp/.ICE-unix/1735,unix/harry-virtual-machine:/tmp/.ICE-unix/1735'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9cb8c060_07a1_45ad_8764_e043b4b25691'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z9TLK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/harry/robot/install/turtlesim:/home/harry/robot/install/my_first_package:/home/harry/robot/install/test_package:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/my_robot_slam:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/robot/install/apriltag_msgs:/home/harry/install/turtlesim:/home/harry/install/my_first_package:/home/harry/install/test_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/harry/robot/build/my_robot_slam'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages:/home/harry/robot/install/my_first_package/lib/python3.10/site-packages:/home/harry/robot/install/tb3_description/lib/python3.10/site-packages:/home/harry/robot/install/tag_detection/lib/python3.10/site-packages:/home/harry/robot/install/curator/lib/python3.10/site-packages:/home/harry/robot/install/challenge_2025/lib/python3.10/site-packages:/home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/harry/install/turtlesim/local/lib/python3.10/dist-packages:/home/harry/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/harry/robot/install/turtlesim:/home/harry/robot/install/test_package:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/my_robot_slam:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/robot/install/apriltag_msgs:/home/harry/install/turtlesim:/home/harry/install/test_package:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble')]), 'shell': False}
+[0.199227] (-) TimerEvent: {}
+[0.312544] (-) TimerEvent: {}
+[0.413940] (-) TimerEvent: {}
+[0.519866] (-) TimerEvent: {}
+[0.620943] (-) TimerEvent: {}
+[0.725370] (-) TimerEvent: {}
+[0.827480] (-) TimerEvent: {}
+[0.928916] (-) TimerEvent: {}
+[1.031214] (-) TimerEvent: {}
+[1.036257] (my_robot_slam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.131490] (-) TimerEvent: {}
+[1.232431] (-) TimerEvent: {}
+[1.336573] (-) TimerEvent: {}
+[1.445167] (-) TimerEvent: {}
+[1.547515] (-) TimerEvent: {}
+[1.650780] (-) TimerEvent: {}
+[1.777902] (-) TimerEvent: {}
+[1.888902] (-) TimerEvent: {}
+[1.991188] (-) TimerEvent: {}
+[2.098141] (-) TimerEvent: {}
+[2.201267] (-) TimerEvent: {}
+[2.303220] (-) TimerEvent: {}
+[2.405922] (my_robot_slam) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.408012] (-) TimerEvent: {}
+[2.510831] (-) TimerEvent: {}
+[2.614176] (-) TimerEvent: {}
+[2.718515] (-) TimerEvent: {}
+[2.785104] (my_robot_slam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.820249] (-) TimerEvent: {}
+[2.828202] (my_robot_slam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.908212] (my_robot_slam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.920530] (-) TimerEvent: {}
+[3.005634] (my_robot_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.021703] (-) TimerEvent: {}
+[3.123815] (-) TimerEvent: {}
+[3.164452] (my_robot_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.224154] (-) TimerEvent: {}
+[3.328615] (-) TimerEvent: {}
+[3.433434] (-) TimerEvent: {}
+[3.536656] (-) TimerEvent: {}
+[3.547529] (my_robot_slam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.584017] (my_robot_slam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.637441] (-) TimerEvent: {}
+[3.738631] (-) TimerEvent: {}
+[3.841490] (-) TimerEvent: {}
+[3.944731] (-) TimerEvent: {}
+[4.048755] (-) TimerEvent: {}
+[4.150681] (-) TimerEvent: {}
+[4.252872] (-) TimerEvent: {}
+[4.358998] (-) TimerEvent: {}
+[4.427898] (my_robot_slam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.459363] (-) TimerEvent: {}
+[4.560273] (-) TimerEvent: {}
+[4.661205] (-) TimerEvent: {}
+[4.762813] (-) TimerEvent: {}
+[4.863822] (-) TimerEvent: {}
+[4.883281] (my_robot_slam) StdoutLine: {'line': b'-- Found slam_toolbox: 2.6.10 (/opt/ros/humble/share/slam_toolbox/cmake)\n'}
+[4.964279] (-) TimerEvent: {}
+[5.067479] (-) TimerEvent: {}
+[5.169425] (-) TimerEvent: {}
+[5.271554] (-) TimerEvent: {}
+[5.372482] (-) TimerEvent: {}
+[5.473249] (-) TimerEvent: {}
+[5.574504] (-) TimerEvent: {}
+[5.675578] (-) TimerEvent: {}
+[5.778557] (-) TimerEvent: {}
+[5.879736] (-) TimerEvent: {}
+[5.981919] (-) TimerEvent: {}
+[6.082772] (-) TimerEvent: {}
+[6.183770] (-) TimerEvent: {}
+[6.284825] (-) TimerEvent: {}
+[6.387790] (-) TimerEvent: {}
+[6.479228] (my_robot_slam) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[6.488349] (-) TimerEvent: {}
+[6.492760] (my_robot_slam) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[6.593405] (-) TimerEvent: {}
+[6.699603] (-) TimerEvent: {}
+[6.800650] (-) TimerEvent: {}
+[6.904799] (-) TimerEvent: {}
+[6.951954] (my_robot_slam) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[6.994962] (my_robot_slam) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[7.005401] (-) TimerEvent: {}
+[7.031201] (my_robot_slam) StdoutLine: {'line': b'-- Found OGRE\n'}
+[7.032190] (my_robot_slam) StdoutLine: {'line': b'--   static     : OFF\n'}
+[7.033019] (my_robot_slam) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[7.035745] (my_robot_slam) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[7.037532] (my_robot_slam) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[7.037906] (my_robot_slam) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[7.038388] (my_robot_slam) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[7.038692] (my_robot_slam) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[7.038985] (my_robot_slam) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[7.039450] (my_robot_slam) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[7.039764] (my_robot_slam) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[7.040145] (my_robot_slam) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[7.044103] (my_robot_slam) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[7.106834] (-) TimerEvent: {}
+[7.207732] (-) TimerEvent: {}
+[7.308764] (-) TimerEvent: {}
+[7.410474] (-) TimerEvent: {}
+[7.511766] (-) TimerEvent: {}
+[7.522370] (my_robot_slam) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[7.611940] (-) TimerEvent: {}
+[7.713750] (-) TimerEvent: {}
+[7.815240] (-) TimerEvent: {}
+[7.916321] (-) TimerEvent: {}
+[8.018496] (-) TimerEvent: {}
+[8.121417] (-) TimerEvent: {}
+[8.124620] (my_robot_slam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.221686] (-) TimerEvent: {}
+[8.322581] (-) TimerEvent: {}
+[8.423831] (-) TimerEvent: {}
+[8.525401] (-) TimerEvent: {}
+[8.627838] (-) TimerEvent: {}
+[8.675005] (my_robot_slam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.685527] (my_robot_slam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.692906] (my_robot_slam) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.728164] (-) TimerEvent: {}
+[8.739194] (my_robot_slam) StdoutLine: {'line': b'-- Generating done\n'}
+[8.754881] (my_robot_slam) StdoutLine: {'line': b'-- Build files have been written to: /home/harry/robot/build/my_robot_slam\n'}
+[8.828365] (-) TimerEvent: {}
+[8.925426] (my_robot_slam) CommandEnded: {'returncode': 0}
+[8.934738] (-) TimerEvent: {}
+[8.935392] (my_robot_slam) JobProgress: {'identifier': 'my_robot_slam', 'progress': 'install'}
+[9.015022] (my_robot_slam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/harry/robot/build/my_robot_slam'], 'cwd': '/home/harry/robot/build/my_robot_slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SVGA_VGPU10', '0'), ('USER', 'harry'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/harry/robot/install/turtlesim/lib:/home/harry/robot/install/apriltag_ros/lib:/home/harry/robot/install/apriltag_msgs/lib:/home/harry/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/harry'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '3478'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/harry/robot/install:/home/harry/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'harry'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'harry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/harry/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/harry-virtual-machine:@/tmp/.ICE-unix/1735,unix/harry-virtual-machine:/tmp/.ICE-unix/1735'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9cb8c060_07a1_45ad_8764_e043b4b25691'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z9TLK3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/harry/robot/install/turtlesim:/home/harry/robot/install/my_first_package:/home/harry/robot/install/test_package:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/my_robot_slam:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/robot/install/apriltag_msgs:/home/harry/install/turtlesim:/home/harry/install/my_first_package:/home/harry/install/test_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/harry/robot/build/my_robot_slam'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/harry/robot/install/turtlesim/local/lib/python3.10/dist-packages:/home/harry/robot/install/my_first_package/lib/python3.10/site-packages:/home/harry/robot/install/tb3_description/lib/python3.10/site-packages:/home/harry/robot/install/tag_detection/lib/python3.10/site-packages:/home/harry/robot/install/curator/lib/python3.10/site-packages:/home/harry/robot/install/challenge_2025/lib/python3.10/site-packages:/home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/harry/install/turtlesim/local/lib/python3.10/dist-packages:/home/harry/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/harry/robot/install/turtlesim:/home/harry/robot/install/test_package:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/my_robot_slam:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/robot/install/apriltag_msgs:/home/harry/install/turtlesim:/home/harry/install/test_package:/home/harry/robot/install/my_first_package:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/install/my_first_package:/opt/ros/humble')]), 'shell': False}
+[9.034993] (-) TimerEvent: {}
+[9.064577] (my_robot_slam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.066422] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/launch\n'}
+[9.074360] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/launch/slam_toolbox.launch.yaml\n'}
+[9.075579] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/launch/localization.launch.yaml\n'}
+[9.083434] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/maps\n'}
+[9.084017] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/maps/my_map.yaml\n'}
+[9.088633] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/maps/my_map.pgm\n'}
+[9.089414] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/ament_index/resource_index/package_run_dependencies/my_robot_slam\n'}
+[9.089936] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/ament_index/resource_index/parent_prefix_path/my_robot_slam\n'}
+[9.090437] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/environment/ament_prefix_path.sh\n'}
+[9.094817] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/environment/ament_prefix_path.dsv\n'}
+[9.098343] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/environment/path.sh\n'}
+[9.100823] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/environment/path.dsv\n'}
+[9.101724] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/local_setup.bash\n'}
+[9.102599] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/local_setup.sh\n'}
+[9.103103] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/local_setup.zsh\n'}
+[9.103429] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/local_setup.dsv\n'}
+[9.103927] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/package.dsv\n'}
+[9.105014] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/ament_index/resource_index/packages/my_robot_slam\n'}
+[9.105505] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/cmake/my_robot_slamConfig.cmake\n'}
+[9.105806] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/cmake/my_robot_slamConfig-version.cmake\n'}
+[9.106424] (my_robot_slam) StdoutLine: {'line': b'-- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/package.xml\n'}
+[9.106917] (my_robot_slam) CommandEnded: {'returncode': 0}
+[9.135364] (-) TimerEvent: {}
+[9.237875] (-) TimerEvent: {}
+[9.277466] (my_robot_slam) JobEnded: {'identifier': 'my_robot_slam', 'rc': 0}
+[9.281756] (-) EventReactorShutdown: {}
