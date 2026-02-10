@@ -1,0 +1,37 @@
+[0.389s] Invoking command in '/home/rss/robot_harry/robotik/src/pub_sub': PYTHONPATH=/home/rss/robot_harry/robotik/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pub_sub build --build-base /home/rss/robot_harry/robotik/build/pub_sub/build install --record /home/rss/robot_harry/robotik/build/pub_sub/install.log --single-version-externally-managed install_data
+[0.549s] running egg_info
+[0.549s] creating ../../build/pub_sub/pub_sub.egg-info
+[0.549s] writing ../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+[0.550s] writing dependency_links to ../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+[0.550s] writing entry points to ../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+[0.550s] writing requirements to ../../build/pub_sub/pub_sub.egg-info/requires.txt
+[0.550s] writing top-level names to ../../build/pub_sub/pub_sub.egg-info/top_level.txt
+[0.550s] writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[0.551s] reading manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[0.551s] writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[0.552s] running build
+[0.552s] running build_py
+[0.552s] creating /home/rss/robot_harry/robotik/build/pub_sub/build
+[0.552s] creating /home/rss/robot_harry/robotik/build/pub_sub/build/lib
+[0.552s] creating /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+[0.552s] copying pub_sub/__init__.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+[0.552s] copying pub_sub/communication_node.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+[0.552s] running install
+[0.552s] running install_lib
+[0.552s] creating /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[0.552s] copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/__init__.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[0.553s] copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/communication_node.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[0.553s] byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/__init__.py to __init__.cpython-310.pyc
+[0.553s] byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/communication_node.py to communication_node.cpython-310.pyc
+[0.553s] running install_data
+[0.553s] creating /home/rss/robot_harry/robotik/install/pub_sub/share/ament_index
+[0.553s] creating /home/rss/robot_harry/robotik/install/pub_sub/share/ament_index/resource_index
+[0.554s] creating /home/rss/robot_harry/robotik/install/pub_sub/share/ament_index/resource_index/packages
+[0.554s] copying resource/pub_sub -> /home/rss/robot_harry/robotik/install/pub_sub/share/ament_index/resource_index/packages
+[0.554s] copying package.xml -> /home/rss/robot_harry/robotik/install/pub_sub/share/pub_sub
+[0.554s] running install_egg_info
+[0.555s] Copying ../../build/pub_sub/pub_sub.egg-info to /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info
+[0.556s] running install_scripts
+[0.569s] Installing communication_node script to /home/rss/robot_harry/robotik/install/pub_sub/lib/pub_sub
+[0.569s] writing list of installed files to '/home/rss/robot_harry/robotik/build/pub_sub/install.log'
+[0.583s] Invoked command in '/home/rss/robot_harry/robotik/src/pub_sub' returned '0': PYTHONPATH=/home/rss/robot_harry/robotik/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pub_sub build --build-base /home/rss/robot_harry/robotik/build/pub_sub/build install --record /home/rss/robot_harry/robotik/build/pub_sub/install.log --single-version-externally-managed install_data

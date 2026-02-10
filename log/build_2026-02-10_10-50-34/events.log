@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000216] (-) JobUnselected: {'identifier': 'my_robot_navigation'}
+[0.000324] (-) JobUnselected: {'identifier': 'my_robot_slam'}
+[0.000344] (-) JobUnselected: {'identifier': 'pub_sub'}
+[0.000389] (-) JobUnselected: {'identifier': 'tag_detection'}
+[0.000510] (-) EventReactorShutdown: {}
