@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.001125] (-) JobUnselected: {'identifier': 'apriltag_msgs'}
+[0.001261] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.001366] (-) JobUnselected: {'identifier': 'art_maze'}
+[0.001468] (-) JobUnselected: {'identifier': 'challenge_2025'}
+[0.001568] (-) JobUnselected: {'identifier': 'curator'}
+[0.001673] (-) JobUnselected: {'identifier': 'my_robot_navigation'}
+[0.001788] (-) JobUnselected: {'identifier': 'my_robot_slam'}
+[0.001913] (-) JobUnselected: {'identifier': 'pub_sub'}
+[0.002015] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.002115] (-) JobUnselected: {'identifier': 'tag_detection'}
+[0.002214] (-) JobUnselected: {'identifier': 'tb3_description'}
+[0.002313] (-) JobUnselected: {'identifier': 'tb3_gazebo'}
+[0.002416] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002519] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.002636] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.097271] (-) TimerEvent: {}
+[0.198666] (-) TimerEvent: {}
+[0.299841] (-) TimerEvent: {}
+[0.402534] (-) TimerEvent: {}
+[0.503479] (-) TimerEvent: {}
+[0.604529] (-) TimerEvent: {}
+[0.705304] (-) TimerEvent: {}
+[0.806256] (-) TimerEvent: {}
+[0.907917] (-) TimerEvent: {}
+[1.010736] (-) TimerEvent: {}
+[1.111322] (-) TimerEvent: {}
+[1.213025] (-) TimerEvent: {}
+[1.314489] (-) TimerEvent: {}
+[1.415272] (-) TimerEvent: {}
+[1.516576] (-) TimerEvent: {}
+[1.617740] (-) TimerEvent: {}
+[1.718940] (-) TimerEvent: {}
+[1.820075] (-) TimerEvent: {}
+[1.922047] (-) TimerEvent: {}
+[2.022676] (-) TimerEvent: {}
+[2.124166] (-) TimerEvent: {}
+[2.214092] (teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop', 'build', '--build-base', '/home/harry/robot/build/teleop/build', 'install', '--record', '/home/harry/robot/build/teleop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/harry/robot/src/teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'SVGA_VGPU10': '0', 'USER': 'harry', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/harry/robot/install/apriltag_ros/lib:/home/harry/robot/install/apriltag_msgs/lib:/home/harry/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/harry', 'OLDPWD': '/home/harry', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '3313', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/harry/robot/install:/home/harry/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'harry', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'harry', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/opt/ros/humble/share/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/harry/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/harry-virtual-machine:@/tmp/.ICE-unix/1675,unix/harry-virtual-machine:/tmp/.ICE-unix/1675', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5c2f3601_04ec_4bc6_8f95_d49a61d5c6aa', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.D83AK3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/harry/robot/install/teleop:/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/tb3_description:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/my_robot_slam:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/curator:/home/harry/robot/install/challenge_2025:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/robot/install/apriltag_msgs:/home/harry/install/turtlesim:/home/harry/install/my_first_package:/home/harry/install/test_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/harry/robot/build/teleop', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/harry/robot/build/teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/teleop/lib/python3.10/site-packages:/home/harry/robot/install/teleop/lib/python3.10/site-packages:/home/harry/robot/install/tb3_description/lib/python3.10/site-packages:/home/harry/robot/install/tag_detection/lib/python3.10/site-packages:/home/harry/robot/install/robot_bringup/lib/python3.10/site-packages:/home/harry/robot/install/pub_sub/lib/python3.10/site-packages:/home/harry/robot/install/my_robot_navigation/lib/python3.10/site-packages:/home/harry/robot/install/curator/lib/python3.10/site-packages:/home/harry/robot/install/challenge_2025/lib/python3.10/site-packages:/home/harry/robot/install/apriltag_msgs/local/lib/python3.10/dist-packages:/home/harry/install/turtlesim/local/lib/python3.10/dist-packages:/home/harry/install/my_first_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/harry/robot/install/tb3_gazebo:/home/harry/robot/install/my_robot_slam:/home/harry/robot/install/art_maze:/home/harry/robot/install/apriltag_ros:/home/harry/robot/install/apriltag_msgs:/home/harry/install/turtlesim:/home/harry/install/test_package'}, 'shell': False}
+[2.224373] (-) TimerEvent: {}
+[2.325907] (-) TimerEvent: {}
+[2.427329] (-) TimerEvent: {}
+[2.528299] (-) TimerEvent: {}
+[2.633128] (-) TimerEvent: {}
+[2.733634] (-) TimerEvent: {}
+[2.834486] (-) TimerEvent: {}
+[2.935201] (-) TimerEvent: {}
+[2.984871] (teleop) StdoutLine: {'line': b'running egg_info\n'}
+[2.986606] (teleop) StdoutLine: {'line': b'writing ../../build/teleop/teleop.egg-info/PKG-INFO\n'}
+[2.990213] (teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop/teleop.egg-info/dependency_links.txt\n'}
+[2.990465] (teleop) StdoutLine: {'line': b'writing entry points to ../../build/teleop/teleop.egg-info/entry_points.txt\n'}
+[2.990589] (teleop) StdoutLine: {'line': b'writing requirements to ../../build/teleop/teleop.egg-info/requires.txt\n'}
+[2.990722] (teleop) StdoutLine: {'line': b'writing top-level names to ../../build/teleop/teleop.egg-info/top_level.txt\n'}
+[2.997297] (teleop) StdoutLine: {'line': b"reading manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'\n"}
+[2.997704] (teleop) StdoutLine: {'line': b"writing manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'\n"}
+[2.998086] (teleop) StdoutLine: {'line': b'running build\n'}
+[2.998284] (teleop) StdoutLine: {'line': b'running build_py\n'}
+[3.000061] (teleop) StdoutLine: {'line': b'copying teleop/teleop.py -> /home/harry/robot/build/teleop/build/lib/teleop\n'}
+[3.000354] (teleop) StdoutLine: {'line': b'running install\n'}
+[3.000946] (teleop) StdoutLine: {'line': b'running install_lib\n'}
+[3.001536] (teleop) StdoutLine: {'line': b'copying /home/harry/robot/build/teleop/build/lib/teleop/teleop.py -> /home/harry/robot/install/teleop/lib/python3.10/site-packages/teleop\n'}
+[3.006674] (teleop) StdoutLine: {'line': b'byte-compiling /home/harry/robot/install/teleop/lib/python3.10/site-packages/teleop/teleop.py to teleop.cpython-310.pyc\n'}
+[3.008129] (teleop) StdoutLine: {'line': b'running install_data\n'}
+[3.008354] (teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.010834] (teleop) StdoutLine: {'line': b"removing '/home/harry/robot/install/teleop/lib/python3.10/site-packages/teleop-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.011324] (teleop) StdoutLine: {'line': b'Copying ../../build/teleop/teleop.egg-info to /home/harry/robot/install/teleop/lib/python3.10/site-packages/teleop-0.0.0-py3.10.egg-info\n'}
+[3.015122] (teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[3.035393] (-) TimerEvent: {}
+[3.099772] (teleop) StdoutLine: {'line': b'Installing teleop_node script to /home/harry/robot/install/teleop/lib/teleop\n'}
+[3.104779] (teleop) StdoutLine: {'line': b"writing list of installed files to '/home/harry/robot/build/teleop/install.log'\n"}
+[3.135594] (-) TimerEvent: {}
+[3.175229] (teleop) CommandEnded: {'returncode': 0}
+[3.226032] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 0}
+[3.231716] (-) EventReactorShutdown: {}

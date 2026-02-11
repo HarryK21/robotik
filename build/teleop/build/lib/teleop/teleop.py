@@ -2,29 +2,9 @@
 
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String
 from sensor_msgs.msg import Joy
 from geometry_msgs.msg import Twist
 
-class MyPublisherClass(Node):
-
-    def __init__(self, topic, mymsg, name):
-        super().__init__(name)
-        self.mypub = self.create_publisher(type(mymsg), topic, 1)
-        self.create_timer(0.1, self.mytimercallback)
-
-    def mytimercallback(self, mymsg):
-        self.mypub.publish(mymsg)
-
-class MySubscriberClass(Node):
-
-    def __init__(self, topic, mymsg, name):
-        super().__init__(name)
-        self.subscription = self.create_subscription(
-            type(mymsg), topic, self.mysubcallback, 10)
-
-    def mysubcallback(self, msg):
-        print('You said: ', msg.data)
 
 class GamepadReader(Node):
     def __init__(self):
@@ -36,30 +16,39 @@ class GamepadReader(Node):
         
         #publishing the robot commands
         self.publisher = self.create_publisher(Twist, 'cmd_vel', 10)
-
+        self.get_logger().info('Gamepad Reader Node has been started.')
+    
     def joy_callback(self, msg):
         twist = Twist()
+        #joystic logic
+        forward_speed = msg.axes[1] * 1.0 #upper left joystick forward-backward motion scaled at 1m/s
+        turning_speed = msg.axes[2] * 0.5 #lower right joystick left-right motion scaled at 0.5 rad/s
+        
+        twist.linear.x = float(forward_speed)
+        twist.angular.z = float(turning_speed)
 
-        twist.linear.x = msg.axes[1] * 0.5 #scaling at max 0.5m/s
-        twist.angular.z  = msg. axes[0]*1.0 #scaling at 1 rad/s
+        #buttons logic
+        if msg.buttons[7] == 1: #When R2 is pressed
+            forward_speed*=1.10
+        if msg.buttons[5] == 1: #When L2 is pressed
+            forward_speed*=0.90  
+        #stop buttton 3 (Circle button on PS4 controller) is pressed)
+        if msg.buttons[2] == 1:
+            self.get_logger().warn('STOP')
+            forward_speed = 0.0
+            turning_speed = 0.0
         self.publisher.publish(twist)
-        self.get_logger().info(f'Linear: {twist.linear.x}, Angular: {twist.angular.z}')
-
-
 def main():
     rclpy.init()
-    node = GamepadReader()
-    rclpy.spin(node)
-    node.destroy_node()
-    rclpy.terminate()
-    #publishernode = MyPublisherClass()
-    #try:
-    #    rclpy.spin(publishernode)
-    #except KeyboardInterrupt:
-    #    pass
-    #publishernode.destroy_node()
-    #rclpy.shutdown()
+    gamepad_node = GamepadReader()
 
+    try:
+        rclpy.spin(gamepad_node)
+
+    except KeyboardInterrupt:
+        pass
+    gamepad_node.destroy_node()
+    rclpy.shutdown()
 
 if __name__ == '__main__':
 
