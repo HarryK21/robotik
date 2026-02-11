@@ -1,0 +1,22 @@
+[0.000000] (-) TimerEvent: {}
+[0.000254] (-) JobUnselected: {'identifier': 'apriltag_msgs'}
+[0.000295] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.000315] (-) JobUnselected: {'identifier': 'art_maze'}
+[0.000330] (-) JobUnselected: {'identifier': 'challenge_2025'}
+[0.000377] (-) JobUnselected: {'identifier': 'create3_coverage'}
+[0.000417] (-) JobUnselected: {'identifier': 'create3_examples_msgs'}
+[0.000577] (-) JobUnselected: {'identifier': 'create3_examples_py'}
+[0.000603] (-) JobUnselected: {'identifier': 'create3_lidar_slam'}
+[0.000615] (-) JobUnselected: {'identifier': 'create3_republisher'}
+[0.000627] (-) JobUnselected: {'identifier': 'create3_teleop'}
+[0.000638] (-) JobUnselected: {'identifier': 'curator'}
+[0.000649] (-) JobUnselected: {'identifier': 'my_robot_navigation'}
+[0.000660] (-) JobUnselected: {'identifier': 'my_robot_slam'}
+[0.000671] (-) JobUnselected: {'identifier': 'pub_sub'}
+[0.000682] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.000693] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000703] (-) JobUnselected: {'identifier': 'tag_detection'}
+[0.000714] (-) JobUnselected: {'identifier': 'tb3_description'}
+[0.000725] (-) JobUnselected: {'identifier': 'tb3_gazebo'}
+[0.000737] (-) JobUnselected: {'identifier': 'teleop'}
+[0.000748] (-) EventReactorShutdown: {}
