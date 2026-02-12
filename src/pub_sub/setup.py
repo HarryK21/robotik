@@ -24,6 +24,8 @@ setup(
         'console_scripts': [
             'publisher_node = pub_sub.publisher:main',
             'subscriber_node = pub_sub.sub:main',
+            'yolo_detector_node = pub_sub.yolo_detector:main',
+            'test_cam_node = pub_sub.test_cam:main',
         ],
     },
 )
