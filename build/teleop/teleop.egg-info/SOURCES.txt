@@ -8,6 +8,7 @@ setup.py
 ../../build/teleop/teleop.egg-info/requires.txt
 ../../build/teleop/teleop.egg-info/top_level.txt
 ../../build/teleop/teleop.egg-info/zip-safe
+launch/teleop_launch.launch.py
 resource/teleop
 teleop/__init__.py
 teleop/teleop.py
