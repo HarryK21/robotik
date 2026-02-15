@@ -1,0 +1,3 @@
+[console_scripts]
+yolo_to_ros = object_detection.yolo_detection:main
+

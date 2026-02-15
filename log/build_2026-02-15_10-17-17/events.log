@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.000860] (-) JobUnselected: {'identifier': 'art_maze'}
+[0.001219] (-) JobUnselected: {'identifier': 'challenge_2025'}
+[0.004518] (-) JobUnselected: {'identifier': 'curator'}
+[0.004759] (-) JobUnselected: {'identifier': 'my_robot_navigation'}
+[0.005091] (-) JobUnselected: {'identifier': 'my_robot_slam'}
+[0.005329] (-) JobUnselected: {'identifier': 'pub_sub'}
+[0.005507] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.005682] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.005875] (-) JobUnselected: {'identifier': 'tag_detection'}
+[0.006021] (-) JobUnselected: {'identifier': 'tb3_description'}
+[0.006148] (-) JobUnselected: {'identifier': 'tb3_gazebo'}
+[0.006251] (-) JobUnselected: {'identifier': 'teleop'}
+[0.006299] (object_detection) JobQueued: {'identifier': 'object_detection', 'dependencies': OrderedDict()}
+[0.006411] (object_detection) JobStarted: {'identifier': 'object_detection'}
+[0.099378] (-) TimerEvent: {}
+[0.200728] (-) TimerEvent: {}
+[0.301855] (-) TimerEvent: {}
+[0.402669] (-) TimerEvent: {}
+[0.503274] (-) TimerEvent: {}
+[0.603992] (-) TimerEvent: {}
+[0.704754] (-) TimerEvent: {}
+[0.805601] (-) TimerEvent: {}
+[0.906282] (-) TimerEvent: {}
+[1.006865] (-) TimerEvent: {}
+[1.107663] (-) TimerEvent: {}
+[1.208594] (-) TimerEvent: {}
+[1.309313] (-) TimerEvent: {}
+[1.410068] (-) TimerEvent: {}
+[1.510862] (-) TimerEvent: {}
+[1.611771] (-) TimerEvent: {}
+[1.712670] (-) TimerEvent: {}
+[1.813631] (-) TimerEvent: {}
+[1.914311] (-) TimerEvent: {}
+[2.015043] (-) TimerEvent: {}
+[2.115817] (-) TimerEvent: {}
+[2.216464] (-) TimerEvent: {}
+[2.317272] (-) TimerEvent: {}
+[2.418156] (-) TimerEvent: {}
+[2.518953] (-) TimerEvent: {}
+[2.619811] (-) TimerEvent: {}
+[2.720655] (-) TimerEvent: {}
+[2.821953] (-) TimerEvent: {}
+[2.922739] (-) TimerEvent: {}
+[3.023700] (-) TimerEvent: {}
+[3.124590] (-) TimerEvent: {}
+[3.148119] (object_detection) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/object_detection', 'build', '--build-base', '/home/harry/robotik/build/object_detection/build', 'install', '--record', '/home/harry/robotik/build/object_detection/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/harry/robotik/src/object_detection', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'SVGA_VGPU10': '0', 'USER': 'harry', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/harry/robotik/install/apriltag_ros/lib:/home/harry/robotik/install/apriltag_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}', 'HOME': '/home/harry', 'OLDPWD': '/home/harry/robotik/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/harry/robotik/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'harry', 'NAME': 'Harry', 'WSL_INTEROP': '/run/WSL/498_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/opt/ros/humble/share/turtlebot3_gazebo/models', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/harry/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/kengn/Downloads/jdk-21_windows-x64_bin/jdk-21.0.2/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/MATLAB/R2025b/bin:/mnt/c/Program Files/Siemens/NXStudentEdition2506/CAPITALINTEGRATION/capitalnxremote/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/kengn/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/kengn/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/kengn/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/kengn/AppData/Roaming/Programs/Zero Install:/mnt/c/ProgramData/kengn/GitHubDesktop/bin:/mnt/c/Users/kengn/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm 2025.2.4/bin:/snap/bin', 'WT_SESSION': 'f92ce8a8-d30c-4df0-88b1-f20767ca9058', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/harry/robotik/install/teleop:/home/harry/robotik/install/tb3_gazebo:/home/harry/robotik/install/tb3_description:/home/harry/robotik/install/tag_detection:/home/harry/robotik/install/robot_bringup:/home/harry/robotik/install/pub_sub:/home/harry/robotik/install/my_robot_slam:/home/harry/robotik/install/my_robot_navigation:/home/harry/robotik/install/curator:/home/harry/robotik/install/challenge_2025:/home/harry/robotik/install/art_maze:/home/harry/robotik/install/apriltag_ros:/home/harry/robotik/install/apriltag_msgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/harry/robotik/build/object_detection', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/harry/robotik/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robotik/install/object_detection/lib/python3.10/site-packages:/home/harry/robotik/install/teleop/lib/python3.10/site-packages:/home/harry/robotik/install/tb3_description/lib/python3.10/site-packages:/home/harry/robotik/install/tag_detection/lib/python3.10/site-packages:/home/harry/robotik/install/robot_bringup/lib/python3.10/site-packages:/home/harry/robotik/install/pub_sub/lib/python3.10/site-packages:/home/harry/robotik/install/my_robot_navigation/lib/python3.10/site-packages:/home/harry/robotik/install/curator/lib/python3.10/site-packages:/home/harry/robotik/install/challenge_2025/lib/python3.10/site-packages:/home/harry/robotik/install/apriltag_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/harry/robotik/install/tb3_gazebo:/home/harry/robotik/install/my_robot_slam:/home/harry/robotik/install/art_maze:/home/harry/robotik/install/apriltag_ros:/home/harry/robotik/install/apriltag_msgs', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[3.224920] (-) TimerEvent: {}
+[3.325833] (-) TimerEvent: {}
+[3.426626] (-) TimerEvent: {}
+[3.527481] (-) TimerEvent: {}
+[3.628004] (-) TimerEvent: {}
+[3.728722] (-) TimerEvent: {}
+[3.829455] (-) TimerEvent: {}
+[3.930170] (-) TimerEvent: {}
+[3.954566] (object_detection) StdoutLine: {'line': b'running egg_info\n'}
+[3.956281] (object_detection) StdoutLine: {'line': b'creating ../../build/object_detection/object_detection.egg-info\n'}
+[3.957492] (object_detection) StdoutLine: {'line': b'writing ../../build/object_detection/object_detection.egg-info/PKG-INFO\n'}
+[3.958207] (object_detection) StdoutLine: {'line': b'writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt\n'}
+[3.958791] (object_detection) StdoutLine: {'line': b'writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt\n'}
+[3.959098] (object_detection) StdoutLine: {'line': b'writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt\n'}
+[3.959639] (object_detection) StdoutLine: {'line': b'writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt\n'}
+[3.960066] (object_detection) StdoutLine: {'line': b"writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'\n"}
+[3.965102] (object_detection) StdoutLine: {'line': b"reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'\n"}
+[3.966556] (object_detection) StdoutLine: {'line': b"writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'\n"}
+[3.966746] (object_detection) StdoutLine: {'line': b'running build\n'}
+[3.966864] (object_detection) StdoutLine: {'line': b'running build_py\n'}
+[3.967246] (object_detection) StdoutLine: {'line': b'creating /home/harry/robotik/build/object_detection/build\n'}
+[3.968026] (object_detection) StdoutLine: {'line': b'creating /home/harry/robotik/build/object_detection/build/lib\n'}
+[3.968780] (object_detection) StdoutLine: {'line': b'creating /home/harry/robotik/build/object_detection/build/lib/object_detection\n'}
+[3.969376] (object_detection) StdoutLine: {'line': b'copying object_detection/__init__.py -> /home/harry/robotik/build/object_detection/build/lib/object_detection\n'}
+[3.969795] (object_detection) StdoutLine: {'line': b'copying object_detection/yolo_detection.py -> /home/harry/robotik/build/object_detection/build/lib/object_detection\n'}
+[3.970286] (object_detection) StdoutLine: {'line': b'running install\n'}
+[3.970925] (object_detection) StdoutLine: {'line': b'running install_lib\n'}
+[3.972503] (object_detection) StdoutLine: {'line': b'creating /home/harry/robotik/install/object_detection/lib/python3.10/site-packages/object_detection\n'}
+[3.973327] (object_detection) StdoutLine: {'line': b'copying /home/harry/robotik/build/object_detection/build/lib/object_detection/__init__.py -> /home/harry/robotik/install/object_detection/lib/python3.10/site-packages/object_detection\n'}
+[3.974087] (object_detection) StdoutLine: {'line': b'copying /home/harry/robotik/build/object_detection/build/lib/object_detection/yolo_detection.py -> /home/harry/robotik/install/object_detection/lib/python3.10/site-packages/object_detection\n'}
+[3.975317] (object_detection) StdoutLine: {'line': b'byte-compiling /home/harry/robotik/install/object_detection/lib/python3.10/site-packages/object_detection/__init__.py to __init__.cpython-310.pyc\n'}
+[3.976465] (object_detection) StdoutLine: {'line': b'byte-compiling /home/harry/robotik/install/object_detection/lib/python3.10/site-packages/object_detection/yolo_detection.py to yolo_detection.cpython-310.pyc\n'}
+[3.978089] (object_detection) StdoutLine: {'line': b'running install_data\n'}
+[3.978562] (object_detection) StdoutLine: {'line': b'creating /home/harry/robotik/install/object_detection/share/ament_index\n'}
+[3.978957] (object_detection) StdoutLine: {'line': b'creating /home/harry/robotik/install/object_detection/share/ament_index/resource_index\n'}
+[3.979624] (object_detection) StdoutLine: {'line': b'creating /home/harry/robotik/install/object_detection/share/ament_index/resource_index/packages\n'}
+[3.980267] (object_detection) StdoutLine: {'line': b'copying resource/object_detection -> /home/harry/robotik/install/object_detection/share/ament_index/resource_index/packages\n'}
+[3.980657] (object_detection) StdoutLine: {'line': b'copying package.xml -> /home/harry/robotik/install/object_detection/share/object_detection\n'}
+[3.980789] (object_detection) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.984714] (object_detection) StdoutLine: {'line': b'Copying ../../build/object_detection/object_detection.egg-info to /home/harry/robotik/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info\n'}
+[4.028020] (object_detection) StdoutLine: {'line': b'running install_scripts\n'}
+[4.030655] (-) TimerEvent: {}
+[4.124358] (object_detection) StdoutLine: {'line': b'Installing yolo_to_ros script to /home/harry/robotik/install/object_detection/lib/object_detection\n'}
+[4.127191] (object_detection) StdoutLine: {'line': b"writing list of installed files to '/home/harry/robotik/build/object_detection/install.log'\n"}
+[4.131055] (-) TimerEvent: {}
+[4.184312] (object_detection) CommandEnded: {'returncode': 0}
+[4.231407] (-) TimerEvent: {}
+[4.291094] (object_detection) JobEnded: {'identifier': 'object_detection', 'rc': 0}
+[4.294357] (-) EventReactorShutdown: {}
