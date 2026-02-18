@@ -1,0 +1,12 @@
+launch:
+- include:
+    file: "$(find-pkg-share robot_bringup)/launch/republisher.launch.py"
+    
+- include:
+    file: "$(find-pkg-share robot_bringup)/launch/robot_tf.launch.yaml"
+
+- include:
+    file: "$(find-pkg-share robot_bringup)/launch/lidar.launch.py"
+
+- include:
+    file: "$(find-pkg-share teleop)/launch/teleop_launch.launch.py"

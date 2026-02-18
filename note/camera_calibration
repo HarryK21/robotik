@@ -1,0 +1,74 @@
+#camera launch, start node for calibration
+ros2 launch realsense2_camera rs_launch.py
+
+#For the calibration
+ros2 run camera_calibration cameracalibrator --size 6x9 --square 0.02 --no-service-check --ros-args --remap image:=camera/camera/color/image_raw
+
+#einfacher:
+#The problem is that  usb_cam node exe didn't function, that's why we took another alternativ
+	ros2 run camera_calibration cameracalibrator -c webcam --size=9x6 --square=0.02 --no-service-check --ros-args --remap image:=camera/camera/color/image_raw
+
+
+'#for visualization - by topic - camera- color - raw image
+rviz2 
+
+#echo topic
+ros2 topic echo camera/color/image_raw
+
+camera matrix
+764.177004 0.000000 573.846038
+0.000000 771.639334 310.515114
+0.000000 0.000000 1.000000
+
+distortion
+0.030119 -0.030330 -0.002478 0.005820 0.000000
+
+rectification
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 1.000000
+
+projection
+770.868265 0.000000 582.015963 0.000000
+0.000000 782.170648 308.294199 0.000000
+0.000000 0.000000 1.000000 0.000000
+
+Besser
+mono pinhole calibration...
+D = [0.08336904659618255, -0.16297039377447126, -0.0018775381438637722, 0.0003517038462136168, 0.0]
+K = [923.8789557816957, 0.0, 642.043453793719, 0.0, 923.9391421577765, 389.0500600669718, 0.0, 0.0, 1.0]
+R = [1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0]
+P = [926.425265267243, 0.0, 642.7300584194458, 0.0, 0.0, 934.2310905028244, 388.1072127464826, 0.0, 0.0, 0.0, 1.0, 0.0]
+None
+# oST version 5.0 parameters
+
+
+[image]
+
+width
+1280
+
+height
+720
+
+[narrow_stereo]
+
+
+camera matrix
+923.878956 0.000000 642.043454
+0.000000 923.939142 389.050060
+0.000000 0.000000 1.000000
+
+distortion
+0.083369 -0.162970 -0.001878 0.000352 0.000000
+
+rectification
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 0.000000 1.000000
+
+projection
+926.425265 0.000000 642.730058 0.000000
+0.000000 934.231091 388.107213 0.000000
+0.000000 0.000000 1.000000 0.000000
+
