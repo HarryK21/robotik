@@ -1,0 +1,23 @@
+# 1. ROS 2 Basis laden
+source /opt/ros/humble/setup.bash
+
+# 2. Deinen eigenen Workspace laden
+cd ~/robot
+source install/setup.bash
+
+# 3. TurtleBot3 Modell festlegen (WICHTIG!)
+export TURTLEBOT3_MODEL=burger
+
+
+# Autonomous navigation
+
+ros2 launch tb3_gazebo arams.launch.py
+
+ros2 launch my_robot_slam localization.launch.yaml
+
+ros2 launch my_robot_navigation robot_nav.launch.py
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+ros2 run my_robot_navigation auto_explorer_node 
+

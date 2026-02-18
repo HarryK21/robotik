@@ -1,0 +1,26 @@
+#launch gazebo
+$ros2 launch tb3_gazebo arams.launch.py
+ 
+ 
+ #launch the nodes file
+$ros2 launch my_robot_slam slam_toolbox.launch.yaml
+
+#start rviz for visualization
+#on rviz activate the 7map topic
+#if no map appears: $ros2 topic info -v <topic name>
+
+
+#Drive the TF arround ,slowly as possible (1m/s) is adviced and 0.5 m/s around corners. do not drive backwards and most important avoid obstacles (don't bump anywhere)
+
+#save the map
+$ cd ~/<your_arams_ws>/src/my_robot_slam
+$ mkdir maps
+$ cd maps
+$ ros2 run nav2_map_server map_saver_cli -f my_map
+
+
+####ACML
+#rviz2 launch
+- Topic /map auswählen
+- Depth auf 1
+- Durability auf Transient local setzen
