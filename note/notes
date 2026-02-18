@@ -1,0 +1,43 @@
+## having access to the bashrec file
+$gedit ~/.bashrc
+
+##writing a new line (the one in quotes) in the bashrc file
+$echo "source ~/robot_ws/install/setup.bash" >> ~/.bashrc
+
+
+##Aliases
+$alias colcon_ws="colcon build && source install/setup.bash"
+
+##create folder
+$mkdir ~/robot_ws/src/my_first_package/
+
+##create files
+$touch turtle.launch.yaml
+
+
+##write in a document
+$echo "text_example" >> location
+$echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+
+##source is used to run the commands in  a partiuclar file for the cmf to initialize zhe environment with variables and stuffs
+$source /opt/ros/humble/setup.bashrc
+Haarry test echo 1
+
+## package creation
+$ros2 pkg create --build-type ament_cmake package_name --dependencies rclcpp slam_toolbox # for c++
+ros2 pkg create --build-type ament_python my_robot_navigation --dependencies rclpy # for python
+-# file create
+$mkdir -p ~/robot/src/my_robot_slam/launch
+
+#insert this in the CMakelist.txt for ROS to find the launch data at the line beofre ament_package() ##mostly the last one
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}
+)
+
+
+Start nodes to be able to teleoperate your robot, e.g. rqt_robot_steering, rqt_publisher or teleop_twist_keyboard.
+$ros2 run rqt_robot_steering rqt_robot_steerin
+$ ros2 run rqt_publisher rqt_publisher
+
+

@@ -1,0 +1,21 @@
+#open gazebo / start simulation
+$ros2 launch tb3-gazebo arena18.launch.py
+
+'refresh
+$source intall/setup.bash
+
+# Tracking starten
+$ros2 launch tag_detection track.launch.yaml 
+
+#tag detection activation / node ausführen
+$ros2 run tag_detection listenernode 
+
+
+#rviz for visualisation
+$ros2 run rviz2 
+- change map to baselink
+- Add a TF
+- Add camera_raw in image
+
+# to command tf
+$ros2 run teleop_twist_keyboard teleop_twist_keyboard
