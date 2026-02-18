@@ -1,0 +1,15 @@
+[0.000000] (-) TimerEvent: {}
+[0.001747] (-) JobUnselected: {'identifier': 'art_maze'}
+[0.003066] (-) JobUnselected: {'identifier': 'challenge_2025'}
+[0.003134] (-) JobUnselected: {'identifier': 'curator'}
+[0.003177] (-) JobUnselected: {'identifier': 'my_robot_navigation'}
+[0.003215] (-) JobUnselected: {'identifier': 'my_robot_slam'}
+[0.003252] (-) JobUnselected: {'identifier': 'object_detection'}
+[0.003286] (-) JobUnselected: {'identifier': 'pub_sub'}
+[0.003409] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.003457] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.003495] (-) JobUnselected: {'identifier': 'tag_detection'}
+[0.003530] (-) JobUnselected: {'identifier': 'tb3_description'}
+[0.003565] (-) JobUnselected: {'identifier': 'tb3_gazebo'}
+[0.003599] (-) JobUnselected: {'identifier': 'teleop'}
+[0.003635] (-) EventReactorShutdown: {}
