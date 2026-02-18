@@ -8,6 +8,7 @@ setup.py
 ../../build/webcam_bringup/webcam_bringup.egg-info/requires.txt
 ../../build/webcam_bringup/webcam_bringup.egg-info/top_level.txt
 ../../build/webcam_bringup/webcam_bringup.egg-info/zip-safe
+config/camera_params.yaml
 config/webcam.yaml
 launch/webcam.launch.yaml
 resource/webcam_bringup

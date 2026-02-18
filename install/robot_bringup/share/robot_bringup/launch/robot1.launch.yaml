@@ -1,4 +1,0 @@
-launch:
-- include:
-    file: "$(find-pkg-share robot_bringup)/launch/republisher.launch.py"
-    

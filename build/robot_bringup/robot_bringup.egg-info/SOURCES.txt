@@ -9,6 +9,7 @@ setup.py
 ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt
 ../../build/robot_bringup/robot_bringup.egg-info/zip-safe
 config/webcam.yaml
+launch/camera.launch.py
 launch/lidar.launch.py
 launch/republisher.launch.py
 launch/robot.launch.yaml

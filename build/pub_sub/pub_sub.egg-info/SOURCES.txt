@@ -9,9 +9,12 @@ setup.py
 ../../build/pub_sub/pub_sub.egg-info/top_level.txt
 ../../build/pub_sub/pub_sub.egg-info/zip-safe
 pub_sub/__init__.py
+pub_sub/cam_publisher.py
 pub_sub/communication_node.py
 pub_sub/publisher.py
 pub_sub/sub.py
+pub_sub/test_cam.py
+pub_sub/yolo_detector.py
 resource/pub_sub
 test/test_copyright.py
 test/test_flake8.py

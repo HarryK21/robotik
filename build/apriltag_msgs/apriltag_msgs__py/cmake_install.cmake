@@ -1,8 +1,8 @@
-# Install script for directory: /home/harry/robot/build/apriltag_msgs/apriltag_msgs__py
+# Install script for directory: /home/rss/robot_harry/robotik/build/apriltag_msgs/apriltag_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/harry/robot/install/apriltag_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/rss/robot_harry/robotik/install/apriltag_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

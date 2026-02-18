@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e0fd249233c7b8498a4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "create3_coverage",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_coverage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_coverage-407b6a079c298edab5ab.json",
+					"name" : "create3_coverage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_coverage_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_coverage_core-9161e643f8c5f50ba38e.json",
+					"name" : "create3_coverage_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create3_coverage_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create3_coverage_uninstall-09b7d21f5578b357cfd0.json",
+					"name" : "create3_coverage_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bd5762618cccd1b30c7f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rss/robot_harry/robotik/build/create3_coverage",
+		"source" : "/home/rss/robot_harry/robotik/src/create3_examples/create3_coverage"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

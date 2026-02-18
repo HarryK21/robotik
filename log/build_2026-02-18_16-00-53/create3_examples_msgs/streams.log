@@ -1,0 +1,235 @@
+[0.024s] Invoking command in '/home/rss/robot_harry/robotik/build/create3_examples_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rss/robot_harry/robotik/install/realsense2_ros_mqtt_bridge:/home/rss/robot_harry/robotik/install/create3_teleop:/home/rss/robot_harry/robotik/install/create3_examples_py:/home/rss/robot_harry/robotik/install/webcam_bringup:/home/rss/robot_harry/robotik/install/teleop:/home/rss/robot_harry/robotik/install/tb3_description:/home/rss/robot_harry/robotik/install/tag_detection:/home/rss/robot_harry/robotik/install/robot_bringup:/home/rss/robot_harry/robotik/install/pub_sub:/home/rss/robot_harry/robotik/install/object_detection:/home/rss/robot_harry/robotik/install/my_robot_navigation:/home/rss/robot_harry/robotik/install/curator:/home/rss/robot_harry/robotik/install/challenge_2025:/opt/ros/humble /usr/bin/cmake /home/rss/robot_harry/robotik/src/create3_examples/create3_examples_msgs -DCMAKE_INSTALL_PREFIX=/home/rss/robot_harry/robotik/install/create3_examples_msgs
+[0.715s] -- The C compiler identification is GNU 11.4.0
+[0.715s] -- The CXX compiler identification is GNU 11.4.0
+[0.716s] -- Detecting C compiler ABI info
+[0.716s] -- Detecting C compiler ABI info - done
+[0.716s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.716s] -- Detecting C compile features
+[0.716s] -- Detecting C compile features - done
+[0.716s] -- Detecting CXX compiler ABI info
+[0.716s] -- Detecting CXX compiler ABI info - done
+[0.716s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.716s] -- Detecting CXX compile features
+[0.716s] -- Detecting CXX compile features - done
+[0.716s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.716s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.716s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.716s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.716s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.716s] -- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+[0.823s] -- Found ament_cmake_cppcheck: 0.12.14 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[0.826s] -- Found ament_cmake_cpplint: 0.12.14 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[0.828s] -- Found ament_cmake_uncrustify: 0.12.14 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[0.832s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.063s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.730s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.732s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.762s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.762s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.762s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.762s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.814s] -- Found PythonExtra: .so  
+[1.923s] -- Found ament_cmake_flake8: 0.12.14 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[1.930s] -- Found ament_cmake_pep257: 0.12.14 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[1.945s] -- Configuring done
+[1.974s] -- Generating done
+[1.989s] -- Build files have been written to: /home/rss/robot_harry/robotik/build/create3_examples_msgs
+[2.229s] Invoked command in '/home/rss/robot_harry/robotik/build/create3_examples_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rss/robot_harry/robotik/install/realsense2_ros_mqtt_bridge:/home/rss/robot_harry/robotik/install/create3_teleop:/home/rss/robot_harry/robotik/install/create3_examples_py:/home/rss/robot_harry/robotik/install/webcam_bringup:/home/rss/robot_harry/robotik/install/teleop:/home/rss/robot_harry/robotik/install/tb3_description:/home/rss/robot_harry/robotik/install/tag_detection:/home/rss/robot_harry/robotik/install/robot_bringup:/home/rss/robot_harry/robotik/install/pub_sub:/home/rss/robot_harry/robotik/install/object_detection:/home/rss/robot_harry/robotik/install/my_robot_navigation:/home/rss/robot_harry/robotik/install/curator:/home/rss/robot_harry/robotik/install/challenge_2025:/opt/ros/humble /usr/bin/cmake /home/rss/robot_harry/robotik/src/create3_examples/create3_examples_msgs -DCMAKE_INSTALL_PREFIX=/home/rss/robot_harry/robotik/install/create3_examples_msgs
+[2.251s] Invoking command in '/home/rss/robot_harry/robotik/build/create3_examples_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rss/robot_harry/robotik/install/realsense2_ros_mqtt_bridge:/home/rss/robot_harry/robotik/install/create3_teleop:/home/rss/robot_harry/robotik/install/create3_examples_py:/home/rss/robot_harry/robotik/install/webcam_bringup:/home/rss/robot_harry/robotik/install/teleop:/home/rss/robot_harry/robotik/install/tb3_description:/home/rss/robot_harry/robotik/install/tag_detection:/home/rss/robot_harry/robotik/install/robot_bringup:/home/rss/robot_harry/robotik/install/pub_sub:/home/rss/robot_harry/robotik/install/object_detection:/home/rss/robot_harry/robotik/install/my_robot_navigation:/home/rss/robot_harry/robotik/install/curator:/home/rss/robot_harry/robotik/install/challenge_2025:/opt/ros/humble /usr/bin/cmake --build /home/rss/robot_harry/robotik/build/create3_examples_msgs -- -j8 -l8
+[2.382s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.420s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.426s] [  6%] Built target ament_cmake_python_copy_create3_examples_msgs
+[3.033s] running egg_info
+[3.034s] creating create3_examples_msgs.egg-info
+[3.034s] writing create3_examples_msgs.egg-info/PKG-INFO
+[3.034s] writing dependency_links to create3_examples_msgs.egg-info/dependency_links.txt
+[3.035s] writing top-level names to create3_examples_msgs.egg-info/top_level.txt
+[3.035s] writing manifest file 'create3_examples_msgs.egg-info/SOURCES.txt'
+[3.038s] reading manifest file 'create3_examples_msgs.egg-info/SOURCES.txt'
+[3.039s] writing manifest file 'create3_examples_msgs.egg-info/SOURCES.txt'
+[3.083s] [  6%] Built target ament_cmake_python_build_create3_examples_msgs_egg
+[3.378s] [  6%] Built target create3_examples_msgs__cpp
+[3.403s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.403s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.403s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.291s] [ 19%] [32mBuilding CXX object CMakeFiles/create3_examples_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/create3_examples_msgs/action/detail/coverage__type_support.cpp.o[0m
+[4.489s] [ 22%] [32mBuilding CXX object CMakeFiles/create3_examples_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/create3_examples_msgs/action/detail/dds_fastrtps/coverage__type_support.cpp.o[0m
+[4.553s] [ 25%] [32mBuilding CXX object CMakeFiles/create3_examples_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/create3_examples_msgs/action/coverage__type_support.cpp.o[0m
+[4.701s] [ 29%] [32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_generator_c.dir/rosidl_generator_c/create3_examples_msgs/action/detail/coverage__functions.c.o[0m
+[5.027s] [ 32%] [32m[1mLinking C shared library libcreate3_examples_msgs__rosidl_generator_c.so[0m
+[5.150s] [ 32%] Built target create3_examples_msgs__rosidl_generator_c
+[5.194s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.195s] [ 38%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.208s] [ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.790s] [ 45%] [32m[1mLinking CXX shared library libcreate3_examples_msgs__rosidl_typesupport_cpp.so[0m
+[5.932s] [ 45%] Built target create3_examples_msgs__rosidl_typesupport_cpp
+[6.268s] [ 48%] [32m[1mLinking CXX shared library libcreate3_examples_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.485s] [ 48%] Built target create3_examples_msgs__rosidl_typesupport_introspection_cpp
+[6.581s] [ 51%] [32m[1mLinking CXX shared library libcreate3_examples_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.631s] [ 54%] [32mBuilding CXX object CMakeFiles/create3_examples_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/create3_examples_msgs/action/coverage__type_support.cpp.o[0m
+[6.671s] [ 58%] [32mBuilding CXX object CMakeFiles/create3_examples_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/create3_examples_msgs/action/detail/coverage__type_support_c.cpp.o[0m
+[6.882s] [ 61%] [32m[1mLinking CXX shared library libcreate3_examples_msgs__rosidl_typesupport_c.so[0m
+[6.977s] [ 61%] Built target create3_examples_msgs__rosidl_typesupport_fastrtps_cpp
+[6.991s] [ 61%] Built target create3_examples_msgs__rosidl_typesupport_c
+[7.206s] [ 64%] [32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/create3_examples_msgs/action/detail/coverage__type_support.c.o[0m
+[7.301s] [ 67%] [32m[1mLinking C shared library libcreate3_examples_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.431s] [ 67%] Built target create3_examples_msgs__rosidl_typesupport_introspection_c
+[7.911s] [ 70%] [32m[1mLinking CXX shared library libcreate3_examples_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.038s] [ 70%] Built target create3_examples_msgs__rosidl_typesupport_fastrtps_c
+[8.084s] [ 70%] Built target create3_examples_msgs
+[8.125s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.986s] [ 74%] Built target create3_examples_msgs__py
+[10.038s] [ 77%] [32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_generator_py.dir/rosidl_generator_py/create3_examples_msgs/action/_coverage_s.c.o[0m
+[10.238s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/create3_examples_msgs/libcreate3_examples_msgs__rosidl_generator_py.so[0m
+[10.330s] [ 80%] Built target create3_examples_msgs__rosidl_generator_py
+[10.367s] [ 83%] [32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.374s] [ 87%] [32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.382s] [ 90%] [32mBuilding C object CMakeFiles/create3_examples_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[10.547s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.557s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.566s] [100%] [32m[1mLinking C shared library rosidl_generator_py/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.605s] [100%] Built target create3_examples_msgs__rosidl_typesupport_c__pyext
+[10.623s] [100%] Built target create3_examples_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.641s] [100%] Built target create3_examples_msgs__rosidl_typesupport_introspection_c__pyext
+[10.667s] Invoked command in '/home/rss/robot_harry/robotik/build/create3_examples_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rss/robot_harry/robotik/install/realsense2_ros_mqtt_bridge:/home/rss/robot_harry/robotik/install/create3_teleop:/home/rss/robot_harry/robotik/install/create3_examples_py:/home/rss/robot_harry/robotik/install/webcam_bringup:/home/rss/robot_harry/robotik/install/teleop:/home/rss/robot_harry/robotik/install/tb3_description:/home/rss/robot_harry/robotik/install/tag_detection:/home/rss/robot_harry/robotik/install/robot_bringup:/home/rss/robot_harry/robotik/install/pub_sub:/home/rss/robot_harry/robotik/install/object_detection:/home/rss/robot_harry/robotik/install/my_robot_navigation:/home/rss/robot_harry/robotik/install/curator:/home/rss/robot_harry/robotik/install/challenge_2025:/opt/ros/humble /usr/bin/cmake --build /home/rss/robot_harry/robotik/build/create3_examples_msgs -- -j8 -l8
+[10.668s] Invoking command in '/home/rss/robot_harry/robotik/build/create3_examples_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rss/robot_harry/robotik/install/realsense2_ros_mqtt_bridge:/home/rss/robot_harry/robotik/install/create3_teleop:/home/rss/robot_harry/robotik/install/create3_examples_py:/home/rss/robot_harry/robotik/install/webcam_bringup:/home/rss/robot_harry/robotik/install/teleop:/home/rss/robot_harry/robotik/install/tb3_description:/home/rss/robot_harry/robotik/install/tag_detection:/home/rss/robot_harry/robotik/install/robot_bringup:/home/rss/robot_harry/robotik/install/pub_sub:/home/rss/robot_harry/robotik/install/object_detection:/home/rss/robot_harry/robotik/install/my_robot_navigation:/home/rss/robot_harry/robotik/install/curator:/home/rss/robot_harry/robotik/install/challenge_2025:/opt/ros/humble /usr/bin/cmake --install /home/rss/robot_harry/robotik/build/create3_examples_msgs
+[10.685s] -- Install configuration: ""
+[10.686s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/ament_index/resource_index/rosidl_interfaces/create3_examples_msgs
+[10.686s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs
+[10.686s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action
+[10.686s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/coverage.h
+[10.686s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail
+[10.686s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__functions.h
+[10.687s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__struct.h
+[10.687s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__functions.c
+[10.687s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__type_support.h
+[10.687s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg
+[10.687s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.687s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/environment/library_path.sh
+[10.688s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/environment/library_path.dsv
+[10.692s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_generator_c.so
+[10.692s] -- Set runtime path of "/home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_generator_c.so" to ""
+[10.692s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs
+[10.692s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action
+[10.692s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail
+[10.692s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__rosidl_typesupport_fastrtps_c.h
+[10.692s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg
+[10.692s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.693s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_fastrtps_c.so
+[10.693s] -- Set runtime path of "/home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.693s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs
+[10.693s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action
+[10.693s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail
+[10.693s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__type_support.c
+[10.693s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__rosidl_typesupport_introspection_c.h
+[10.694s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg
+[10.694s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.694s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_introspection_c.so
+[10.694s] -- Set runtime path of "/home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.694s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_c.so
+[10.694s] -- Set runtime path of "/home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_c.so" to ""
+[10.694s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs
+[10.695s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action
+[10.695s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/coverage.hpp
+[10.695s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail
+[10.695s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__struct.hpp
+[10.695s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__builder.hpp
+[10.695s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__traits.hpp
+[10.695s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__type_support.hpp
+[10.695s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg
+[10.695s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.696s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs
+[10.696s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action
+[10.696s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail
+[10.696s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/dds_fastrtps
+[10.696s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__rosidl_typesupport_fastrtps_cpp.hpp
+[10.696s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg
+[10.696s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.698s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.699s] -- Set runtime path of "/home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.699s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs
+[10.699s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action
+[10.699s] -- Up-to-date: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail
+[10.699s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__type_support.cpp
+[10.701s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/include/create3_examples_msgs/create3_examples_msgs/action/detail/coverage__rosidl_typesupport_introspection_cpp.hpp
+[10.701s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_introspection_cpp.so
+[10.701s] -- Set runtime path of "/home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.702s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_cpp.so
+[10.702s] -- Set runtime path of "/home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_typesupport_cpp.so" to ""
+[10.702s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/environment/pythonpath.sh
+[10.702s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/environment/pythonpath.dsv
+[10.702s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs-0.0.5-py3.10.egg-info
+[10.702s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs-0.0.5-py3.10.egg-info/dependency_links.txt
+[10.702s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs-0.0.5-py3.10.egg-info/SOURCES.txt
+[10.702s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs-0.0.5-py3.10.egg-info/PKG-INFO
+[10.702s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs-0.0.5-py3.10.egg-info/top_level.txt
+[10.702s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs
+[10.702s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/libcreate3_examples_msgs__rosidl_generator_py.so
+[10.702s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.702s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.702s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action
+[10.702s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action/_coverage.py
+[10.704s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action/__init__.py
+[10.704s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action/_coverage_s.c
+[10.704s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.704s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/__init__.py
+[10.704s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.704s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.705s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/_create3_examples_msgs_s.ep.rosidl_typesupport_c.c
+[10.780s] Listing '/home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs'...
+[10.780s] Compiling '/home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/__init__.py'...
+[10.780s] Listing '/home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action'...
+[10.780s] Compiling '/home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action/__init__.py'...
+[10.780s] Compiling '/home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/action/_coverage.py'...
+[10.787s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.787s] -- Set runtime path of "/home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.787s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.787s] -- Set runtime path of "/home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.787s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.788s] -- Set runtime path of "/home/rss/robot_harry/robotik/install/create3_examples_msgs/local/lib/python3.10/dist-packages/create3_examples_msgs/create3_examples_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.788s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_generator_py.so
+[10.791s] -- Set runtime path of "/home/rss/robot_harry/robotik/install/create3_examples_msgs/lib/libcreate3_examples_msgs__rosidl_generator_py.so" to ""
+[10.792s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/action/Coverage.idl
+[10.795s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/action/Coverage.action
+[10.795s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/ament_index/resource_index/package_run_dependencies/create3_examples_msgs
+[10.795s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/ament_index/resource_index/parent_prefix_path/create3_examples_msgs
+[10.795s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/environment/ament_prefix_path.sh
+[10.795s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/environment/ament_prefix_path.dsv
+[10.795s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/environment/path.sh
+[10.795s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/environment/path.dsv
+[10.795s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/local_setup.bash
+[10.795s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/local_setup.sh
+[10.795s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/local_setup.zsh
+[10.795s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/local_setup.dsv
+[10.795s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/package.dsv
+[10.795s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/ament_index/resource_index/packages/create3_examples_msgs
+[10.795s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_generator_cExport.cmake
+[10.795s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.796s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.796s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.796s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.796s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.796s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_cExport.cmake
+[10.796s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.796s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_generator_cppExport.cmake
+[10.796s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.797s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.797s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.797s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.798s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_cppExport.cmake
+[10.798s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.798s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_generator_pyExport.cmake
+[10.798s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/export_create3_examples_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.798s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/rosidl_cmake-extras.cmake
+[10.798s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.798s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.798s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.798s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.798s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.798s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.798s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgsConfig.cmake
+[10.798s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/cmake/create3_examples_msgsConfig-version.cmake
+[10.798s] -- Installing: /home/rss/robot_harry/robotik/install/create3_examples_msgs/share/create3_examples_msgs/package.xml
+[10.803s] Invoked command in '/home/rss/robot_harry/robotik/build/create3_examples_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rss/robot_harry/robotik/install/realsense2_ros_mqtt_bridge:/home/rss/robot_harry/robotik/install/create3_teleop:/home/rss/robot_harry/robotik/install/create3_examples_py:/home/rss/robot_harry/robotik/install/webcam_bringup:/home/rss/robot_harry/robotik/install/teleop:/home/rss/robot_harry/robotik/install/tb3_description:/home/rss/robot_harry/robotik/install/tag_detection:/home/rss/robot_harry/robotik/install/robot_bringup:/home/rss/robot_harry/robotik/install/pub_sub:/home/rss/robot_harry/robotik/install/object_detection:/home/rss/robot_harry/robotik/install/my_robot_navigation:/home/rss/robot_harry/robotik/install/curator:/home/rss/robot_harry/robotik/install/challenge_2025:/opt/ros/humble /usr/bin/cmake --install /home/rss/robot_harry/robotik/build/create3_examples_msgs
