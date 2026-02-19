@@ -1,0 +1,37 @@
+[2.223s] Invoking command in '/home/harry/robot/src/object_detection': PYTHONPATH=/home/harry/robot/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/harry/robot/build/object_detection/build install --record /home/harry/robot/build/object_detection/install.log --single-version-externally-managed install_data
+[2.921s] running egg_info
+[2.922s] creating ../../build/object_detection/object_detection.egg-info
+[2.923s] writing ../../build/object_detection/object_detection.egg-info/PKG-INFO
+[2.924s] writing dependency_links to ../../build/object_detection/object_detection.egg-info/dependency_links.txt
+[2.927s] writing entry points to ../../build/object_detection/object_detection.egg-info/entry_points.txt
+[2.927s] writing requirements to ../../build/object_detection/object_detection.egg-info/requires.txt
+[2.927s] writing top-level names to ../../build/object_detection/object_detection.egg-info/top_level.txt
+[2.927s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[2.930s] reading manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[2.936s] writing manifest file '../../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[2.936s] running build
+[2.938s] running build_py
+[2.938s] creating /home/harry/robot/build/object_detection/build
+[2.938s] creating /home/harry/robot/build/object_detection/build/lib
+[2.939s] creating /home/harry/robot/build/object_detection/build/lib/object_detection
+[2.939s] copying object_detection/yolo_detection.py -> /home/harry/robot/build/object_detection/build/lib/object_detection
+[2.945s] copying object_detection/__init__.py -> /home/harry/robot/build/object_detection/build/lib/object_detection
+[2.945s] running install
+[2.946s] running install_lib
+[2.950s] creating /home/harry/robot/install/object_detection/lib/python3.10/site-packages/object_detection
+[2.954s] copying /home/harry/robot/build/object_detection/build/lib/object_detection/yolo_detection.py -> /home/harry/robot/install/object_detection/lib/python3.10/site-packages/object_detection
+[2.955s] copying /home/harry/robot/build/object_detection/build/lib/object_detection/__init__.py -> /home/harry/robot/install/object_detection/lib/python3.10/site-packages/object_detection
+[2.955s] byte-compiling /home/harry/robot/install/object_detection/lib/python3.10/site-packages/object_detection/yolo_detection.py to yolo_detection.cpython-310.pyc
+[2.958s] byte-compiling /home/harry/robot/install/object_detection/lib/python3.10/site-packages/object_detection/__init__.py to __init__.cpython-310.pyc
+[2.958s] running install_data
+[2.958s] creating /home/harry/robot/install/object_detection/share/ament_index
+[2.959s] creating /home/harry/robot/install/object_detection/share/ament_index/resource_index
+[2.959s] creating /home/harry/robot/install/object_detection/share/ament_index/resource_index/packages
+[2.959s] copying resource/object_detection -> /home/harry/robot/install/object_detection/share/ament_index/resource_index/packages
+[2.959s] copying package.xml -> /home/harry/robot/install/object_detection/share/object_detection
+[2.960s] running install_egg_info
+[2.963s] Copying ../../build/object_detection/object_detection.egg-info to /home/harry/robot/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[2.968s] running install_scripts
+[3.030s] Installing yolo_to_ros script to /home/harry/robot/install/object_detection/lib/object_detection
+[3.034s] writing list of installed files to '/home/harry/robot/build/object_detection/install.log'
+[3.109s] Invoked command in '/home/harry/robot/src/object_detection' returned '0': PYTHONPATH=/home/harry/robot/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harry/robot/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/object_detection build --build-base /home/harry/robot/build/object_detection/build install --record /home/harry/robot/build/object_detection/install.log --single-version-externally-managed install_data

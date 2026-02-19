@@ -1,0 +1,100 @@
+[0.418s] Invoking command in '/home/harry/robot/build/my_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/harry/robot/src/my_robot_slam -DCMAKE_INSTALL_PREFIX=/home/harry/robot/install/my_robot_slam
+[0.812s] -- The C compiler identification is GNU 11.4.0
+[0.813s] -- The CXX compiler identification is GNU 11.4.0
+[0.813s] -- Detecting C compiler ABI info
+[0.814s] -- Detecting C compiler ABI info - done
+[0.815s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.816s] -- Detecting C compile features
+[0.816s] -- Detecting C compile features - done
+[0.816s] -- Detecting CXX compiler ABI info
+[0.932s] -- Detecting CXX compiler ABI info - done
+[0.944s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.944s] -- Detecting CXX compile features
+[0.945s] -- Detecting CXX compile features - done
+[0.950s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.318s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.539s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.674s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.687s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.707s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.739s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.783s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.889s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.897s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.163s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.241s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.375s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.394s] -- Looking for pthread.h
+[2.591s] -- Looking for pthread.h - found
+[2.593s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.774s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.776s] -- Found Threads: TRUE  
+[2.940s] -- Found slam_toolbox: 2.6.10 (/opt/ros/humble/share/slam_toolbox/cmake)
+[3.572s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.573s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.573s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.671s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[3.695s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.701s] -- Found OGRE
+[3.702s] --   static     : OFF
+[3.702s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.702s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.702s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.702s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.702s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[3.702s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.703s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[3.703s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.703s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.703s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.703s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.756s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.778s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[4.145s] -- Found X11: /usr/include   
+[4.145s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[4.362s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[4.365s] -- Looking for gethostbyname
+[4.592s] -- Looking for gethostbyname - found
+[4.592s] -- Looking for connect
+[4.773s] -- Looking for connect - found
+[4.773s] -- Looking for remove
+[4.960s] -- Looking for remove - found
+[4.960s] -- Looking for shmat
+[5.123s] -- Looking for shmat - found
+[5.125s] -- Looking for IceConnectionNumber in ICE
+[5.312s] -- Looking for IceConnectionNumber in ICE - found
+[5.543s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.889s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.114s] -- Added test 'lint_cmake' to check CMake code style
+[6.115s] -- Added test 'xmllint' to check XML markup files
+[6.119s] -- Configuring done
+[6.137s] -- Generating done
+[6.147s] -- Build files have been written to: /home/harry/robot/build/my_robot_slam
+[6.283s] Invoked command in '/home/harry/robot/build/my_robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/harry/robot/src/my_robot_slam -DCMAKE_INSTALL_PREFIX=/home/harry/robot/install/my_robot_slam
+[6.291s] Invoking command in '/home/harry/robot/build/my_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/my_robot_slam -- -j4 -l4
+[6.401s] Invoked command in '/home/harry/robot/build/my_robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/harry/robot/build/my_robot_slam -- -j4 -l4
+[6.436s] Invoking command in '/home/harry/robot/build/my_robot_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/my_robot_slam
+[6.492s] -- Install configuration: ""
+[6.493s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/launch
+[6.493s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/launch/slam_toolbox.launch.yaml
+[6.494s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/launch/localizatio_gem.launch.yaml
+[6.496s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/launch/localization.launch.yaml
+[6.498s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/maps
+[6.499s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/maps/my_map.yaml
+[6.503s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/maps/my_map.pgm
+[6.509s] -- Installing: /home/harry/robot/install/my_robot_slam/share/ament_index/resource_index/package_run_dependencies/my_robot_slam
+[6.510s] -- Installing: /home/harry/robot/install/my_robot_slam/share/ament_index/resource_index/parent_prefix_path/my_robot_slam
+[6.512s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/environment/ament_prefix_path.sh
+[6.512s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/environment/ament_prefix_path.dsv
+[6.515s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/environment/path.sh
+[6.517s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/environment/path.dsv
+[6.518s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/local_setup.bash
+[6.518s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/local_setup.sh
+[6.519s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/local_setup.zsh
+[6.519s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/local_setup.dsv
+[6.520s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/package.dsv
+[6.523s] -- Installing: /home/harry/robot/install/my_robot_slam/share/ament_index/resource_index/packages/my_robot_slam
+[6.523s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/cmake/my_robot_slamConfig.cmake
+[6.524s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/cmake/my_robot_slamConfig-version.cmake
+[6.525s] -- Installing: /home/harry/robot/install/my_robot_slam/share/my_robot_slam/package.xml
+[6.533s] Invoked command in '/home/harry/robot/build/my_robot_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harry/robot/install/webcam_bringup:/home/harry/robot/install/teleop:/home/harry/robot/install/tag_detection:/home/harry/robot/install/robot_bringup:/home/harry/robot/install/pub_sub:/home/harry/robot/install/object_detection:/home/harry/robot/install/my_robot_navigation:/home/harry/robot/install/create3_teleop:/home/harry/robot/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/harry/robot/build/my_robot_slam

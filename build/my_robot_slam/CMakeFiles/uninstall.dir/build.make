@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rss/robot_harry/robotik/src/my_robot_slam
+CMAKE_SOURCE_DIR = /home/harry/robot/src/my_robot_slam
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rss/robot_harry/robotik/build/my_robot_slam
+CMAKE_BINARY_DIR = /home/harry/robot/build/my_robot_slam
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/rss/robot_harry/robotik/build/my_robot_slam && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rss/robot_harry/robotik/src/my_robot_slam /home/rss/robot_harry/robotik/src/my_robot_slam /home/rss/robot_harry/robotik/build/my_robot_slam /home/rss/robot_harry/robotik/build/my_robot_slam /home/rss/robot_harry/robotik/build/my_robot_slam/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/harry/robot/build/my_robot_slam && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/harry/robot/src/my_robot_slam /home/harry/robot/src/my_robot_slam /home/harry/robot/build/my_robot_slam /home/harry/robot/build/my_robot_slam /home/harry/robot/build/my_robot_slam/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
