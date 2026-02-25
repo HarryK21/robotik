@@ -14,14 +14,11 @@
 			"install",
 			"add_link_options",
 			"target_link_libraries",
-			"ament_target_dependencies",
-			"add_compile_options",
-			"target_include_directories"
+			"add_compile_options"
 		],
 		"files" : 
 		[
-			"CMakeLists.txt",
-			"/opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake"
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -37,7 +34,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 139,
+				"line" : 137,
 				"parent" : 0
 			},
 			{
@@ -49,32 +46,14 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 116,
+				"line" : 115,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 122,
-				"parent" : 0
-			},
-			{
-				"command" : 3,
-				"file" : 1,
-				"line" : 145,
-				"parent" : 5
-			},
-			{
-				"command" : 5,
-				"file" : 0,
 				"line" : 8,
 				"parent" : 0
-			},
-			{
-				"command" : 6,
-				"file" : 1,
-				"line" : 141,
-				"parent" : 5
 			}
 		]
 	},
@@ -87,19 +66,19 @@
 					"fragment" : "-fPIC"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 5,
 					"fragment" : "-Werror"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 5,
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 5,
 					"fragment" : "-Wextra"
 				},
 				{
-					"backtrace" : 7,
+					"backtrace" : 5,
 					"fragment" : "-Wpedantic"
 				}
 			],
@@ -109,7 +88,7 @@
 					"define" : "AprilTagNode_EXPORTS"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"define" : "DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp"
 				},
 				{
@@ -123,41 +102,6 @@
 			],
 			"includes" : 
 			[
-				{
-					"backtrace" : 8,
-					"isSystem" : true,
-					"path" : "/home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs"
-				},
-				{
-					"backtrace" : 8,
-					"isSystem" : true,
-					"path" : "/opt/ros/humble/include/sensor_msgs"
-				},
-				{
-					"backtrace" : 8,
-					"isSystem" : true,
-					"path" : "/opt/ros/humble/include/cv_bridge"
-				},
-				{
-					"backtrace" : 8,
-					"isSystem" : true,
-					"path" : "/opt/ros/humble/include/image_transport"
-				},
-				{
-					"backtrace" : 8,
-					"isSystem" : true,
-					"path" : "/opt/ros/humble/include/rclcpp"
-				},
-				{
-					"backtrace" : 8,
-					"isSystem" : true,
-					"path" : "/opt/ros/humble/include/rclcpp_components"
-				},
-				{
-					"backtrace" : 8,
-					"isSystem" : true,
-					"path" : "/opt/ros/humble/include/tf2_ros"
-				},
 				{
 					"backtrace" : 4,
 					"isSystem" : true,
@@ -249,107 +193,142 @@
 					"path" : "/opt/ros/humble/include/tf2"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/sensor_msgs"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/cv_bridge"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/image_transport"
+				},
+				{
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/message_filters"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rclcpp"
+				},
+				{
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/ament_index_cpp"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/libstatistics_collector"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rcl"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rcl_interfaces"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rcl_logging_interface"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rcl_yaml_param_parser"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/libyaml_vendor"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/tracetools"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rcpputils"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/statistics_msgs"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rosgraph_msgs"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rosidl_typesupport_cpp"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rosidl_typesupport_c"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rclcpp_components"
+				},
+				{
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/class_loader"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/composition_interfaces"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/tf2_ros"
+				},
+				{
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rclcpp_action"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/action_msgs"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/unique_identifier_msgs"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rcl_action"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 4,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/tf2_msgs"
 				}
@@ -359,7 +338,7 @@
 			{
 				"backtraces" : 
 				[
-					6
+					4
 				],
 				"standard" : "17"
 			},
@@ -431,53 +410,53 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/home/rss/robot_harry/robotik/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/home/rss/robot_harry/robotik/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/home/rss/robot_harry/robotik/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/home/rss/robot_harry/robotik/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/home/rss/robot_harry/robotik/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/home/rss/robot_harry/robotik/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/libcv_bridge.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/libcomponent_manager.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
-				"fragment" : "/opt/ros/humble/lib/libstatic_transform_broadcaster_node.so",
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libtf2_ros.so",
 				"role" : "libraries"
 			},
 			{
@@ -497,6 +476,7 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/x86_64-linux-gnu/libapriltag.so.3.4.5",
 				"role" : "libraries"
 			},
@@ -505,12 +485,12 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/home/rss/robot_harry/robotik/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/home/rss/robot_harry/robotik/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so",
 				"role" : "libraries"
 			},
@@ -527,42 +507,42 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so",
 				"role" : "libraries"
 			},
@@ -603,11 +583,6 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
-				"fragment" : "/opt/ros/humble/lib/libtf2_ros.so",
-				"role" : "libraries"
-			},
-			{
 				"fragment" : "/opt/ros/humble/lib/libtf2.so",
 				"role" : "libraries"
 			},
@@ -624,7 +599,7 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/librclcpp.so",
 				"role" : "libraries"
 			},

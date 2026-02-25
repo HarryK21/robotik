@@ -103,7 +103,7 @@ libAprilTagNode.so: /home/rss/robot_harry/robotik/install/apriltag_msgs/lib/liba
 libAprilTagNode.so: /opt/ros/humble/lib/libcv_bridge.so
 libAprilTagNode.so: /opt/ros/humble/lib/x86_64-linux-gnu/libimage_transport.so
 libAprilTagNode.so: /opt/ros/humble/lib/libcomponent_manager.so
-libAprilTagNode.so: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
+libAprilTagNode.so: /opt/ros/humble/lib/libtf2_ros.so
 libAprilTagNode.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.5.4d
 libAprilTagNode.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.5.4d
 libAprilTagNode.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.5.4d
@@ -131,7 +131,6 @@ libAprilTagNode.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesu
 libAprilTagNode.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_py.so
 libAprilTagNode.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so
 libAprilTagNode.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_c.so
-libAprilTagNode.so: /opt/ros/humble/lib/libtf2_ros.so
 libAprilTagNode.so: /opt/ros/humble/lib/libtf2.so
 libAprilTagNode.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 libAprilTagNode.so: /opt/ros/humble/lib/libmessage_filters.so
