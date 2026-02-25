@@ -10,6 +10,7 @@ setup.py
 ../../build/webcam_bringup/webcam_bringup.egg-info/zip-safe
 config/camera_params.yaml
 config/webcam.yaml
+launch/rectify_node.launch.py
 launch/webcam.launch.yaml
 resource/webcam_bringup
 test/test_copyright.py

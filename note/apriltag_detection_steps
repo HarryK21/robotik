@@ -19,3 +19,9 @@ $ros2 run rviz2
 
 # to command tf
 $ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+
+ros2 launch webcam_bringup webcam.launch.yaml 
+ros2 run image_proc rectify_node --ros-args --remap image:=image_raw #image rectification
+ros2 launch apriltag_ros track.launch.yaml 
+

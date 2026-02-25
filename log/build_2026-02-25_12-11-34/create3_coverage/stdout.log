@@ -1,0 +1,38 @@
+[ 83%] Built target create3_coverage_core
+[100%] Built target create3_coverage
+-- Install configuration: ""
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/lib/libcreate3_coverage_core.so
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/lib/create3_coverage/create3_coverage
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/include/
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/include//create3_coverage
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/include//create3_coverage/create3_coverage_node.hpp
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/include//create3_coverage/coverage_state_machine.hpp
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/include//create3_coverage/state.hpp
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/include//create3_coverage/behaviors
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/include//create3_coverage/behaviors/drive-straight-behavior.hpp
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/include//create3_coverage/behaviors/undock-behavior.hpp
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/include//create3_coverage/behaviors/behavior.hpp
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/include//create3_coverage/behaviors/dock-behavior.hpp
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/include//create3_coverage/behaviors/reflex-behavior.hpp
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/include//create3_coverage/behaviors/spiral-behavior.hpp
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/include//create3_coverage/behaviors/rotate-behavior.hpp
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/environment/library_path.sh
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/environment/library_path.dsv
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/ament_index/resource_index/package_run_dependencies/create3_coverage
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/ament_index/resource_index/parent_prefix_path/create3_coverage
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/environment/path.sh
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/environment/path.dsv
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/local_setup.bash
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/local_setup.sh
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/local_setup.zsh
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/local_setup.dsv
+-- Installing: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/package.dsv
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/ament_index/resource_index/packages/create3_coverage
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/cmake/create3_coverageConfig.cmake
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/cmake/create3_coverageConfig-version.cmake
+-- Up-to-date: /home/rss/robot_harry/robotik/install/create3_coverage/share/create3_coverage/package.xml

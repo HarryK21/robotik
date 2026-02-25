@@ -1,0 +1,11 @@
+launch:
+  - include:
+      file: "$(find-pkg-share webcam_bringup)/launch/webcam.launch.yaml"
+
+  - include:
+      file: "$(find-pkg-share webcam_bringup)/launch/rectify_node.launch.py"
+
+  - include:
+      file: "$(find-pkg-share tag_detection)/launch/track.launch.yaml"
+
+
