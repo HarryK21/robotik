@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rss/robot_harry/robotik/build/create3_coverage/libcreate3_coverage_core.so" "TARGETS" "create3_coverage_core" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

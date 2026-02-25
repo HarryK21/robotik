@@ -1,0 +1,27 @@
+[3.758s] Invoking command in '/home/rss/robot_harry/robotik/build/pub_sub': PYTHONPATH=/home/rss/robot_harry/robotik/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rss/robot_harry/robotik/build/pub_sub/build --no-deps symlink_data
+[4.601s] running develop
+[5.203s] running egg_info
+[5.204s] creating pub_sub.egg-info
+[5.204s] writing pub_sub.egg-info/PKG-INFO
+[5.204s] writing dependency_links to pub_sub.egg-info/dependency_links.txt
+[5.209s] writing entry points to pub_sub.egg-info/entry_points.txt
+[5.209s] writing requirements to pub_sub.egg-info/requires.txt
+[5.209s] writing top-level names to pub_sub.egg-info/top_level.txt
+[5.210s] writing manifest file 'pub_sub.egg-info/SOURCES.txt'
+[5.215s] reading manifest file 'pub_sub.egg-info/SOURCES.txt'
+[5.216s] writing manifest file 'pub_sub.egg-info/SOURCES.txt'
+[5.226s] running build_ext
+[5.226s] Creating /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub-sub.egg-link (link to .)
+[5.233s] Installing publisher_node script to /home/rss/robot_harry/robotik/install/pub_sub/lib/pub_sub
+[5.233s] Installing subscriber_node script to /home/rss/robot_harry/robotik/install/pub_sub/lib/pub_sub
+[5.233s] Installing test_cam_node script to /home/rss/robot_harry/robotik/install/pub_sub/lib/pub_sub
+[5.233s] Installing yolo_detector_node script to /home/rss/robot_harry/robotik/install/pub_sub/lib/pub_sub
+[5.233s] 
+[5.233s] Installed /home/rss/robot_harry/robotik/build/pub_sub
+[5.233s] running symlink_data
+[5.238s] creating /home/rss/robot_harry/robotik/install/pub_sub/share/ament_index
+[5.240s] creating /home/rss/robot_harry/robotik/install/pub_sub/share/ament_index/resource_index
+[5.240s] creating /home/rss/robot_harry/robotik/install/pub_sub/share/ament_index/resource_index/packages
+[5.240s] symbolically linking /home/rss/robot_harry/robotik/build/pub_sub/resource/pub_sub -> /home/rss/robot_harry/robotik/install/pub_sub/share/ament_index/resource_index/packages
+[5.240s] symbolically linking /home/rss/robot_harry/robotik/build/pub_sub/package.xml -> /home/rss/robot_harry/robotik/install/pub_sub/share/pub_sub
+[5.973s] Invoked command in '/home/rss/robot_harry/robotik/build/pub_sub' returned '0': PYTHONPATH=/home/rss/robot_harry/robotik/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rss/robot_harry/robotik/build/pub_sub/build --no-deps symlink_data

@@ -1,0 +1,468 @@
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::cancelOperation()[m[K’:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/net_serial.cpp:427:5:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  427 |     [01;35m[K(int)::write(_selfpipe[1], "x", 1)[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/arch_linux.h:42[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress*, const void*, size_t)[m[K’:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/net_socket.cpp:733:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  733 |             assert([01;35m[Kans == len[m[K);
+      |                    [01;35m[K~~~~^~~~~~[m[K
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:[m[K In member function ‘[01m[Kvoid sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::_onScanNodeDenseCapsuleData(rplidar_response_dense_capsule_measurement_nodes_t&, sl::internal::LIDARSampleDataUnpackerInner*)[m[K’:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:763:30:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  763 |             const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+      |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/hal/thread.cpp:35[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/hal/thread.cpp:35[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/hal/thread.cpp:43[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/thread.hpp:52:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+   52 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+      |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_crc.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_crc.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_crc.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_crc.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::cancelOperation()[m[K’:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/net_serial.cpp:427:5:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  427 |     [01;35m[K(int)::write(_selfpipe[1], "x", 1)[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/arch_linux.h:42[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress*, const void*, size_t)[m[K’:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/net_socket.cpp:733:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  733 |             assert([01;35m[Kans == len[m[K);
+      |                    [01;35m[K~~~~^~~~~~[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/dataunpacker.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_hqnode.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_lidar_driver.cpp:83:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   83 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+      |                 [01;35m[K^~~~~~~[m[K
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_lidar_driver.cpp:75:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_t&, sl_lidar_response_measurement_node_hq_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   75 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_t& from, sl_lidar_response_measurement_node_hq_t& to)
+      |                 [01;35m[K^~~~~~~[m[K
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_lidar_driver.cpp:70:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   70 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:[m[K In member function ‘[01m[Kvoid sl::internal::unpacker::UnpackerHandler_DenseCapsuleNode::_onScanNodeDenseCapsuleData(rplidar_response_dense_capsule_measurement_nodes_t&, sl::internal::LIDARSampleDataUnpackerInner*)[m[K’:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_capsules.cpp:763:30:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+  763 |             const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+      |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/src/rplidar_node.cpp:38[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/src/rplidar_node.cpp:38[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_crc.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_crc.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_crc.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_crc.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_async_transceiver.cpp:35[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/src/rplidar_node.cpp:38[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/src/rplidar_node.cpp:38[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/../dataunnpacker_commondef.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/dataunpacker/unpacker/handler_normalnode.cpp:39[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/hal/thread.cpp:35[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/hal/thread.cpp:35[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/hal/thread.cpp:43[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/arch/linux/thread.hpp:52:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+   52 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+      |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_lidarprotocol_codec.cpp:35[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_protocol.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar_cmd.h:36[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sdkcommon.h:49[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:41[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_lidar_driver.cpp:83:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   83 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+      |                 [01;35m[K^~~~~~~[m[K
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_lidar_driver.cpp:75:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_t&, sl_lidar_response_measurement_node_hq_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   75 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_t& from, sl_lidar_response_measurement_node_hq_t& to)
+      |                 [01;35m[K^~~~~~~[m[K
+[01m[K/home/rss/robot_harry/robotik/src/rplidar-ros/sdk/src/sl_lidar_driver.cpp:70:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+   70 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K

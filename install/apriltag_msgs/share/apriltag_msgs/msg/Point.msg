@@ -1,2 +1,1 @@
-float64 x
-float64 y
+/home/rss/robot_harry/robotik/src/apriltag_msgs/msg/Point.msg

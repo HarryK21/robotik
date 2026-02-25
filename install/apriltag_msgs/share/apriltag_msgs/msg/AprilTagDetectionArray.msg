@@ -1,2 +1,1 @@
-std_msgs/Header header
-AprilTagDetection[] detections
+/home/rss/robot_harry/robotik/src/apriltag_msgs/msg/AprilTagDetectionArray.msg

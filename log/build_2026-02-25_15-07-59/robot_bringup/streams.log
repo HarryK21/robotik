@@ -1,0 +1,31 @@
+[3.686s] Invoking command in '/home/rss/robot_harry/robotik/build/robot_bringup': PYTHONPATH=/home/rss/robot_harry/robotik/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rss/robot_harry/robotik/build/robot_bringup/build --no-deps symlink_data
+[4.478s] running develop
+[5.059s] running egg_info
+[5.059s] creating robot_bringup.egg-info
+[5.061s] writing robot_bringup.egg-info/PKG-INFO
+[5.062s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[5.062s] writing entry points to robot_bringup.egg-info/entry_points.txt
+[5.072s] writing requirements to robot_bringup.egg-info/requires.txt
+[5.072s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[5.072s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[5.075s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[5.076s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[5.080s] running build_ext
+[5.084s] Creating /home/rss/robot_harry/robotik/install/robot_bringup/lib/python3.10/site-packages/robot-bringup.egg-link (link to .)
+[5.085s] 
+[5.085s] Installed /home/rss/robot_harry/robotik/build/robot_bringup
+[5.085s] running symlink_data
+[5.085s] creating /home/rss/robot_harry/robotik/install/robot_bringup/share/ament_index
+[5.085s] creating /home/rss/robot_harry/robotik/install/robot_bringup/share/ament_index/resource_index
+[5.085s] creating /home/rss/robot_harry/robotik/install/robot_bringup/share/ament_index/resource_index/packages
+[5.086s] symbolically linking /home/rss/robot_harry/robotik/build/robot_bringup/resource/robot_bringup -> /home/rss/robot_harry/robotik/install/robot_bringup/share/ament_index/resource_index/packages
+[5.086s] symbolically linking /home/rss/robot_harry/robotik/build/robot_bringup/package.xml -> /home/rss/robot_harry/robotik/install/robot_bringup/share/robot_bringup
+[5.086s] creating /home/rss/robot_harry/robotik/install/robot_bringup/share/robot_bringup/launch
+[5.086s] symbolically linking /home/rss/robot_harry/robotik/build/robot_bringup/launch/robot.launch.yaml -> /home/rss/robot_harry/robotik/install/robot_bringup/share/robot_bringup/launch
+[5.086s] symbolically linking /home/rss/robot_harry/robotik/build/robot_bringup/launch/camera.launch.py -> /home/rss/robot_harry/robotik/install/robot_bringup/share/robot_bringup/launch
+[5.088s] symbolically linking /home/rss/robot_harry/robotik/build/robot_bringup/launch/robot_tf.launch.yaml -> /home/rss/robot_harry/robotik/install/robot_bringup/share/robot_bringup/launch
+[5.088s] symbolically linking /home/rss/robot_harry/robotik/build/robot_bringup/launch/republisher.launch.py -> /home/rss/robot_harry/robotik/install/robot_bringup/share/robot_bringup/launch
+[5.089s] symbolically linking /home/rss/robot_harry/robotik/build/robot_bringup/launch/lidar.launch.py -> /home/rss/robot_harry/robotik/install/robot_bringup/share/robot_bringup/launch
+[5.089s] creating /home/rss/robot_harry/robotik/install/robot_bringup/share/robot_bringup/config
+[5.091s] symbolically linking /home/rss/robot_harry/robotik/build/robot_bringup/config/webcam.yaml -> /home/rss/robot_harry/robotik/install/robot_bringup/share/robot_bringup/config
+[5.212s] Invoked command in '/home/rss/robot_harry/robotik/build/robot_bringup' returned '0': PYTHONPATH=/home/rss/robot_harry/robotik/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rss/robot_harry/robotik/build/robot_bringup/build --no-deps symlink_data

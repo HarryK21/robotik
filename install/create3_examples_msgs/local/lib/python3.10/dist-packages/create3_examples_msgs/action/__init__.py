@@ -1,1 +1,1 @@
-from create3_examples_msgs.action._coverage import Coverage  # noqa: F401
+/home/rss/robot_harry/robotik/build/create3_examples_msgs/rosidl_generator_py/create3_examples_msgs/action/__init__.py

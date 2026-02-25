@@ -1,0 +1,54 @@
+[0.820s] Invoking command in '/home/rss/robot_harry/robotik/build/pub_sub': PYTHONPATH=/home/rss/robot_harry/robotik/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rss/robot_harry/robotik/build/pub_sub/build
+[1.156s] running develop
+[1.289s] Removing /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub-sub.egg-link (link to .)
+[1.694s] Invoked command in '/home/rss/robot_harry/robotik/build/pub_sub' returned '0': PYTHONPATH=/home/rss/robot_harry/robotik/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rss/robot_harry/robotik/build/pub_sub/build
+[1.694s] Invoking command in '/home/rss/robot_harry/robotik/src/pub_sub': PYTHONPATH=/home/rss/robot_harry/robotik/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pub_sub build --build-base /home/rss/robot_harry/robotik/build/pub_sub/build install --record /home/rss/robot_harry/robotik/build/pub_sub/install.log --single-version-externally-managed install_data --force
+[2.033s] running egg_info
+[2.035s] writing ../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+[2.035s] writing dependency_links to ../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+[2.035s] writing entry points to ../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+[2.035s] writing requirements to ../../build/pub_sub/pub_sub.egg-info/requires.txt
+[2.036s] writing top-level names to ../../build/pub_sub/pub_sub.egg-info/top_level.txt
+[2.038s] reading manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[2.039s] writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+[2.039s] running build
+[2.039s] running build_py
+[2.039s] creating /home/rss/robot_harry/robotik/build/pub_sub/build
+[2.039s] creating /home/rss/robot_harry/robotik/build/pub_sub/build/lib
+[2.040s] creating /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+[2.041s] copying pub_sub/cam_publisher.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+[2.041s] copying pub_sub/test_cam.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+[2.041s] copying pub_sub/__init__.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+[2.041s] copying pub_sub/sub.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+[2.041s] copying pub_sub/communication_node.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+[2.041s] copying pub_sub/publisher.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+[2.041s] copying pub_sub/yolo_detector.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+[2.041s] running install
+[2.042s] running install_lib
+[2.042s] creating /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[2.042s] copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/cam_publisher.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[2.042s] copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/test_cam.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[2.042s] copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/__init__.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[2.045s] copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/sub.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[2.045s] copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/communication_node.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[2.045s] copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/publisher.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[2.045s] copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/yolo_detector.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+[2.045s] byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/cam_publisher.py to cam_publisher.cpython-310.pyc
+[2.045s] byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/test_cam.py to test_cam.cpython-310.pyc
+[2.045s] byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/__init__.py to __init__.cpython-310.pyc
+[2.046s] byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/sub.py to sub.cpython-310.pyc
+[2.046s] byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/communication_node.py to communication_node.cpython-310.pyc
+[2.046s] byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/publisher.py to publisher.cpython-310.pyc
+[2.046s] byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/yolo_detector.py to yolo_detector.cpython-310.pyc
+[2.047s] running install_data
+[2.047s] copying resource/pub_sub -> /home/rss/robot_harry/robotik/install/pub_sub/share/ament_index/resource_index/packages
+[2.047s] copying package.xml -> /home/rss/robot_harry/robotik/install/pub_sub/share/pub_sub
+[2.047s] running install_egg_info
+[2.050s] Copying ../../build/pub_sub/pub_sub.egg-info to /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info
+[2.051s] running install_scripts
+[2.081s] Installing publisher_node script to /home/rss/robot_harry/robotik/install/pub_sub/lib/pub_sub
+[2.081s] Installing subscriber_node script to /home/rss/robot_harry/robotik/install/pub_sub/lib/pub_sub
+[2.081s] Installing test_cam_node script to /home/rss/robot_harry/robotik/install/pub_sub/lib/pub_sub
+[2.081s] Installing yolo_detector_node script to /home/rss/robot_harry/robotik/install/pub_sub/lib/pub_sub
+[2.081s] writing list of installed files to '/home/rss/robot_harry/robotik/build/pub_sub/install.log'
+[2.115s] Invoked command in '/home/rss/robot_harry/robotik/src/pub_sub' returned '0': PYTHONPATH=/home/rss/robot_harry/robotik/build/pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pub_sub build --build-base /home/rss/robot_harry/robotik/build/pub_sub/build install --record /home/rss/robot_harry/robotik/build/pub_sub/install.log --single-version-externally-managed install_data --force

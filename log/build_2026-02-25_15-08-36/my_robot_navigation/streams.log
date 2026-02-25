@@ -1,0 +1,38 @@
+[1.371s] Invoking command in '/home/rss/robot_harry/robotik/build/my_robot_navigation': PYTHONPATH=/home/rss/robot_harry/robotik/build/my_robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/my_robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rss/robot_harry/robotik/build/my_robot_navigation/build
+[1.713s] running develop
+[1.941s] Removing /home/rss/robot_harry/robotik/install/my_robot_navigation/lib/python3.10/site-packages/my-robot-navigation.egg-link (link to .)
+[2.107s] Invoked command in '/home/rss/robot_harry/robotik/build/my_robot_navigation' returned '0': PYTHONPATH=/home/rss/robot_harry/robotik/build/my_robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/my_robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rss/robot_harry/robotik/build/my_robot_navigation/build
+[2.108s] Invoking command in '/home/rss/robot_harry/robotik/src/my_robot_navigation': PYTHONPATH=/home/rss/robot_harry/robotik/build/my_robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/my_robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_navigation build --build-base /home/rss/robot_harry/robotik/build/my_robot_navigation/build install --record /home/rss/robot_harry/robotik/build/my_robot_navigation/install.log --single-version-externally-managed install_data --force
+[2.416s] running egg_info
+[2.418s] writing ../../build/my_robot_navigation/my_robot_navigation.egg-info/PKG-INFO
+[2.418s] writing dependency_links to ../../build/my_robot_navigation/my_robot_navigation.egg-info/dependency_links.txt
+[2.418s] writing entry points to ../../build/my_robot_navigation/my_robot_navigation.egg-info/entry_points.txt
+[2.419s] writing requirements to ../../build/my_robot_navigation/my_robot_navigation.egg-info/requires.txt
+[2.419s] writing top-level names to ../../build/my_robot_navigation/my_robot_navigation.egg-info/top_level.txt
+[2.420s] reading manifest file '../../build/my_robot_navigation/my_robot_navigation.egg-info/SOURCES.txt'
+[2.421s] writing manifest file '../../build/my_robot_navigation/my_robot_navigation.egg-info/SOURCES.txt'
+[2.421s] running build
+[2.421s] running build_py
+[2.421s] creating /home/rss/robot_harry/robotik/build/my_robot_navigation/build
+[2.423s] creating /home/rss/robot_harry/robotik/build/my_robot_navigation/build/lib
+[2.423s] creating /home/rss/robot_harry/robotik/build/my_robot_navigation/build/lib/my_robot_navigation
+[2.424s] copying my_robot_navigation/__init__.py -> /home/rss/robot_harry/robotik/build/my_robot_navigation/build/lib/my_robot_navigation
+[2.424s] copying my_robot_navigation/auto_explorer.py -> /home/rss/robot_harry/robotik/build/my_robot_navigation/build/lib/my_robot_navigation
+[2.424s] running install
+[2.424s] running install_lib
+[2.424s] creating /home/rss/robot_harry/robotik/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation
+[2.424s] copying /home/rss/robot_harry/robotik/build/my_robot_navigation/build/lib/my_robot_navigation/__init__.py -> /home/rss/robot_harry/robotik/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation
+[2.424s] copying /home/rss/robot_harry/robotik/build/my_robot_navigation/build/lib/my_robot_navigation/auto_explorer.py -> /home/rss/robot_harry/robotik/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation
+[2.425s] byte-compiling /home/rss/robot_harry/robotik/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation/__init__.py to __init__.cpython-310.pyc
+[2.425s] byte-compiling /home/rss/robot_harry/robotik/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation/auto_explorer.py to auto_explorer.cpython-310.pyc
+[2.425s] running install_data
+[2.425s] copying resource/my_robot_navigation -> /home/rss/robot_harry/robotik/install/my_robot_navigation/share/ament_index/resource_index/packages
+[2.425s] copying package.xml -> /home/rss/robot_harry/robotik/install/my_robot_navigation/share/my_robot_navigation
+[2.430s] copying launch/robot_nav.launch.py -> /home/rss/robot_harry/robotik/install/my_robot_navigation/share/my_robot_navigation/launch
+[2.430s] copying config/nav2_params.yaml -> /home/rss/robot_harry/robotik/install/my_robot_navigation/share/my_robot_navigation/config
+[2.430s] running install_egg_info
+[2.432s] Copying ../../build/my_robot_navigation/my_robot_navigation.egg-info to /home/rss/robot_harry/robotik/install/my_robot_navigation/lib/python3.10/site-packages/my_robot_navigation-0.0.0-py3.10.egg-info
+[2.433s] running install_scripts
+[2.454s] Installing auto_explorer_node script to /home/rss/robot_harry/robotik/install/my_robot_navigation/lib/my_robot_navigation
+[2.454s] writing list of installed files to '/home/rss/robot_harry/robotik/build/my_robot_navigation/install.log'
+[2.595s] Invoked command in '/home/rss/robot_harry/robotik/src/my_robot_navigation' returned '0': PYTHONPATH=/home/rss/robot_harry/robotik/build/my_robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/my_robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_navigation build --build-base /home/rss/robot_harry/robotik/build/my_robot_navigation/build install --record /home/rss/robot_harry/robotik/build/my_robot_navigation/install.log --single-version-externally-managed install_data --force

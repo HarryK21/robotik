@@ -1,0 +1,24 @@
+[1.670s] Invoking command in '/home/rss/robot_harry/robotik/build/create3_teleop': PYTHONPATH=/home/rss/robot_harry/robotik/build/create3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rss/robot_harry/robotik/build/create3_teleop/build --no-deps symlink_data
+[2.502s] running develop
+[2.844s] running egg_info
+[2.844s] creating create3_teleop.egg-info
+[2.844s] writing create3_teleop.egg-info/PKG-INFO
+[2.844s] writing dependency_links to create3_teleop.egg-info/dependency_links.txt
+[2.844s] writing requirements to create3_teleop.egg-info/requires.txt
+[2.844s] writing top-level names to create3_teleop.egg-info/top_level.txt
+[2.844s] writing manifest file 'create3_teleop.egg-info/SOURCES.txt'
+[2.844s] reading manifest file 'create3_teleop.egg-info/SOURCES.txt'
+[2.847s] writing manifest file 'create3_teleop.egg-info/SOURCES.txt'
+[2.848s] running build_ext
+[2.848s] Creating /home/rss/robot_harry/robotik/install/create3_teleop/lib/python3.10/site-packages/create3-teleop.egg-link (link to .)
+[2.848s] 
+[2.848s] Installed /home/rss/robot_harry/robotik/build/create3_teleop
+[2.848s] running symlink_data
+[2.848s] creating /home/rss/robot_harry/robotik/install/create3_teleop/share/ament_index
+[2.848s] creating /home/rss/robot_harry/robotik/install/create3_teleop/share/ament_index/resource_index
+[2.848s] creating /home/rss/robot_harry/robotik/install/create3_teleop/share/ament_index/resource_index/packages
+[2.848s] symbolically linking /home/rss/robot_harry/robotik/build/create3_teleop/resource/create3_teleop -> /home/rss/robot_harry/robotik/install/create3_teleop/share/ament_index/resource_index/packages
+[2.848s] symbolically linking /home/rss/robot_harry/robotik/build/create3_teleop/package.xml -> /home/rss/robot_harry/robotik/install/create3_teleop/share/create3_teleop
+[2.849s] creating /home/rss/robot_harry/robotik/install/create3_teleop/share/create3_teleop/launch
+[2.849s] symbolically linking /home/rss/robot_harry/robotik/build/create3_teleop/launch/teleop_joystick_launch.py -> /home/rss/robot_harry/robotik/install/create3_teleop/share/create3_teleop/launch
+[2.880s] Invoked command in '/home/rss/robot_harry/robotik/build/create3_teleop' returned '0': PYTHONPATH=/home/rss/robot_harry/robotik/build/create3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/create3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rss/robot_harry/robotik/build/create3_teleop/build --no-deps symlink_data

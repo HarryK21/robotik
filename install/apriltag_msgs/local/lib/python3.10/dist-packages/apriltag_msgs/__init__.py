@@ -1,0 +1,1 @@
+/home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_py/apriltag_msgs/__init__.py

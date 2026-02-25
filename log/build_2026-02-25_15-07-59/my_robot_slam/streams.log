@@ -1,0 +1,28 @@
+[1.500s] Invoking command in '/home/rss/robot_harry/robotik/build/my_robot_slam': PYTHONPATH=/home/rss/robot_harry/robotik/build/my_robot_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/my_robot_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rss/robot_harry/robotik/build/my_robot_slam/build --no-deps symlink_data
+[2.326s] running develop
+[3.000s] running egg_info
+[3.001s] creating my_robot_slam.egg-info
+[3.009s] writing my_robot_slam.egg-info/PKG-INFO
+[3.009s] writing dependency_links to my_robot_slam.egg-info/dependency_links.txt
+[3.009s] writing entry points to my_robot_slam.egg-info/entry_points.txt
+[3.009s] writing requirements to my_robot_slam.egg-info/requires.txt
+[3.009s] writing top-level names to my_robot_slam.egg-info/top_level.txt
+[3.009s] writing manifest file 'my_robot_slam.egg-info/SOURCES.txt'
+[3.011s] reading manifest file 'my_robot_slam.egg-info/SOURCES.txt'
+[3.011s] writing manifest file 'my_robot_slam.egg-info/SOURCES.txt'
+[3.016s] running build_ext
+[3.017s] Creating /home/rss/robot_harry/robotik/install/my_robot_slam/lib/python3.10/site-packages/my-robot-slam.egg-link (link to .)
+[3.025s] 
+[3.025s] Installed /home/rss/robot_harry/robotik/build/my_robot_slam
+[3.025s] running symlink_data
+[3.025s] creating /home/rss/robot_harry/robotik/install/my_robot_slam/share/ament_index
+[3.025s] creating /home/rss/robot_harry/robotik/install/my_robot_slam/share/ament_index/resource_index
+[3.026s] creating /home/rss/robot_harry/robotik/install/my_robot_slam/share/ament_index/resource_index/packages
+[3.026s] symbolically linking /home/rss/robot_harry/robotik/build/my_robot_slam/resource/my_robot_slam -> /home/rss/robot_harry/robotik/install/my_robot_slam/share/ament_index/resource_index/packages
+[3.026s] symbolically linking /home/rss/robot_harry/robotik/build/my_robot_slam/package.xml -> /home/rss/robot_harry/robotik/install/my_robot_slam/share/my_robot_slam
+[3.026s] creating /home/rss/robot_harry/robotik/install/my_robot_slam/share/my_robot_slam/launch
+[3.026s] symbolically linking /home/rss/robot_harry/robotik/build/my_robot_slam/launch/localization.launch.yaml -> /home/rss/robot_harry/robotik/install/my_robot_slam/share/my_robot_slam/launch
+[3.026s] symbolically linking /home/rss/robot_harry/robotik/build/my_robot_slam/launch/slam_toolbox.launch.yaml -> /home/rss/robot_harry/robotik/install/my_robot_slam/share/my_robot_slam/launch
+[3.026s] symbolically linking /home/rss/robot_harry/robotik/build/my_robot_slam/launch/localization_gem.launch.yaml -> /home/rss/robot_harry/robotik/install/my_robot_slam/share/my_robot_slam/launch
+[3.026s] creating /home/rss/robot_harry/robotik/install/my_robot_slam/share/my_robot_slam/config
+[3.427s] Invoked command in '/home/rss/robot_harry/robotik/build/my_robot_slam' returned '0': PYTHONPATH=/home/rss/robot_harry/robotik/build/my_robot_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/my_robot_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rss/robot_harry/robotik/build/my_robot_slam/build --no-deps symlink_data

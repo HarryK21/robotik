@@ -17,7 +17,7 @@ from cv_bridge import CvBridge
 # For AMD ROCm
 # putenv("HSA_OVERRIDE_GFX_VERSION", "10.3.0")
 # For NVIDIA CUDA
-torch.cuda.set_device(0)
+# torch.cuda.set_device(0)
 
 class DetectionNode(Node):
     def __init__(self):

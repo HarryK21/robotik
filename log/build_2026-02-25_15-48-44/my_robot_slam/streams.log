@@ -1,0 +1,20 @@
+[1.468s] Invoking command in '/home/rss/robot_harry/robotik/src/my_robot_slam': PYTHONPATH=/home/rss/robot_harry/robotik/build/my_robot_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/my_robot_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_slam build --build-base /home/rss/robot_harry/robotik/build/my_robot_slam/build install --record /home/rss/robot_harry/robotik/build/my_robot_slam/install.log --single-version-externally-managed install_data
+[1.962s] running egg_info
+[1.962s] writing ../../build/my_robot_slam/my_robot_slam.egg-info/PKG-INFO
+[1.962s] writing dependency_links to ../../build/my_robot_slam/my_robot_slam.egg-info/dependency_links.txt
+[1.962s] writing entry points to ../../build/my_robot_slam/my_robot_slam.egg-info/entry_points.txt
+[1.962s] writing requirements to ../../build/my_robot_slam/my_robot_slam.egg-info/requires.txt
+[1.962s] writing top-level names to ../../build/my_robot_slam/my_robot_slam.egg-info/top_level.txt
+[1.962s] reading manifest file '../../build/my_robot_slam/my_robot_slam.egg-info/SOURCES.txt'
+[1.962s] writing manifest file '../../build/my_robot_slam/my_robot_slam.egg-info/SOURCES.txt'
+[1.962s] running build
+[1.962s] running build_py
+[1.962s] running install
+[1.962s] running install_lib
+[1.962s] running install_data
+[1.962s] running install_egg_info
+[1.962s] removing '/home/rss/robot_harry/robotik/install/my_robot_slam/lib/python3.10/site-packages/my_robot_slam-0.0.0-py3.10.egg-info' (and everything under it)
+[1.962s] Copying ../../build/my_robot_slam/my_robot_slam.egg-info to /home/rss/robot_harry/robotik/install/my_robot_slam/lib/python3.10/site-packages/my_robot_slam-0.0.0-py3.10.egg-info
+[1.962s] running install_scripts
+[1.962s] writing list of installed files to '/home/rss/robot_harry/robotik/build/my_robot_slam/install.log'
+[1.979s] Invoked command in '/home/rss/robot_harry/robotik/src/my_robot_slam' returned '0': PYTHONPATH=/home/rss/robot_harry/robotik/build/my_robot_slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/my_robot_slam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_slam build --build-base /home/rss/robot_harry/robotik/build/my_robot_slam/build install --record /home/rss/robot_harry/robotik/build/my_robot_slam/install.log --single-version-externally-managed install_data

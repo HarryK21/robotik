@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating tag_detection.egg-info
+writing tag_detection.egg-info/PKG-INFO
+writing dependency_links to tag_detection.egg-info/dependency_links.txt
+writing entry points to tag_detection.egg-info/entry_points.txt
+writing requirements to tag_detection.egg-info/requires.txt
+writing top-level names to tag_detection.egg-info/top_level.txt
+writing manifest file 'tag_detection.egg-info/SOURCES.txt'
+reading manifest file 'tag_detection.egg-info/SOURCES.txt'
+writing manifest file 'tag_detection.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rss/robot_harry/robotik/install/tag_detection/lib/python3.10/site-packages/tag-detection.egg-link (link to .)
+Installing distance_calc script to /home/rss/robot_harry/robotik/install/tag_detection/lib/tag_detection
+Installing listenernode script to /home/rss/robot_harry/robotik/install/tag_detection/lib/tag_detection
+
+Installed /home/rss/robot_harry/robotik/build/tag_detection
+running symlink_data
+creating /home/rss/robot_harry/robotik/install/tag_detection/share/ament_index
+creating /home/rss/robot_harry/robotik/install/tag_detection/share/ament_index/resource_index
+creating /home/rss/robot_harry/robotik/install/tag_detection/share/ament_index/resource_index/packages
+symbolically linking /home/rss/robot_harry/robotik/build/tag_detection/resource/tag_detection -> /home/rss/robot_harry/robotik/install/tag_detection/share/ament_index/resource_index/packages
+symbolically linking /home/rss/robot_harry/robotik/build/tag_detection/package.xml -> /home/rss/robot_harry/robotik/install/tag_detection/share/tag_detection
+creating /home/rss/robot_harry/robotik/install/tag_detection/share/tag_detection/launch
+symbolically linking /home/rss/robot_harry/robotik/build/tag_detection/launch/tag_detec_webcam.launch.yaml -> /home/rss/robot_harry/robotik/install/tag_detection/share/tag_detection/launch
+symbolically linking /home/rss/robot_harry/robotik/build/tag_detection/launch/track.launch.yaml -> /home/rss/robot_harry/robotik/install/tag_detection/share/tag_detection/launch
+symbolically linking /home/rss/robot_harry/robotik/build/tag_detection/launch/tag_detec.launch.yaml -> /home/rss/robot_harry/robotik/install/tag_detection/share/tag_detection/launch

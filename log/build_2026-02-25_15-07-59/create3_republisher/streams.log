@@ -1,0 +1,68 @@
+[0.209s] Invoking command in '/home/rss/robot_harry/robotik/build/create3_republisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rss/robot_harry/robotik/src/install/webcam_bringup:/home/rss/robot_harry/robotik/src/install/teleop:/home/rss/robot_harry/robotik/src/install/tag_detection:/home/rss/robot_harry/robotik/src/install/robot_bringup:/home/rss/robot_harry/robotik/src/install/pub_sub:/home/rss/robot_harry/robotik/src/install/object_detection:/home/rss/robot_harry/robotik/src/install/my_robot_slam:/home/rss/robot_harry/robotik/src/install/my_robot_navigation:/home/rss/robot_harry/robotik/src/install/create3_teleop:/home/rss/robot_harry/robotik/src/install/create3_examples_py:/home/rss/robot_harry/robotik/install/webcam_bringup:/home/rss/robot_harry/robotik/install/teleop:/home/rss/robot_harry/robotik/install/tag_detection:/home/rss/robot_harry/robotik/install/robot_bringup:/home/rss/robot_harry/robotik/install/pub_sub:/home/rss/robot_harry/robotik/install/object_detection:/home/rss/robot_harry/robotik/install/my_robot_navigation:/home/rss/robot_harry/robotik/install/create3_teleop:/home/rss/robot_harry/robotik/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/rss/robot_harry/robotik/src/create3_examples/create3_republisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rss/robot_harry/robotik/install/create3_republisher
+[0.704s] -- The C compiler identification is GNU 11.4.0
+[0.704s] -- The CXX compiler identification is GNU 11.4.0
+[0.704s] -- Detecting C compiler ABI info
+[0.704s] -- Detecting C compiler ABI info - done
+[0.704s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.704s] -- Detecting C compile features
+[0.704s] -- Detecting C compile features - done
+[0.704s] -- Detecting CXX compiler ABI info
+[0.705s] -- Detecting CXX compiler ABI info - done
+[0.705s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.705s] -- Detecting CXX compile features
+[0.705s] -- Detecting CXX compile features - done
+[0.705s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.705s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.705s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.705s] -- Found irobot_create_msgs: 2.1.0 (/opt/ros/humble/share/irobot_create_msgs/cmake)
+[0.705s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.705s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.709s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.719s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.735s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.804s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.831s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.834s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.899s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.934s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.991s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.007s] -- Looking for pthread.h
+[1.103s] -- Looking for pthread.h - found
+[1.103s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.244s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.245s] -- Found Threads: TRUE  
+[1.394s] -- Found rclcpp_action: 16.0.17 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.697s] -- Configuring done
+[1.746s] -- Generating done
+[1.771s] -- Build files have been written to: /home/rss/robot_harry/robotik/build/create3_republisher
+[1.827s] Invoked command in '/home/rss/robot_harry/robotik/build/create3_republisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rss/robot_harry/robotik/src/install/webcam_bringup:/home/rss/robot_harry/robotik/src/install/teleop:/home/rss/robot_harry/robotik/src/install/tag_detection:/home/rss/robot_harry/robotik/src/install/robot_bringup:/home/rss/robot_harry/robotik/src/install/pub_sub:/home/rss/robot_harry/robotik/src/install/object_detection:/home/rss/robot_harry/robotik/src/install/my_robot_slam:/home/rss/robot_harry/robotik/src/install/my_robot_navigation:/home/rss/robot_harry/robotik/src/install/create3_teleop:/home/rss/robot_harry/robotik/src/install/create3_examples_py:/home/rss/robot_harry/robotik/install/webcam_bringup:/home/rss/robot_harry/robotik/install/teleop:/home/rss/robot_harry/robotik/install/tag_detection:/home/rss/robot_harry/robotik/install/robot_bringup:/home/rss/robot_harry/robotik/install/pub_sub:/home/rss/robot_harry/robotik/install/object_detection:/home/rss/robot_harry/robotik/install/my_robot_navigation:/home/rss/robot_harry/robotik/install/create3_teleop:/home/rss/robot_harry/robotik/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/rss/robot_harry/robotik/src/create3_examples/create3_republisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rss/robot_harry/robotik/install/create3_republisher
+[1.831s] Invoking command in '/home/rss/robot_harry/robotik/build/create3_republisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rss/robot_harry/robotik/src/install/webcam_bringup:/home/rss/robot_harry/robotik/src/install/teleop:/home/rss/robot_harry/robotik/src/install/tag_detection:/home/rss/robot_harry/robotik/src/install/robot_bringup:/home/rss/robot_harry/robotik/src/install/pub_sub:/home/rss/robot_harry/robotik/src/install/object_detection:/home/rss/robot_harry/robotik/src/install/my_robot_slam:/home/rss/robot_harry/robotik/src/install/my_robot_navigation:/home/rss/robot_harry/robotik/src/install/create3_teleop:/home/rss/robot_harry/robotik/src/install/create3_examples_py:/home/rss/robot_harry/robotik/install/webcam_bringup:/home/rss/robot_harry/robotik/install/teleop:/home/rss/robot_harry/robotik/install/tag_detection:/home/rss/robot_harry/robotik/install/robot_bringup:/home/rss/robot_harry/robotik/install/pub_sub:/home/rss/robot_harry/robotik/install/object_detection:/home/rss/robot_harry/robotik/install/my_robot_navigation:/home/rss/robot_harry/robotik/install/create3_teleop:/home/rss/robot_harry/robotik/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/rss/robot_harry/robotik/build/create3_republisher -- -j8 -l8
+[2.245s] [ 50%] [32mBuilding CXX object CMakeFiles/create3_republisher.dir/republisher.cpp.o[0m
+[28.277s] [100%] [32m[1mLinking CXX executable create3_republisher[0m
+[29.148s] [100%] Built target create3_republisher
+[29.155s] Invoked command in '/home/rss/robot_harry/robotik/build/create3_republisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rss/robot_harry/robotik/src/install/webcam_bringup:/home/rss/robot_harry/robotik/src/install/teleop:/home/rss/robot_harry/robotik/src/install/tag_detection:/home/rss/robot_harry/robotik/src/install/robot_bringup:/home/rss/robot_harry/robotik/src/install/pub_sub:/home/rss/robot_harry/robotik/src/install/object_detection:/home/rss/robot_harry/robotik/src/install/my_robot_slam:/home/rss/robot_harry/robotik/src/install/my_robot_navigation:/home/rss/robot_harry/robotik/src/install/create3_teleop:/home/rss/robot_harry/robotik/src/install/create3_examples_py:/home/rss/robot_harry/robotik/install/webcam_bringup:/home/rss/robot_harry/robotik/install/teleop:/home/rss/robot_harry/robotik/install/tag_detection:/home/rss/robot_harry/robotik/install/robot_bringup:/home/rss/robot_harry/robotik/install/pub_sub:/home/rss/robot_harry/robotik/install/object_detection:/home/rss/robot_harry/robotik/install/my_robot_navigation:/home/rss/robot_harry/robotik/install/create3_teleop:/home/rss/robot_harry/robotik/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/rss/robot_harry/robotik/build/create3_republisher -- -j8 -l8
+[29.156s] Invoking command in '/home/rss/robot_harry/robotik/build/create3_republisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rss/robot_harry/robotik/src/install/webcam_bringup:/home/rss/robot_harry/robotik/src/install/teleop:/home/rss/robot_harry/robotik/src/install/tag_detection:/home/rss/robot_harry/robotik/src/install/robot_bringup:/home/rss/robot_harry/robotik/src/install/pub_sub:/home/rss/robot_harry/robotik/src/install/object_detection:/home/rss/robot_harry/robotik/src/install/my_robot_slam:/home/rss/robot_harry/robotik/src/install/my_robot_navigation:/home/rss/robot_harry/robotik/src/install/create3_teleop:/home/rss/robot_harry/robotik/src/install/create3_examples_py:/home/rss/robot_harry/robotik/install/webcam_bringup:/home/rss/robot_harry/robotik/install/teleop:/home/rss/robot_harry/robotik/install/tag_detection:/home/rss/robot_harry/robotik/install/robot_bringup:/home/rss/robot_harry/robotik/install/pub_sub:/home/rss/robot_harry/robotik/install/object_detection:/home/rss/robot_harry/robotik/install/my_robot_navigation:/home/rss/robot_harry/robotik/install/create3_teleop:/home/rss/robot_harry/robotik/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/rss/robot_harry/robotik/build/create3_republisher
+[29.160s] -- Install configuration: ""
+[29.160s] -- Execute custom install script
+[29.160s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/lib/create3_republisher/create3_republisher
+[29.166s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/bringup/create3_republisher_launch.py
+[29.172s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/bringup/params.yaml
+[29.177s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/dds-config/fastdds-active-unicast.xml
+[29.183s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/dds-config/fastdds-passive-unicast.xml
+[29.188s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/dds-config/fastdds-robot-passive-unicast.xml
+[29.194s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/ament_index/resource_index/package_run_dependencies/create3_republisher
+[29.199s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/ament_index/resource_index/parent_prefix_path/create3_republisher
+[29.204s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/environment/ament_prefix_path.sh
+[29.210s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/environment/ament_prefix_path.dsv
+[29.216s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/environment/path.sh
+[29.221s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/environment/path.dsv
+[29.226s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/local_setup.bash
+[29.232s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/local_setup.sh
+[29.237s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/local_setup.zsh
+[29.243s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/local_setup.dsv
+[29.249s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/package.dsv
+[29.255s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/ament_index/resource_index/packages/create3_republisher
+[29.260s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/cmake/create3_republisherConfig.cmake
+[29.266s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/cmake/create3_republisherConfig-version.cmake
+[29.271s] -- Symlinking: /home/rss/robot_harry/robotik/install/create3_republisher/share/create3_republisher/package.xml
+[29.278s] Invoked command in '/home/rss/robot_harry/robotik/build/create3_republisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rss/robot_harry/robotik/src/install/webcam_bringup:/home/rss/robot_harry/robotik/src/install/teleop:/home/rss/robot_harry/robotik/src/install/tag_detection:/home/rss/robot_harry/robotik/src/install/robot_bringup:/home/rss/robot_harry/robotik/src/install/pub_sub:/home/rss/robot_harry/robotik/src/install/object_detection:/home/rss/robot_harry/robotik/src/install/my_robot_slam:/home/rss/robot_harry/robotik/src/install/my_robot_navigation:/home/rss/robot_harry/robotik/src/install/create3_teleop:/home/rss/robot_harry/robotik/src/install/create3_examples_py:/home/rss/robot_harry/robotik/install/webcam_bringup:/home/rss/robot_harry/robotik/install/teleop:/home/rss/robot_harry/robotik/install/tag_detection:/home/rss/robot_harry/robotik/install/robot_bringup:/home/rss/robot_harry/robotik/install/pub_sub:/home/rss/robot_harry/robotik/install/object_detection:/home/rss/robot_harry/robotik/install/my_robot_navigation:/home/rss/robot_harry/robotik/install/create3_teleop:/home/rss/robot_harry/robotik/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/rss/robot_harry/robotik/build/create3_republisher

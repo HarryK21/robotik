@@ -1,0 +1,50 @@
+running develop
+Removing /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub-sub.egg-link (link to .)
+running egg_info
+writing ../../build/pub_sub/pub_sub.egg-info/PKG-INFO
+writing dependency_links to ../../build/pub_sub/pub_sub.egg-info/dependency_links.txt
+writing entry points to ../../build/pub_sub/pub_sub.egg-info/entry_points.txt
+writing requirements to ../../build/pub_sub/pub_sub.egg-info/requires.txt
+writing top-level names to ../../build/pub_sub/pub_sub.egg-info/top_level.txt
+reading manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+writing manifest file '../../build/pub_sub/pub_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rss/robot_harry/robotik/build/pub_sub/build
+creating /home/rss/robot_harry/robotik/build/pub_sub/build/lib
+creating /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+copying pub_sub/cam_publisher.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+copying pub_sub/test_cam.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+copying pub_sub/__init__.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+copying pub_sub/sub.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+copying pub_sub/communication_node.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+copying pub_sub/publisher.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+copying pub_sub/yolo_detector.py -> /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub
+running install
+running install_lib
+creating /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/cam_publisher.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/test_cam.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/__init__.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/sub.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/communication_node.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/publisher.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+copying /home/rss/robot_harry/robotik/build/pub_sub/build/lib/pub_sub/yolo_detector.py -> /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub
+byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/cam_publisher.py to cam_publisher.cpython-310.pyc
+byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/test_cam.py to test_cam.cpython-310.pyc
+byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/sub.py to sub.cpython-310.pyc
+byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/communication_node.py to communication_node.cpython-310.pyc
+byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/publisher.py to publisher.cpython-310.pyc
+byte-compiling /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub/yolo_detector.py to yolo_detector.cpython-310.pyc
+running install_data
+copying resource/pub_sub -> /home/rss/robot_harry/robotik/install/pub_sub/share/ament_index/resource_index/packages
+copying package.xml -> /home/rss/robot_harry/robotik/install/pub_sub/share/pub_sub
+running install_egg_info
+Copying ../../build/pub_sub/pub_sub.egg-info to /home/rss/robot_harry/robotik/install/pub_sub/lib/python3.10/site-packages/pub_sub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing publisher_node script to /home/rss/robot_harry/robotik/install/pub_sub/lib/pub_sub
+Installing subscriber_node script to /home/rss/robot_harry/robotik/install/pub_sub/lib/pub_sub
+Installing test_cam_node script to /home/rss/robot_harry/robotik/install/pub_sub/lib/pub_sub
+Installing yolo_detector_node script to /home/rss/robot_harry/robotik/install/pub_sub/lib/pub_sub
+writing list of installed files to '/home/rss/robot_harry/robotik/build/pub_sub/install.log'

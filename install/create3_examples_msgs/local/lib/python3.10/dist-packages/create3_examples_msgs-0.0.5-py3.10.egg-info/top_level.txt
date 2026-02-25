@@ -1,1 +1,1 @@
-create3_examples_msgs
+/home/rss/robot_harry/robotik/build/create3_examples_msgs/ament_cmake_python/create3_examples_msgs/create3_examples_msgs.egg-info/top_level.txt

@@ -1,0 +1,29 @@
+[1.753s] Invoking command in '/home/rss/robot_harry/robotik/build/webcam_bringup': PYTHONPATH=/home/rss/robot_harry/robotik/build/webcam_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/webcam_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rss/robot_harry/robotik/build/webcam_bringup/build --no-deps symlink_data
+[2.105s] running develop
+[2.427s] running egg_info
+[2.427s] creating webcam_bringup.egg-info
+[2.428s] writing webcam_bringup.egg-info/PKG-INFO
+[2.428s] writing dependency_links to webcam_bringup.egg-info/dependency_links.txt
+[2.428s] writing entry points to webcam_bringup.egg-info/entry_points.txt
+[2.429s] writing requirements to webcam_bringup.egg-info/requires.txt
+[2.429s] writing top-level names to webcam_bringup.egg-info/top_level.txt
+[2.429s] writing manifest file 'webcam_bringup.egg-info/SOURCES.txt'
+[2.432s] reading manifest file 'webcam_bringup.egg-info/SOURCES.txt'
+[2.432s] writing manifest file 'webcam_bringup.egg-info/SOURCES.txt'
+[2.434s] running build_ext
+[2.435s] Creating /home/rss/robot_harry/robotik/install/webcam_bringup/lib/python3.10/site-packages/webcam-bringup.egg-link (link to .)
+[2.443s] 
+[2.443s] Installed /home/rss/robot_harry/robotik/build/webcam_bringup
+[2.443s] running symlink_data
+[2.443s] creating /home/rss/robot_harry/robotik/install/webcam_bringup/share/ament_index
+[2.443s] creating /home/rss/robot_harry/robotik/install/webcam_bringup/share/ament_index/resource_index
+[2.443s] creating /home/rss/robot_harry/robotik/install/webcam_bringup/share/ament_index/resource_index/packages
+[2.443s] symbolically linking /home/rss/robot_harry/robotik/build/webcam_bringup/resource/webcam_bringup -> /home/rss/robot_harry/robotik/install/webcam_bringup/share/ament_index/resource_index/packages
+[2.443s] symbolically linking /home/rss/robot_harry/robotik/build/webcam_bringup/package.xml -> /home/rss/robot_harry/robotik/install/webcam_bringup/share/webcam_bringup
+[2.443s] creating /home/rss/robot_harry/robotik/install/webcam_bringup/share/webcam_bringup/launch
+[2.443s] symbolically linking /home/rss/robot_harry/robotik/build/webcam_bringup/launch/webcam.launch.yaml -> /home/rss/robot_harry/robotik/install/webcam_bringup/share/webcam_bringup/launch
+[2.443s] symbolically linking /home/rss/robot_harry/robotik/build/webcam_bringup/launch/rectify_node.launch.py -> /home/rss/robot_harry/robotik/install/webcam_bringup/share/webcam_bringup/launch
+[2.443s] creating /home/rss/robot_harry/robotik/install/webcam_bringup/share/webcam_bringup/config
+[2.443s] symbolically linking /home/rss/robot_harry/robotik/build/webcam_bringup/config/webcam.yaml -> /home/rss/robot_harry/robotik/install/webcam_bringup/share/webcam_bringup/config
+[2.443s] symbolically linking /home/rss/robot_harry/robotik/build/webcam_bringup/config/camera_params.yaml -> /home/rss/robot_harry/robotik/install/webcam_bringup/share/webcam_bringup/config
+[2.500s] Invoked command in '/home/rss/robot_harry/robotik/build/webcam_bringup' returned '0': PYTHONPATH=/home/rss/robot_harry/robotik/build/webcam_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rss/robot_harry/robotik/install/webcam_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rss/robot_harry/robotik/build/webcam_bringup/build --no-deps symlink_data

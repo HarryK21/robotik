@@ -1,1 +1,1 @@
-apriltag_msgs
+/home/rss/robot_harry/robotik/build/apriltag_msgs/ament_cmake_python/apriltag_msgs/apriltag_msgs.egg-info/top_level.txt

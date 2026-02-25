@@ -286,19 +286,19 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp \
-  /home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp \
-  /home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.hpp \
-  /home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp \
-  /home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp \
-  /home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__traits.hpp \
-  /home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.hpp \
-  /home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
-  /home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp \
-  /home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp \
-  /home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp \
-  /home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp \
-  /home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.hpp \
+  /home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/april_tag_detection.hpp \
+  /home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp \
+  /home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/point__struct.hpp \
+  /home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp \
+  /home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp \
+  /home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/point__traits.hpp \
+  /home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection__type_support.hpp \
+  /home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/april_tag_detection_array.hpp \
+  /home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp \
+  /home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp \
+  /home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp \
+  /home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.hpp \
   /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp \
@@ -866,6 +866,8 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__type_support.hpp:
@@ -883,8 +885,6 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp:
 
@@ -952,8 +952,6 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
@@ -982,6 +980,8 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__type_support.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__type_support.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp:
@@ -1002,8 +1002,6 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp:
 
-/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
-
 /usr/include/c++/11/pstl/glue_numeric_defs.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
@@ -1015,10 +1013,6 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__type_support.hpp:
 
@@ -1039,6 +1033,8 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
 
@@ -1116,10 +1112,6 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 
 /usr/include/c++/11/shared_mutex:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp:
@@ -1188,6 +1180,10 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
+/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
+
+/home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/april_tag_detection.hpp:
+
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
@@ -1210,9 +1206,13 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 
 /usr/include/c++/11/ios:
 
-/home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.hpp:
-
 /usr/include/c++/11/bits/locale_classes.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
+
+/home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /usr/include/c++/11/istream:
 
@@ -1283,8 +1283,6 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 /usr/include/ctype.h:
 
 /usr/include/c++/11/locale:
-
-/home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.hpp:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp:
 
@@ -1428,6 +1426,10 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 
 /usr/include/c++/11/typeinfo:
 
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
+
+/home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/point__traits.hpp:
+
 /usr/include/c++/11/bits/refwrap.h:
 
 /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:
@@ -1483,6 +1485,8 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 /usr/include/c++/11/stdexcept:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
+
+/home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.hpp:
 
 /usr/include/c++/11/ext/new_allocator.h:
 
@@ -1604,17 +1608,11 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 
 /opt/ros/humble/include/apriltag/common/workerpool.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
-
-/home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp:
-
 /usr/include/c++/11/array:
 
 /usr/include/c++/11/tr1/beta_function.tcc:
 
 /usr/include/c++/11/cstdlib:
-
-/home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__traits.hpp:
 
 /usr/include/opencv4/opencv2/core/version.hpp:
 
@@ -1750,8 +1748,6 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
-/usr/include/strings.h:
-
 /opt/ros/humble/include/apriltag/common/zarray.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
@@ -1773,8 +1769,6 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 /usr/include/opencv4/opencv2/core/cvdef.h:
 
 /usr/include/c++/11/bits/sstream.tcc:
-
-/home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
 
 /usr/include/c++/11/climits:
 
@@ -1857,6 +1851,8 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /home/rss/robot_harry/robotik/src/apriltag_ros/src/AprilTagNode.cpp:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
 
 /usr/include/c++/11/bits/stl_relops.h:
 
@@ -1950,10 +1946,6 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
 
-/opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
-
-/home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__traits.hpp:
@@ -1980,29 +1972,39 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp:
+/home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp:
 
-/home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp:
+/opt/ros/humble/include/rmw/rmw/domain_id.h:
 
-/home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp:
+/usr/include/strings.h:
 
-/home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp:
+/home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/point__struct.hpp:
 
-/usr/include/wctype.h:
+/home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp:
 
-/opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h:
+/usr/include/opencv4/opencv2/core/traits.hpp:
 
-/home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp:
 
-/home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp:
+/home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp:
 
-/usr/include/c++/11/ext/string_conversions.h:
+/home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection__type_support.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+/home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/april_tag_detection_array.hpp:
 
-/usr/include/c++/11/bits/stl_list.h:
+/usr/include/c++/11/string_view:
+
+/usr/include/opencv4/opencv2/imgproc/types_c.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
+
+/home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp:
+
+/home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp:
+
+/home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp:
 
 /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp:
 
@@ -2011,8 +2013,6 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp:
 
 /usr/include/c++/11/bits/stl_vector.h:
-
-/home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.hpp:
 
 /usr/include/c++/11/bits/unordered_set.h:
 
@@ -2090,6 +2090,12 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
+/usr/include/c++/11/ext/string_conversions.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/11/bits/stl_list.h:
+
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp:
 
 /usr/include/c++/11/bits/specfun.h:
@@ -2140,8 +2146,6 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 
 /usr/include/opencv4/opencv2/core/check.hpp:
 
-/usr/include/opencv4/opencv2/core/traits.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
 
 /usr/include/opencv4/opencv2/core/saturate.hpp:
@@ -2153,6 +2157,14 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 /opt/ros/humble/include/rcutils/rcutils/snprintf.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
+
+/opt/ros/humble/include/rmw/rmw/qos_profiles.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
+
+/usr/include/opencv4/opencv2/core/bufferpool.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
 
@@ -2177,10 +2189,6 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 /usr/include/opencv4/opencv2/imgproc.hpp:
 
 /usr/include/opencv4/opencv2/imgproc/segmentation.hpp:
-
-/usr/include/c++/11/string_view:
-
-/usr/include/opencv4/opencv2/imgproc/types_c.h:
 
 /opt/ros/humble/include/rcutils/rcutils/types/string_array.h:
 
@@ -2281,8 +2289,6 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 /opt/ros/humble/include/rmw/rmw/events_statuses/requested_deadline_missed.h:
 
 /opt/ros/humble/include/rmw/rmw/init_options.h:
-
-/opt/ros/humble/include/rmw/rmw/domain_id.h:
 
 /opt/ros/humble/include/rmw/rmw/localhost.h:
 
@@ -2416,19 +2422,9 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 
 /opt/ros/humble/include/rmw/rmw/event.h:
 
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
-
-/usr/include/opencv4/opencv2/core/bufferpool.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
-
-/opt/ros/humble/include/rmw/rmw/qos_profiles.h:
-
 /usr/include/c++/11/clocale:
 
 /opt/ros/humble/include/rcl/rcl/event.h:
-
-/home/rss/robot_harry/robotik/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp:
 
 /opt/ros/humble/include/rcl/rcl/publisher.h:
 
@@ -2453,3 +2449,7 @@ CMakeFiles/AprilTagNode.dir/src/AprilTagNode.cpp.o: /home/rss/robot_harry/roboti
 /usr/include/opencv4/opencv2/core/core_c.h:
 
 /opt/ros/humble/include/rmw/rmw/names_and_types.h:
+
+/usr/include/wctype.h:
+
+/opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h:

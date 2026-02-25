@@ -1,3 +1,1 @@
-from apriltag_msgs.msg._april_tag_detection import AprilTagDetection  # noqa: F401
-from apriltag_msgs.msg._april_tag_detection_array import AprilTagDetectionArray  # noqa: F401
-from apriltag_msgs.msg._point import Point  # noqa: F401
+/home/rss/robot_harry/robotik/build/apriltag_msgs/rosidl_generator_py/apriltag_msgs/msg/__init__.py
